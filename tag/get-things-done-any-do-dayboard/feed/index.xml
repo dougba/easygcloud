@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>get things done any.do Dayboard Archives - easyG Cloud</title>
+	<atom:link href="https://www.easygcloud.com/tag/get-things-done-any-do-dayboard/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/tag/get-things-done-any-do-dayboard/</link>
+	<description>Your Work, Made Easier</description>
+	<lastBuildDate>Sun, 17 May 2015 15:24:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+
+<image>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<title>get things done any.do Dayboard Archives - easyG Cloud</title>
+	<link>https://www.easygcloud.com/tag/get-things-done-any-do-dayboard/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Getting things done</title>
+		<link>https://www.easygcloud.com/blog/getting-things-done/</link>
+					<comments>https://www.easygcloud.com/blog/getting-things-done/#respond</comments>
+		
+		<dc:creator><![CDATA[easyG]]></dc:creator>
+		<pubDate>Sun, 17 May 2015 15:24:18 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[get things done any.do Dayboard]]></category>
+		<guid isPermaLink="false">https://www.easygcloud.com/2015/05/17/getting-things-done/</guid>
+
+					<description><![CDATA[<p>If you want to get things done, you will probably want a to do list. Over the years we've tried many, and until recently have been using any.do, which integrates nicely with Google Tasks. This week we're trying a new to do list that replaces the new tab page in Google Chrome. I really like [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/getting-things-done/">Getting things done</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>If you want to get things done, you will probably want a to do list. Over the years we've tried many,</p>
+<p><span id="more-109"></span></p>
+<p>and until recently have been using any.do, which integrates nicely with Google Tasks. This week we're trying a new to do list that replaces the new tab page in Google Chrome. I really like it. Let me know what you think about <a href="https://chrome.google.com/webstore/detail/dayboard-new-tab-page/kimodcegbhclamjcbifgfaldeengbgij?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="noopener">Dayboard</a></p>
+<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/getting-things-done/">Getting things done</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.easygcloud.com/blog/getting-things-done/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
