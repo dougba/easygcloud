@@ -16,6 +16,8 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.2</generator>
 </channel>
 </rss>
+
+<!-- plugin=object-cache-pro client=PhpRedis metric#hits=1379 metric#misses=9 metric#hit-ratio=99.4 metric#bytes=1585886 metric#prefetches=0 metric#store-reads=67 metric#store-writes=5 metric#store-hits=119 metric#store-misses=6 metric#sql-queries=13 metric#ms-total=1011.41 metric#ms-cache=79693.32 metric#ms-cache-median=0.00 metric#ms-cache-ratio=7,879.4 -->

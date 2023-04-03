@@ -16,6 +16,8 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.2</generator>
 </channel>
 </rss>
+
+<!-- plugin=object-cache-pro client=PhpRedis metric#hits=1381 metric#misses=9 metric#hit-ratio=99.4 metric#bytes=1603838 metric#prefetches=0 metric#store-reads=68 metric#store-writes=5 metric#store-hits=120 metric#store-misses=6 metric#sql-queries=13 metric#ms-total=712.19 metric#ms-cache=20379.30 metric#ms-cache-median=0.00 metric#ms-cache-ratio=2,861.5 sample#redis-hits=21834596 sample#redis-misses=2667354 sample#redis-hit-ratio=89.1 sample#redis-ops-per-sec=91 sample#redis-evicted-keys=0 sample#redis-used-memory=25984888 sample#redis-used-memory-rss=39178240 sample#redis-memory-fragmentation-ratio=1.5 sample#redis-connected-clients=3 sample#redis-tracking-clients=0 sample#redis-rejected-connections=0 sample#redis-keys=2913 -->
