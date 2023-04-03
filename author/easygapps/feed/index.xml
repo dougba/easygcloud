@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.2</generator>
 
 <image>
 	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
@@ -286,3 +286,5 @@ Always include a subject line. Time spent in an email inbox can be stressful, an
 			</item>
 	</channel>
 </rss>
+
+<!-- plugin=object-cache-pro client=PhpRedis metric#hits=3222 metric#misses=6 metric#hit-ratio=99.8 metric#bytes=1888808 metric#prefetches=0 metric#store-reads=70 metric#store-writes=2 metric#store-hits=179 metric#store-misses=3 metric#sql-queries=17 metric#ms-total=726.63 metric#ms-cache=23611.78 metric#ms-cache-median=0.00 metric#ms-cache-ratio=3,249.5 sample#redis-hits=21851065 sample#redis-misses=2668140 sample#redis-hit-ratio=89.1 sample#redis-ops-per-sec=127 sample#redis-evicted-keys=0 sample#redis-used-memory=26243480 sample#redis-used-memory-rss=39583744 sample#redis-memory-fragmentation-ratio=1.5 sample#redis-connected-clients=3 sample#redis-tracking-clients=0 sample#redis-rejected-connections=0 sample#redis-keys=3259 -->

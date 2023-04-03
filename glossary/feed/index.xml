@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.2</generator>
 
 <image>
 	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
@@ -189,3 +189,5 @@
 			</item>
 	</channel>
 </rss>
+
+<!-- plugin=object-cache-pro client=PhpRedis metric#hits=2328 metric#misses=46 metric#hit-ratio=98.1 metric#bytes=1957688 metric#prefetches=0 metric#store-reads=105 metric#store-writes=42 metric#store-hits=147 metric#store-misses=43 metric#sql-queries=36 metric#ms-total=1259.58 metric#ms-cache=185562.85 metric#ms-cache-median=0.00 metric#ms-cache-ratio=14,732.1 sample#redis-hits=21847427 sample#redis-misses=2668026 sample#redis-hit-ratio=89.1 sample#redis-ops-per-sec=92 sample#redis-evicted-keys=0 sample#redis-used-memory=26209600 sample#redis-used-memory-rss=38940672 sample#redis-memory-fragmentation-ratio=1.5 sample#redis-connected-clients=3 sample#redis-tracking-clients=0 sample#redis-rejected-connections=0 sample#redis-keys=3227 -->
