@@ -190,4 +190,4 @@
 	</channel>
 </rss>
 
-<!-- plugin=object-cache-pro client=PhpRedis metric#hits=2260 metric#misses=5 metric#hit-ratio=99.8 metric#bytes=1950370 metric#prefetches=0 metric#store-reads=80 metric#store-writes=1 metric#store-hits=163 metric#store-misses=2 metric#sql-queries=13 metric#ms-total=633.96 metric#ms-cache=21102.91 metric#ms-cache-median=0.00 metric#ms-cache-ratio=3,328.7 -->
+<!-- plugin=object-cache-pro client=PhpRedis metric#hits=2297 metric#misses=6 metric#hit-ratio=99.7 metric#bytes=1924900 metric#prefetches=0 metric#store-reads=81 metric#store-writes=2 metric#store-hits=164 metric#store-misses=3 metric#sql-queries=15 metric#ms-total=682.90 metric#ms-cache=24804.83 metric#ms-cache-median=0.00 metric#ms-cache-ratio=3,632.3 -->
