@@ -11,7 +11,7 @@
 	<atom:link href="https://www.easygcloud.com/blog/reduce-typing/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.easygcloud.com/blog/reduce-typing/</link>
 	<description>Your Work, Made Easier</description>
-	<lastBuildDate>Wed, 18 Jan 2023 18:24:08 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 05 Apr 2023 16:26:24 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -20,4 +20,4 @@
 </channel>
 </rss>
 
-<!-- plugin=object-cache-pro client=PhpRedis metric#hits=1349 metric#misses=8 metric#hit-ratio=99.4 metric#bytes=1573949 metric#prefetches=0 metric#store-reads=63 metric#store-writes=4 metric#store-hits=117 metric#store-misses=5 metric#sql-queries=11 metric#ms-total=1017.89 metric#ms-cache=98716.26 metric#ms-cache-median=0.00 metric#ms-cache-ratio=9,698.1 -->
+<!-- plugin=object-cache-pro client=PhpRedis metric#hits=1350 metric#misses=8 metric#hit-ratio=99.4 metric#bytes=1594109 metric#prefetches=0 metric#store-reads=61 metric#store-writes=4 metric#store-hits=115 metric#store-misses=5 metric#sql-queries=11 metric#ms-total=139.04 metric#ms-cache=17247.20 metric#ms-cache-median=0.00 metric#ms-cache-ratio=12,404.5 -->

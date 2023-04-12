@@ -12,7 +12,7 @@
 	<atom:link href="https://www.easygcloud.com/author/easygapps/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.easygcloud.com/author/easygapps/</link>
 	<description>Your Work, Made Easier</description>
-	<lastBuildDate>Thu, 23 Feb 2023 13:49:26 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 05 Apr 2023 16:26:24 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -94,7 +94,7 @@
 					<description><![CDATA[<p>If you type a lot, you may be repeating certain phrases frequently. Why not standardize those phrases and create short cuts to save time? There are multiple options to do just that, but the best one we've found for Google Chrome is Text Blaze. If you like it, it can be used individually or by [&#8230;]</p>
 <p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/reduce-typing/">Reduce repetition with a typing accelerator</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>If you type a lot, you may be repeating certain phrases frequently. Why not standardize those phrases and create short cuts to save time? There are multiple options to do just that, but the best one we've found for Google Chrome is Text Blaze. If you like it, it can be used individually or by your whole team. Check out <a href="https://blaze.today/">https://blaze.today/</a>.</p>
+										<content:encoded><![CDATA[<p>If you type a lot, you may be repeating certain phrases frequently. Why not standardize those phrases and create short cuts to save time? There are multiple options to do just that, but the best one we've found for Google Chrome is Text Blaze. If you like it, it can be used individually or by your whole team. Check out <a href="https://blaze.today/?ref=UKARMU7N">https://blaze.today/.</a></p>
 <p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/reduce-typing/">Reduce repetition with a typing accelerator</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
@@ -287,4 +287,4 @@ Always include a subject line. Time spent in an email inbox can be stressful, an
 	</channel>
 </rss>
 
-<!-- plugin=object-cache-pro client=PhpRedis metric#hits=3191 metric#misses=6 metric#hit-ratio=99.8 metric#bytes=1856080 metric#prefetches=0 metric#store-reads=66 metric#store-writes=2 metric#store-hits=176 metric#store-misses=3 metric#sql-queries=16 metric#ms-total=694.11 metric#ms-cache=24849.89 metric#ms-cache-median=0.00 metric#ms-cache-ratio=3,580.1 sample#redis-hits=22096850 sample#redis-misses=2684463 sample#redis-hit-ratio=89.2 sample#redis-ops-per-sec=140 sample#redis-evicted-keys=0 sample#redis-used-memory=25173744 sample#redis-used-memory-rss=40517632 sample#redis-memory-fragmentation-ratio=1.6 sample#redis-connected-clients=2 sample#redis-tracking-clients=0 sample#redis-rejected-connections=0 sample#redis-keys=6620 -->
+<!-- plugin=object-cache-pro client=PhpRedis metric#hits=3192 metric#misses=6 metric#hit-ratio=99.8 metric#bytes=1876160 metric#prefetches=0 metric#store-reads=64 metric#store-writes=2 metric#store-hits=174 metric#store-misses=3 metric#sql-queries=16 metric#ms-total=172.05 metric#ms-cache=17865.18 metric#ms-cache-median=0.00 metric#ms-cache-ratio=10,383.7 -->
