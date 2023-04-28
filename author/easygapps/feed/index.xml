@@ -287,4 +287,4 @@ Always include a subject line. Time spent in an email inbox can be stressful, an
 	</channel>
 </rss>
 
-<!-- plugin=object-cache-pro client=PhpRedis metric#hits=3193 metric#misses=6 metric#hit-ratio=99.8 metric#bytes=1876224 metric#prefetches=0 metric#store-reads=65 metric#store-writes=2 metric#store-hits=175 metric#store-misses=3 metric#sql-queries=16 metric#ms-total=796.05 metric#ms-cache=26691.91 metric#ms-cache-median=0.00 metric#ms-cache-ratio=3,353.0 -->
+<!-- plugin=object-cache-pro client=phpredis metric#hits=3195 metric#misses=6 metric#hit-ratio=99.8 metric#bytes=1881938 metric#prefetches=0 metric#store-reads=65 metric#store-writes=3 metric#store-hits=175 metric#store-misses=3 metric#sql-queries=14 metric#ms-total=1340.43 metric#ms-cache=204.89 metric#ms-cache-avg=3.0580 metric#ms-cache-ratio=15.3 -->

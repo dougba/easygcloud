@@ -20,4 +20,4 @@
 </channel>
 </rss>
 
-<!-- plugin=object-cache-pro client=PhpRedis metric#hits=1350 metric#misses=8 metric#hit-ratio=99.4 metric#bytes=1571293 metric#prefetches=0 metric#store-reads=61 metric#store-writes=4 metric#store-hits=115 metric#store-misses=5 metric#sql-queries=11 metric#ms-total=785.96 metric#ms-cache=61660.53 metric#ms-cache-median=0.00 metric#ms-cache-ratio=7,845.3 sample#redis-hits=32939727 sample#redis-misses=4426363 sample#redis-hit-ratio=88.2 sample#redis-ops-per-sec=169 sample#redis-evicted-keys=0 sample#redis-used-memory=41941840 sample#redis-used-memory-rss=54591488 sample#redis-memory-fragmentation-ratio=1.3 sample#redis-connected-clients=3 sample#redis-tracking-clients=0 sample#redis-rejected-connections=0 sample#redis-keys=10194 -->
+<!-- plugin=object-cache-pro client=phpredis metric#hits=1353 metric#misses=8 metric#hit-ratio=99.4 metric#bytes=1577071 metric#prefetches=0 metric#store-reads=62 metric#store-writes=5 metric#store-hits=116 metric#store-misses=5 metric#sql-queries=9 metric#ms-total=770.11 metric#ms-cache=61.76 metric#ms-cache-avg=0.9357 metric#ms-cache-ratio=8.0 -->
