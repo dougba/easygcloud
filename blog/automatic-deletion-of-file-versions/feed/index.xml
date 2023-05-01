@@ -20,4 +20,4 @@
 </channel>
 </rss>
 
-<!-- plugin=object-cache-pro client=phpredis metric#hits=1353 metric#misses=8 metric#hit-ratio=99.4 metric#bytes=1577727 metric#prefetches=0 metric#store-reads=62 metric#store-writes=5 metric#store-hits=116 metric#store-misses=5 metric#sql-queries=9 metric#ms-total=1420.83 metric#ms-cache=214.02 metric#ms-cache-avg=3.2427 metric#ms-cache-ratio=15.1 -->
+<!-- plugin=object-cache-pro client=phpredis metric#hits=1357 metric#misses=9 metric#hit-ratio=99.3 metric#bytes=1571855 metric#prefetches=0 metric#store-reads=64 metric#store-writes=6 metric#store-hits=117 metric#store-misses=6 metric#sql-queries=12 metric#ms-total=793.68 metric#ms-cache=36.12 metric#ms-cache-avg=0.5234 metric#ms-cache-ratio=4.6 -->
