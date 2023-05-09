@@ -19,5 +19,3 @@
 	<generator>https://wordpress.org/?v=6.2</generator>
 </channel>
 </rss>
-
-<!-- plugin=object-cache-pro client=phpredis metric#hits=1359 metric#misses=9 metric#hit-ratio=99.3 metric#bytes=1571512 metric#prefetches=0 metric#store-reads=64 metric#store-writes=7 metric#store-hits=117 metric#store-misses=6 metric#sql-queries=12 metric#ms-total=1097.35 metric#ms-cache=110.36 metric#ms-cache-avg=1.5765 metric#ms-cache-ratio=10.1 sample#redis-hits=44218634 sample#redis-misses=6099789 sample#redis-hit-ratio=87.9 sample#redis-ops-per-sec=61 sample#redis-evicted-keys=0 sample#redis-used-memory=25792504 sample#redis-used-memory-rss=39358464 sample#redis-memory-fragmentation-ratio=1.5 sample#redis-connected-clients=2 sample#redis-tracking-clients=0 sample#redis-rejected-connections=0 sample#redis-keys=2776 -->
