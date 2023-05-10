@@ -1253,6 +1253,7 @@ padding: 9px 15px;
 @media (max-width: 479px) {
 .atomic-outline-button {
  font-size:16px;
+ margin-top:0px;
 }
 }
 

@@ -193,6 +193,7 @@ body.oxygen-aos-enabled {
   margin-left: auto;
   margin-right: auto;
   height: 100%;
+  min-height: inherit;
 }
 .ct-section-with-shape-divider {
   position: relative !important;
@@ -325,6 +326,12 @@ div.ct-fancy-icon {
   animation-name: oxy_sticky_header_fadein;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
+}
+.oxy-sticky-header .oxygen-show-in-sticky-only {
+  display:  none;
+}
+.oxy-sticky-header.oxy-sticky-header-active .oxygen-show-in-sticky-only {
+  display: block;
 }
 .oxy-header-wrapper {
   position: relative;
