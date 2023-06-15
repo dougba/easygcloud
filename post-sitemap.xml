@@ -1,408 +1,408 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//easygcloud.isatisfy.dev/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.easygcloud.com/blog/</loc>
+		<loc>/./blog/</loc>
 		<lastmod>2023-05-20T14:45:43+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/easygapps/recommendations/</loc>
+		<loc>/./easygapps/recommendations/</loc>
 		<lastmod>2011-11-12T00:52:54+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/google-apps-makes-work-easier/</loc>
+		<loc>/./video/google-apps-makes-work-easier/</loc>
 		<lastmod>2011-11-13T14:56:18+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/easygapps/site-map/</loc>
+		<loc>/./easygapps/site-map/</loc>
 		<lastmod>2011-11-13T20:28:28+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/work-smarter/</loc>
+		<loc>/./video/work-smarter/</loc>
 		<lastmod>2011-11-17T20:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/manage-mobile-users/</loc>
+		<loc>/./video/manage-mobile-users/</loc>
 		<lastmod>2011-11-17T20:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/what-its-like-going-google/</loc>
+		<loc>/./video/what-its-like-going-google/</loc>
 		<lastmod>2011-11-17T20:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/group-collaborative-inbox/</loc>
+		<loc>/./video/group-collaborative-inbox/</loc>
 		<lastmod>2011-11-17T20:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/google-security/</loc>
+		<loc>/./video/google-security/</loc>
 		<lastmod>2011-11-17T20:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/priority-inbox/</loc>
+		<loc>/./video/priority-inbox/</loc>
 		<lastmod>2011-11-17T20:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/going-google/</loc>
+		<loc>/./video/going-google/</loc>
 		<lastmod>2011-11-17T20:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/gmail-advanced-search/</loc>
+		<loc>/./video/gmail-advanced-search/</loc>
 		<lastmod>2011-11-17T20:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/hangout-video-meeting/</loc>
+		<loc>/./video/hangout-video-meeting/</loc>
 		<lastmod>2011-11-17T20:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/inbox-zero/</loc>
+		<loc>/./video/inbox-zero/</loc>
 		<lastmod>2011-11-17T20:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/use-forms-in-google-drive/</loc>
+		<loc>/./video/use-forms-in-google-drive/</loc>
 		<lastmod>2011-11-17T20:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/explore-a-google-data-center/</loc>
+		<loc>/./video/explore-a-google-data-center/</loc>
 		<lastmod>2011-11-17T20:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-drive-2/</loc>
+		<loc>/./blog/google-drive-2/</loc>
 		<lastmod>2012-04-25T17:45:40+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-apps-vault-2/</loc>
+		<loc>/./blog/google-apps-vault-2/</loc>
 		<lastmod>2012-05-01T13:26:05+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/world-s-most-powerful-tool/</loc>
+		<loc>/./blog/world-s-most-powerful-tool/</loc>
 		<lastmod>2012-06-29T00:10:29+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/jelly-bean-search-video/</loc>
+		<loc>/./blog/jelly-bean-search-video/</loc>
 		<lastmod>2012-07-03T16:50:12+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/tips-tricks/google-apps-tips-and-tricks/</loc>
+		<loc>/./tips-tricks/google-apps-tips-and-tricks/</loc>
 		<lastmod>2012-07-06T19:34:58+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-drive-for-ios/</loc>
+		<loc>/./blog/google-drive-for-ios/</loc>
 		<lastmod>2012-07-21T23:45:53+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/automatic-deletion-of-file-versions/</loc>
+		<loc>/./blog/automatic-deletion-of-file-versions/</loc>
 		<lastmod>2012-07-27T13:13:50+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-docs-demonstration/</loc>
+		<loc>/./blog/google-docs-demonstration/</loc>
 		<lastmod>2012-07-31T20:22:11+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/newsletter/newsletter-august-2012/</loc>
+		<loc>/./newsletter/newsletter-august-2012/</loc>
 		<lastmod>2012-09-01T14:48:47+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/newsletter-august-2012-2/</loc>
+		<loc>/./blog/newsletter-august-2012-2/</loc>
 		<lastmod>2012-09-01T16:07:29+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/fraternity-goes-google/</loc>
+		<loc>/./blog/fraternity-goes-google/</loc>
 		<lastmod>2012-10-01T18:32:21+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-for-entrepreneurs/</loc>
+		<loc>/./blog/google-for-entrepreneurs/</loc>
 		<lastmod>2012-10-01T18:44:49+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/october-2012-newsletter/</loc>
+		<loc>/./blog/october-2012-newsletter/</loc>
 		<lastmod>2012-10-31T22:55:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/hurricane-sandy-discount/</loc>
+		<loc>/./blog/hurricane-sandy-discount/</loc>
 		<lastmod>2012-11-05T17:33:34+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/chrome-is-always-getting-faster/</loc>
+		<loc>/./blog/chrome-is-always-getting-faster/</loc>
 		<lastmod>2012-11-08T18:49:41+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/search-for-email-by-size-in-gmail/</loc>
+		<loc>/./blog/search-for-email-by-size-in-gmail/</loc>
 		<lastmod>2012-11-14T21:02:21+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/life-after-25gb/</loc>
+		<loc>/./blog/life-after-25gb/</loc>
 		<lastmod>2012-11-21T12:55:11+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/new-gmail-app-for-iphone/</loc>
+		<loc>/./blog/new-gmail-app-for-iphone/</loc>
 		<lastmod>2012-12-05T11:55:17+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-keep/</loc>
+		<loc>/./blog/google-keep/</loc>
 		<lastmod>2013-03-20T21:29:50+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-keep-is-a-brand-new-app/</loc>
+		<loc>/./blog/google-keep-is-a-brand-new-app/</loc>
 		<lastmod>2013-05-02T23:13:29+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/are-you-in-inbox-purgatory/</loc>
+		<loc>/./blog/are-you-in-inbox-purgatory/</loc>
 		<lastmod>2013-05-09T02:56:14+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/remember-2012/</loc>
+		<loc>/./blog/remember-2012/</loc>
 		<lastmod>2013-06-02T18:37:18+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/google-enterprise/google-apps-case-studies/</loc>
+		<loc>/./google-enterprise/google-apps-case-studies/</loc>
 		<lastmod>2013-06-09T15:31:14+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-apps-for-business-case-studies/</loc>
+		<loc>/./blog/google-apps-for-business-case-studies/</loc>
 		<lastmod>2013-06-09T20:55:18+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/everything-you-always-wanted-to-know-about-google-apps/</loc>
+		<loc>/./blog/everything-you-always-wanted-to-know-about-google-apps/</loc>
 		<lastmod>2013-06-23T19:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/chrome-remote-desktop/</loc>
+		<loc>/./blog/chrome-remote-desktop/</loc>
 		<lastmod>2013-08-01T11:58:01+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/transfer-google-connections-between-accounts/</loc>
+		<loc>/./blog/transfer-google-connections-between-accounts/</loc>
 		<lastmod>2013-08-30T21:03:44+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/alternate-row-shading-in-google-sheets/</loc>
+		<loc>/./blog/alternate-row-shading-in-google-sheets/</loc>
 		<lastmod>2013-09-11T18:58:49+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/archive-or-delete/</loc>
+		<loc>/./blog/archive-or-delete/</loc>
 		<lastmod>2013-09-19T15:29:46+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/share-drive-files-with-circles/</loc>
+		<loc>/./blog/share-drive-files-with-circles/</loc>
 		<lastmod>2013-09-20T20:43:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/share-google-drive-files-with-people-who-do-not-have-a-google-account/</loc>
+		<loc>/./blog/share-google-drive-files-with-people-who-do-not-have-a-google-account/</loc>
 		<lastmod>2013-10-08T19:09:05+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/start-using-google-chrome-browser/</loc>
+		<loc>/./blog/start-using-google-chrome-browser/</loc>
 		<lastmod>2013-10-31T02:56:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/more-tips-from-google/</loc>
+		<loc>/./blog/more-tips-from-google/</loc>
 		<lastmod>2013-12-13T16:23:07+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/pain-free-conference-calls/</loc>
+		<loc>/./video/pain-free-conference-calls/</loc>
 		<lastmod>2014-04-01T23:32:37+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/email-inbox-type/</loc>
+		<loc>/./blog/email-inbox-type/</loc>
 		<lastmod>2014-04-21T13:47:34+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/easygapps/brittex-appraisal-services-streamlines-workflow-with-google-apps-for-business/</loc>
+		<loc>/./easygapps/brittex-appraisal-services-streamlines-workflow-with-google-apps-for-business/</loc>
 		<lastmod>2014-04-21T16:19:51+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/easygapps/van-teal-evolves-from-novell-groupwise-to-google-apps-for-business/</loc>
+		<loc>/./easygapps/van-teal-evolves-from-novell-groupwise-to-google-apps-for-business/</loc>
 		<lastmod>2014-04-21T16:21:58+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/king-of-docs-shortcuts/</loc>
+		<loc>/./blog/king-of-docs-shortcuts/</loc>
 		<lastmod>2014-05-02T15:39:27+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-profile-or-page/</loc>
+		<loc>/./blog/google-profile-or-page/</loc>
 		<lastmod>2014-06-16T16:50:01+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/reimagine-how-your-team-works/</loc>
+		<loc>/./video/reimagine-how-your-team-works/</loc>
 		<lastmod>2014-06-22T16:39:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/new-bulk-mail-spam-filter/</loc>
+		<loc>/./blog/new-bulk-mail-spam-filter/</loc>
 		<lastmod>2014-08-09T15:23:55+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/edit-microsoft-office-files-in-google-docs-sheets-slides/</loc>
+		<loc>/./blog/edit-microsoft-office-files-in-google-docs-sheets-slides/</loc>
 		<lastmod>2014-08-09T15:30:14+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/voice-text-video-continue-to-converge/</loc>
+		<loc>/./blog/voice-text-video-continue-to-converge/</loc>
 		<lastmod>2014-09-13T16:53:06+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/new-tool-to-analyze-gmail/</loc>
+		<loc>/./blog/new-tool-to-analyze-gmail/</loc>
 		<lastmod>2014-10-14T13:32:56+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/meet-your-new-inbox/</loc>
+		<loc>/./blog/meet-your-new-inbox/</loc>
 		<lastmod>2014-11-06T13:20:58+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/terabyte-of-free-storage-with-chromebooks/</loc>
+		<loc>/./blog/terabyte-of-free-storage-with-chromebooks/</loc>
 		<lastmod>2014-11-24T16:21:42+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/improve-online-security/</loc>
+		<loc>/./blog/improve-online-security/</loc>
 		<lastmod>2014-11-25T17:43:43+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/great-way-to-improve-your-business/</loc>
+		<loc>/./blog/great-way-to-improve-your-business/</loc>
 		<lastmod>2015-01-09T20:25:07+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-now-becomes-more-useful/</loc>
+		<loc>/./blog/google-now-becomes-more-useful/</loc>
 		<lastmod>2015-01-30T19:46:49+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-versus-microsoft/</loc>
+		<loc>/./blog/google-versus-microsoft/</loc>
 		<lastmod>2015-02-09T14:36:21+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/work-faster-with-keyboard-shortcuts/</loc>
+		<loc>/./blog/work-faster-with-keyboard-shortcuts/</loc>
 		<lastmod>2015-03-01T15:18:32+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/android-for-work/</loc>
+		<loc>/./blog/android-for-work/</loc>
 		<lastmod>2015-03-05T15:32:53+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/getting-things-done/</loc>
+		<loc>/./blog/getting-things-done/</loc>
 		<lastmod>2015-05-17T15:24:18+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/easygapps/newsfeed/</loc>
+		<loc>/./easygapps/newsfeed/</loc>
 		<lastmod>2015-07-28T15:20:54+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/finally-an-easy-to-use-router/</loc>
+		<loc>/./blog/finally-an-easy-to-use-router/</loc>
 		<lastmod>2015-08-18T16:50:02+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/create-a-new-google-doc-quickly/</loc>
+		<loc>/./blog/create-a-new-google-doc-quickly/</loc>
 		<lastmod>2015-08-27T16:47:05+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/transform-your-work-with-google/</loc>
+		<loc>/./blog/transform-your-work-with-google/</loc>
 		<lastmod>2015-09-10T21:39:25+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/project-management-in-google-apps/</loc>
+		<loc>/./blog/project-management-in-google-apps/</loc>
 		<lastmod>2015-10-11T16:31:37+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/gmail-and-inbox-by-google/</loc>
+		<loc>/./blog/gmail-and-inbox-by-google/</loc>
 		<lastmod>2015-11-13T18:02:42+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/reminders-in-google-calendar/</loc>
+		<loc>/./blog/reminders-in-google-calendar/</loc>
 		<lastmod>2016-01-05T14:51:41+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/tips-tricks/action-items-are-better-than-attachments/</loc>
+		<loc>/./tips-tricks/action-items-are-better-than-attachments/</loc>
 		<lastmod>2016-12-30T15:20:58+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-keep-has-become-a-g-suite-core-service/</loc>
+		<loc>/./blog/google-keep-has-become-a-g-suite-core-service/</loc>
 		<lastmod>2017-02-28T20:11:12+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/new-calendar-administrator-privileges-available-in-the-admin-console/</loc>
+		<loc>/./blog/new-calendar-administrator-privileges-available-in-the-admin-console/</loc>
 		<lastmod>2017-03-28T18:01:22+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/google-enterprise/check-out-g-suite/</loc>
+		<loc>/./google-enterprise/check-out-g-suite/</loc>
 		<lastmod>2017-04-18T00:08:43+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/announcing-google-workspace/</loc>
+		<loc>/./blog/announcing-google-workspace/</loc>
 		<lastmod>2022-12-27T00:11:59+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.easygcloud.com/wp-content/uploads/2022/09/Google-Workspace-icons.jpg</image:loc>
+			<image:loc>/./wp-content/uploads/2022/09/Google-Workspace-icons.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/video/google-voice-by-g-suite/</loc>
+		<loc>/./video/google-voice-by-g-suite/</loc>
 		<lastmod>2022-12-27T00:13:36+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.easygcloud.com/wp-content/uploads/2019/06/google-voice.png</image:loc>
+			<image:loc>/./wp-content/uploads/2019/06/google-voice.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/email-subject-lines-are-like-news-headlines/</loc>
+		<loc>/./blog/email-subject-lines-are-like-news-headlines/</loc>
 		<lastmod>2022-12-27T00:16:34+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.easygcloud.com/wp-content/uploads/2022/04/chromebook.jpg</image:loc>
+			<image:loc>/./wp-content/uploads/2022/04/chromebook.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/easyg-apps-com-becomes-a-google-apps-premier-reseller/</loc>
+		<loc>/./blog/easyg-apps-com-becomes-a-google-apps-premier-reseller/</loc>
 		<lastmod>2022-12-31T01:22:41+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-meet-training-lessons/</loc>
+		<loc>/./blog/google-meet-training-lessons/</loc>
 		<lastmod>2023-01-18T16:43:37+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.easygcloud.com/wp-content/uploads/2022/04/google-cloud.png</image:loc>
+			<image:loc>/./wp-content/uploads/2022/04/google-cloud.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/get-google-sign-in-prompts-on-all-of-your-phones/</loc>
+		<loc>/./blog/get-google-sign-in-prompts-on-all-of-your-phones/</loc>
 		<lastmod>2023-02-23T13:44:21+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.easygcloud.com/wp-content/uploads/2022/04/chromebook.png</image:loc>
+			<image:loc>/./wp-content/uploads/2022/04/chromebook.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/get-notified-of-gmail-message-rejections/</loc>
+		<loc>/./blog/get-notified-of-gmail-message-rejections/</loc>
 		<lastmod>2023-02-23T13:45:04+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.easygcloud.com/wp-content/uploads/2022/04/chromebook.png</image:loc>
+			<image:loc>/./wp-content/uploads/2022/04/chromebook.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/hangouts-to-be-replaced-by-google-meet-and-google-chat/</loc>
+		<loc>/./blog/hangouts-to-be-replaced-by-google-meet-and-google-chat/</loc>
 		<lastmod>2023-02-23T13:46:05+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.easygcloud.com/wp-content/uploads/2022/04/chromebook.png</image:loc>
+			<image:loc>/./wp-content/uploads/2022/04/chromebook.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/map-your-site-to-a-custom-url-in-the-new-google-sites/</loc>
+		<loc>/./blog/map-your-site-to-a-custom-url-in-the-new-google-sites/</loc>
 		<lastmod>2023-02-23T13:47:07+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.easygcloud.com/wp-content/uploads/2022/04/chromebook.png</image:loc>
+			<image:loc>/./wp-content/uploads/2022/04/chromebook.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/google-storage-options/</loc>
+		<loc>/./blog/google-storage-options/</loc>
 		<lastmod>2023-02-23T13:47:39+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.easygcloud.com/wp-content/uploads/2022/04/chromebook.png</image:loc>
+			<image:loc>/./wp-content/uploads/2022/04/chromebook.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/meet-the-new-hangouts/</loc>
+		<loc>/./blog/meet-the-new-hangouts/</loc>
 		<lastmod>2023-02-23T13:49:26+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.easygcloud.com/wp-content/uploads/2022/09/Google-Workspace-icons.jpg</image:loc>
+			<image:loc>/./wp-content/uploads/2022/09/Google-Workspace-icons.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/blog/reduce-typing/</loc>
+		<loc>/./blog/reduce-typing/</loc>
 		<lastmod>2023-04-05T16:26:24+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.easygcloud.com/wp-content/uploads/2022/04/chromebook.jpg</image:loc>
+			<image:loc>/./wp-content/uploads/2022/04/chromebook.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.easygcloud.com/uncategorized/time-project-management-in-google-docs/</loc>
+		<loc>/./uncategorized/time-project-management-in-google-docs/</loc>
 		<lastmod>2023-05-20T14:45:43+00:00</lastmod>
 	</url>
 </urlset>
