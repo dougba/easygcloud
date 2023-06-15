@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Archive or delete	</title>
-	<atom:link href="https://www.easygcloud.com/blog/archive-or-delete/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/blog/archive-or-delete/</link>
+	<atom:link href="/./blog/archive-or-delete/feed/" rel="self" type="application/rss+xml" />
+	<link>/./blog/archive-or-delete/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 19 Sep 2013 15:29:46 +0000</lastBuildDate>
 	<sy:updatePeriod>

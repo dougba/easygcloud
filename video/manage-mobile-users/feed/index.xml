@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Manage Mobile Users	</title>
-	<atom:link href="https://www.easygcloud.com/video/manage-mobile-users/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/video/manage-mobile-users/</link>
+	<atom:link href="/./video/manage-mobile-users/feed/" rel="self" type="application/rss+xml" />
+	<link>/./video/manage-mobile-users/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 17 Nov 2011 20:39:00 +0000</lastBuildDate>
 	<sy:updatePeriod>

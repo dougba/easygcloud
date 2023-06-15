@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Google Docs Demonstration	</title>
-	<atom:link href="https://www.easygcloud.com/blog/google-docs-demonstration/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/blog/google-docs-demonstration/</link>
+	<atom:link href="/./blog/google-docs-demonstration/feed/" rel="self" type="application/rss+xml" />
+	<link>/./blog/google-docs-demonstration/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Tue, 31 Jul 2012 20:22:11 +0000</lastBuildDate>
 	<sy:updatePeriod>

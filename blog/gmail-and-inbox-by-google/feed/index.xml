@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Gmail and Inbox by Google	</title>
-	<atom:link href="https://www.easygcloud.com/blog/gmail-and-inbox-by-google/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/blog/gmail-and-inbox-by-google/</link>
+	<atom:link href="/./blog/gmail-and-inbox-by-google/feed/" rel="self" type="application/rss+xml" />
+	<link>/./blog/gmail-and-inbox-by-google/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Fri, 13 Nov 2015 18:02:42 +0000</lastBuildDate>
 	<sy:updatePeriod>

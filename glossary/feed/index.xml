@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Glossary Archive - easyG Cloud</title>
-	<atom:link href="https://www.easygcloud.com/glossary/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/glossary/</link>
+	<atom:link href="/./glossary/feed/" rel="self" type="application/rss+xml" />
+	<link>/./glossary/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 27 Oct 2022 16:18:04 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,23 +21,23 @@
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
-	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Glossary Archive - easyG Cloud</title>
-	<link>https://www.easygcloud.com/glossary/</link>
+	<link>/./glossary/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>WWW</title>
-		<link>https://www.easygcloud.com/glossary/www/</link>
+		<link>/./glossary/www/</link>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Wed, 19 Oct 2022 10:20:58 +0000</pubDate>
-				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=definition#038;p=577</guid>
+				<guid isPermaLink="false">/./?post_type=definition#038;p=577</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/www/">WWW</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/www/">WWW</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/www/">WWW</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/www/">WWW</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
 		
@@ -45,15 +45,15 @@
 			</item>
 		<item>
 		<title>WHOIS</title>
-		<link>https://www.easygcloud.com/glossary/whois/</link>
+		<link>/./glossary/whois/</link>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Wed, 19 Oct 2022 10:20:46 +0000</pubDate>
-				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=definition#038;p=575</guid>
+				<guid isPermaLink="false">/./?post_type=definition#038;p=575</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/whois/">WHOIS</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/whois/">WHOIS</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/whois/">WHOIS</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/whois/">WHOIS</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
 		
@@ -61,15 +61,15 @@
 			</item>
 		<item>
 		<title>Web Publishing Address</title>
-		<link>https://www.easygcloud.com/glossary/web-publishing-address/</link>
+		<link>/./glossary/web-publishing-address/</link>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Wed, 19 Oct 2022 10:20:30 +0000</pubDate>
-				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=definition#038;p=573</guid>
+				<guid isPermaLink="false">/./?post_type=definition#038;p=573</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/web-publishing-address/">Web Publishing Address</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/web-publishing-address/">Web Publishing Address</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/web-publishing-address/">Web Publishing Address</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/web-publishing-address/">Web Publishing Address</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
 		
@@ -77,15 +77,15 @@
 			</item>
 		<item>
 		<title>Warning Message</title>
-		<link>https://www.easygcloud.com/glossary/warning-message/</link>
+		<link>/./glossary/warning-message/</link>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Wed, 19 Oct 2022 10:20:18 +0000</pubDate>
-				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=definition#038;p=571</guid>
+				<guid isPermaLink="false">/./?post_type=definition#038;p=571</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/warning-message/">Warning Message</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/warning-message/">Warning Message</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/warning-message/">Warning Message</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/warning-message/">Warning Message</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
 		
@@ -93,15 +93,15 @@
 			</item>
 		<item>
 		<title>Video</title>
-		<link>https://www.easygcloud.com/glossary/video/</link>
+		<link>/./glossary/video/</link>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Wed, 19 Oct 2022 10:20:04 +0000</pubDate>
-				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=definition#038;p=569</guid>
+				<guid isPermaLink="false">/./?post_type=definition#038;p=569</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/video/">Video</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/video/">Video</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/video/">Video</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/video/">Video</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
 		
@@ -109,15 +109,15 @@
 			</item>
 		<item>
 		<title>User E-mail Uploads</title>
-		<link>https://www.easygcloud.com/glossary/user-e-mail-uploads/</link>
+		<link>/./glossary/user-e-mail-uploads/</link>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Wed, 19 Oct 2022 10:19:51 +0000</pubDate>
-				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=definition#038;p=567</guid>
+				<guid isPermaLink="false">/./?post_type=definition#038;p=567</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/user-e-mail-uploads/">User E-mail Uploads</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/user-e-mail-uploads/">User E-mail Uploads</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/user-e-mail-uploads/">User E-mail Uploads</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/user-e-mail-uploads/">User E-mail Uploads</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
 		
@@ -125,15 +125,15 @@
 			</item>
 		<item>
 		<title>Username</title>
-		<link>https://www.easygcloud.com/glossary/username/</link>
+		<link>/./glossary/username/</link>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Wed, 19 Oct 2022 10:19:36 +0000</pubDate>
-				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=definition#038;p=565</guid>
+				<guid isPermaLink="false">/./?post_type=definition#038;p=565</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/username/">Username</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/username/">Username</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/username/">Username</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/username/">Username</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
 		
@@ -141,15 +141,15 @@
 			</item>
 		<item>
 		<title>User-customizable Columns</title>
-		<link>https://www.easygcloud.com/glossary/user-customizable-columns/</link>
+		<link>/./glossary/user-customizable-columns/</link>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Wed, 19 Oct 2022 10:19:21 +0000</pubDate>
-				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=definition#038;p=563</guid>
+				<guid isPermaLink="false">/./?post_type=definition#038;p=563</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/user-customizable-columns/">User-customizable Columns</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/user-customizable-columns/">User-customizable Columns</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/user-customizable-columns/">User-customizable Columns</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/user-customizable-columns/">User-customizable Columns</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
 		
@@ -157,15 +157,15 @@
 			</item>
 		<item>
 		<title>URL</title>
-		<link>https://www.easygcloud.com/glossary/url/</link>
+		<link>/./glossary/url/</link>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Wed, 19 Oct 2022 10:19:07 +0000</pubDate>
-				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=definition#038;p=561</guid>
+				<guid isPermaLink="false">/./?post_type=definition#038;p=561</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/url/">URL</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/url/">URL</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/url/">URL</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/url/">URL</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
 		
@@ -173,15 +173,15 @@
 			</item>
 		<item>
 		<title>TXT Record</title>
-		<link>https://www.easygcloud.com/glossary/txt-record/</link>
+		<link>/./glossary/txt-record/</link>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Wed, 19 Oct 2022 10:18:48 +0000</pubDate>
-				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=definition#038;p=559</guid>
+				<guid isPermaLink="false">/./?post_type=definition#038;p=559</guid>
 
-					<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/txt-record/">TXT Record</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+					<description><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/txt-record/">TXT Record</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://www.easygcloud.com/glossary/txt-record/">TXT Record</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="/./glossary/txt-record/">TXT Record</a> appeared first on <a rel="nofollow" href="/./">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
 		

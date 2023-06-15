@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Are you in inbox purgatory	</title>
-	<atom:link href="https://www.easygcloud.com/blog/are-you-in-inbox-purgatory/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/blog/are-you-in-inbox-purgatory/</link>
+	<atom:link href="/./blog/are-you-in-inbox-purgatory/feed/" rel="self" type="application/rss+xml" />
+	<link>/./blog/are-you-in-inbox-purgatory/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 09 May 2013 02:56:14 +0000</lastBuildDate>
 	<sy:updatePeriod>

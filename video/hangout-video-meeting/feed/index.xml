@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Hangout video meeting	</title>
-	<atom:link href="https://www.easygcloud.com/video/hangout-video-meeting/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/video/hangout-video-meeting/</link>
+	<atom:link href="/./video/hangout-video-meeting/feed/" rel="self" type="application/rss+xml" />
+	<link>/./video/hangout-video-meeting/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 17 Nov 2011 20:39:00 +0000</lastBuildDate>
 	<sy:updatePeriod>

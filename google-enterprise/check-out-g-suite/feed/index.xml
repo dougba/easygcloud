@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Check out Google Workspace	</title>
-	<atom:link href="https://www.easygcloud.com/google-enterprise/check-out-g-suite/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/google-enterprise/check-out-g-suite/</link>
+	<atom:link href="/./google-enterprise/check-out-g-suite/feed/" rel="self" type="application/rss+xml" />
+	<link>/./google-enterprise/check-out-g-suite/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Tue, 18 Apr 2017 00:08:43 +0000</lastBuildDate>
 	<sy:updatePeriod>
