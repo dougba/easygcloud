@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Chrome remote desktop - easyG Cloud</title>
-	<atom:link href="/tag/chrome-remote-desktop/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/tag/chrome-remote-desktop/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 01 Aug 2013 11:58:01 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Chrome remote desktop - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Chrome Remote Desktop</title>
-		<link>/blog/chrome-remote-desktop/</link>
-					<comments>/blog/chrome-remote-desktop/#respond</comments>
+		<link>https://www.easygcloud.com/blog/chrome-remote-desktop/</link>
+					<comments>https://www.easygcloud.com/blog/chrome-remote-desktop/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 01 Aug 2013 11:58:01 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Chrome remote desktop]]></category>
-		<guid isPermaLink="false">/2013/08/01/chrome-remote-desktop/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2013/08/01/chrome-remote-desktop/</guid>
 
 					<description><![CDATA[Here's an easy way to share your screen remotely, or help someone who shares their screen with you. Both users must be using Google's Chrome browser &#160;chrome.google.com/remotedesktop]]></description>
 										<content:encoded><![CDATA[<p>Here's an easy way to share your screen remotely, or help someone who shares their screen with you. Both users must be using Google's Chrome browser</p>
@@ -44,7 +44,7 @@
 <p>&nbsp;<a href="http://chrome.google.com/remotedesktop">chrome.google.com/remotedesktop</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/chrome-remote-desktop/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/chrome-remote-desktop/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

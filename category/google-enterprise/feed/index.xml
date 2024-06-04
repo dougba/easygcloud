@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Google Enterprise - easyG Cloud</title>
-	<atom:link href="/category/google-enterprise/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/category/google-enterprise/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Tue, 18 Apr 2017 00:08:43 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,40 +21,40 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Google Enterprise - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Check out Google Workspace</title>
-		<link>/google-enterprise/check-out-g-suite/</link>
-					<comments>/google-enterprise/check-out-g-suite/#respond</comments>
+		<link>https://www.easygcloud.com/google-enterprise/check-out-g-suite/</link>
+					<comments>https://www.easygcloud.com/google-enterprise/check-out-g-suite/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Tue, 18 Apr 2017 00:08:43 +0000</pubDate>
 				<category><![CDATA[Google Enterprise]]></category>
-		<guid isPermaLink="false">/2017/04/18/check-out-g-suite/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2017/04/18/check-out-g-suite/</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
-					<wfw:commentRss>/google-enterprise/check-out-g-suite/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/google-enterprise/check-out-g-suite/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Google Workspace Case Studies</title>
-		<link>/google-enterprise/google-apps-case-studies/</link>
-					<comments>/google-enterprise/google-apps-case-studies/#respond</comments>
+		<link>https://www.easygcloud.com/google-enterprise/google-apps-case-studies/</link>
+					<comments>https://www.easygcloud.com/google-enterprise/google-apps-case-studies/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Sun, 09 Jun 2013 15:31:14 +0000</pubDate>
 				<category><![CDATA[Google Enterprise]]></category>
 		<category><![CDATA[case study studies gone google apps]]></category>
-		<guid isPermaLink="false">/2013/06/09/google-apps-case-studies/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2013/06/09/google-apps-case-studies/</guid>
 
 					<description><![CDATA[G Suite Case Studies]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">G Suite Case Studies</h1>
@@ -64,7 +64,7 @@ PLCl2MypeN8g1Nt43vh9ldCDPMeyVUuH2E
 ;wmode=transparent" width="640" height="360"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/google-enterprise/google-apps-case-studies/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/google-enterprise/google-apps-case-studies/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

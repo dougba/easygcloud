@@ -9,8 +9,8 @@
 
 <channel>
 	<title>World&#039;s most powerful tool - easyG Cloud</title>
-	<atom:link href="/tag/worlds-most-powerful-tool/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/tag/worlds-most-powerful-tool/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Fri, 29 Jun 2012 00:10:29 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>World&#039;s most powerful tool - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>World&#039;s most powerful tool</title>
-		<link>/blog/world-s-most-powerful-tool/</link>
-					<comments>/blog/world-s-most-powerful-tool/#respond</comments>
+		<link>https://www.easygcloud.com/blog/world-s-most-powerful-tool/</link>
+					<comments>https://www.easygcloud.com/blog/world-s-most-powerful-tool/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Fri, 29 Jun 2012 00:10:29 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[World's most powerful tool]]></category>
-		<guid isPermaLink="false">/2012/06/29/world-s-most-powerful-tool/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2012/06/29/world-s-most-powerful-tool/</guid>
 
 					<description><![CDATA[How would you like to learn to better use the most powerful tool in the world?&#160;You may already be familiar with some shortcuts for Google Search, like using the search box as a calculator or finding local movie showtimes by typing [movies] and your zip code. But there are many more tips, tricks and tactics [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>How would you like to learn to better use the most powerful tool in the world?&nbsp;You may already be familiar with some shortcuts for Google Search,</p>
@@ -45,7 +45,7 @@
 <p>&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/world-s-most-powerful-tool/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/world-s-most-powerful-tool/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

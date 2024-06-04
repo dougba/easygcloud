@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Site Map	</title>
-	<atom:link href="/easygapps/site-map/feed/" rel="self" type="application/rss+xml" />
-	<link>/easygapps/site-map/</link>
+	<atom:link href="https://www.easygcloud.com/easygapps/site-map/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/easygapps/site-map/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sun, 13 Nov 2011 20:28:28 +0000</lastBuildDate>
 	<sy:updatePeriod>

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Uncategorized - easyG Cloud</title>
-	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sat, 20 May 2023 14:45:43 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,20 +21,20 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Uncategorized - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Time &#038; project management in Google Docs</title>
-		<link>/uncategorized/time-project-management-in-google-docs/</link>
+		<link>https://www.easygcloud.com/uncategorized/time-project-management-in-google-docs/</link>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Sat, 20 May 2023 14:45:43 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/?p=708</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/?p=708</guid>
 
 					<description><![CDATA[Improve time management and display time with new chips in Google Docs In addition to the recent introduction of new smart canvas features in Google Sheets and Google Docs, we’re adding new timer chips that can be used to timebox activities and ensure that you’re using your time productively.]]></description>
 										<content:encoded><![CDATA[<p><strong>Improve time management and display time with new chips in Google Docs</strong><br />

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>easyG - easyG Cloud</title>
-	<atom:link href="/author/easygapps/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/author/easygapps/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sat, 20 May 2023 14:45:43 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,20 +21,20 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>easyG - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Time &#038; project management in Google Docs</title>
-		<link>/uncategorized/time-project-management-in-google-docs/</link>
+		<link>https://www.easygcloud.com/uncategorized/time-project-management-in-google-docs/</link>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Sat, 20 May 2023 14:45:43 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/?p=708</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/?p=708</guid>
 
 					<description><![CDATA[Improve time management and display time with new chips in Google Docs In addition to the recent introduction of new smart canvas features in Google Sheets and Google Docs, we’re adding new timer chips that can be used to timebox activities and ensure that you’re using your time productively.]]></description>
 										<content:encoded><![CDATA[<p><strong>Improve time management and display time with new chips in Google Docs</strong><br />
@@ -47,27 +47,27 @@ In addition to the recent introduction of new smart canvas features in Google Sh
 			</item>
 		<item>
 		<title>Announcing Google Workspace</title>
-		<link>/blog/announcing-google-workspace/</link>
-					<comments>/blog/announcing-google-workspace/#respond</comments>
+		<link>https://www.easygcloud.com/blog/announcing-google-workspace/</link>
+					<comments>https://www.easygcloud.com/blog/announcing-google-workspace/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Tue, 20 Oct 2020 15:58:38 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
-		<guid isPermaLink="false">/2020/10/20/announcing-google-workspace/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2020/10/20/announcing-google-workspace/</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<p><iframe src="https://docs.google.com/document/d/e/2PACX-1vS6V9wU3fRqXZYPSITE0DQslHF-Gw0mByI9X-2u5L1c_PgzHmqA0iwQxc3DuygnjFk0q2CZxIIv4FZQ/pub?embedded=true" width="100%" height="400"></iframe></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/announcing-google-workspace/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/announcing-google-workspace/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Google Voice</title>
-		<link>/video/google-voice-by-g-suite/</link>
-					<comments>/video/google-voice-by-g-suite/#respond</comments>
+		<link>https://www.easygcloud.com/video/google-voice-by-g-suite/</link>
+					<comments>https://www.easygcloud.com/video/google-voice-by-g-suite/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 20 Jun 2019 11:46:44 +0000</pubDate>
@@ -77,7 +77,7 @@ In addition to the recent introduction of new smart canvas features in Google Sh
 		<category><![CDATA[telephony]]></category>
 		<category><![CDATA[unified]]></category>
 		<category><![CDATA[voice]]></category>
-		<guid isPermaLink="false">/2019/06/20/google-voice-by-g-suite/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2019/06/20/google-voice-by-g-suite/</guid>
 
 					<description><![CDATA[Google Voice If your work days are filled with email, text, voice, messenger, chat &#38; tweets, you know more channels make it harder to stay connected &#38; organized. There are more phone numbers than people in the world, so voice communication is still the most universal way to connect. Combining communication channels is a great way to [&#8230;]]]></description>
 										<content:encoded><![CDATA[<div>
@@ -89,39 +89,39 @@ In addition to the recent introduction of new smart canvas features in Google Sh
 <div style="text-align: center;"><iframe src="https://www.youtube-nocookie.com/embed/EYacwIMUWvU?controls=0;showinfo=0; modestbranding=1&amp;showinfo=0&amp;iv_load_policy=3;wmode=transparent" width="560" height="315" allowfullscreen="allowfullscreen"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/video/google-voice-by-g-suite/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/video/google-voice-by-g-suite/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Reduce repetition with a typing accelerator</title>
-		<link>/blog/reduce-typing/</link>
-					<comments>/blog/reduce-typing/#respond</comments>
+		<link>https://www.easygcloud.com/blog/reduce-typing/</link>
+					<comments>https://www.easygcloud.com/blog/reduce-typing/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Fri, 15 Mar 2019 19:44:07 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
-		<guid isPermaLink="false">/2019/03/15/reduce-repetition-with-a-typing-accelerator/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2019/03/15/reduce-repetition-with-a-typing-accelerator/</guid>
 
 					<description><![CDATA[If you type a lot, you may be repeating certain phrases frequently. Why not standardize those phrases and create short cuts to save time? There are multiple options to do just that, but the best one we've found for Google Chrome is Text Blaze. If you like it, it can be used individually or by [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>If you type a lot, you may be repeating certain phrases frequently. Why not standardize those phrases and create short cuts to save time? There are multiple options to do just that, but the best one we've found for Google Chrome is Text Blaze. If you like it, it can be used individually or by your whole team. Check out <a href="https://blaze.today/?ref=UKARMU7N">https://blaze.today/.</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/reduce-typing/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/reduce-typing/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Email subject lines are like news headlines</title>
-		<link>/blog/email-subject-lines-are-like-news-headlines/</link>
-					<comments>/blog/email-subject-lines-are-like-news-headlines/#respond</comments>
+		<link>https://www.easygcloud.com/blog/email-subject-lines-are-like-news-headlines/</link>
+					<comments>https://www.easygcloud.com/blog/email-subject-lines-are-like-news-headlines/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 27 Dec 2018 16:09:09 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
-		<guid isPermaLink="false">/2018/12/27/email-subject-lines-are-like-news-headlines/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2018/12/27/email-subject-lines-are-like-news-headlines/</guid>
 
 					<description><![CDATA[Email Tip: Always include a subject line. Time spent in an email inbox can be stressful, and some people have a tendency to rush. Your subject line competes against many others for their attention , so compose one that helps convince them to read your message. Messages with vague, funny, or confusing subject lines are [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>Email Tip:<br />
@@ -130,20 +130,20 @@ Always include a subject line. Time spent in an email inbox can be stressful, an
 <p>, so compose one that helps convince them to read your message. Messages with vague, funny, or confusing subject lines are not useful and much less likely to be read. Your subject lines should read like well written headlines of news articles; short, simple and clear, yet descriptive. Proofread your subject line more carefully than the rest of your message. Don't send subject lines that make your messages look like SPAM; avoid all capital letters, website addresses and exclamation points. Your subject line should match your message. Don’t just reply to an old e-mail message on an unrelated topic. If the subject you’re corresponding about changes, change the subject line to match.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/email-subject-lines-are-like-news-headlines/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/email-subject-lines-are-like-news-headlines/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Get Google sign-in prompts on all of your phones</title>
-		<link>/blog/get-google-sign-in-prompts-on-all-of-your-phones/</link>
-					<comments>/blog/get-google-sign-in-prompts-on-all-of-your-phones/#respond</comments>
+		<link>https://www.easygcloud.com/blog/get-google-sign-in-prompts-on-all-of-your-phones/</link>
+					<comments>https://www.easygcloud.com/blog/get-google-sign-in-prompts-on-all-of-your-phones/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Tue, 09 Oct 2018 12:47:41 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
-		<guid isPermaLink="false">/2018/10/09/get-google-sign-in-prompts-on-all-of-your-phones/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2018/10/09/get-google-sign-in-prompts-on-all-of-your-phones/</guid>
 
 					<description><![CDATA[Instead of using a 2-Step Verification code to sign in to your G Suite account, you can tap a prompt that Google sends to your phone. This prompt is an easier and even more secure way of authenticating your account, and it respects mobile policies enforced on G Suite employee devices. Until now, in order to receive Google prompts [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p><span style="font-size: 10pt;"><span style="color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none;">Instead of using a </span><a style="color: #4184f3; text-decoration: none; font-family: Roboto, sans-serif; font-size: 17px; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;" href="https://support.google.com/accounts/answer/185839" target="_blank" rel="noopener">2-Step Verification</a><span style="color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none;"> code to sign in to your G Suite account, you can tap a </span><a style="color: #4184f3; text-decoration: none; font-family: Roboto, sans-serif; font-size: 17px; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;" href="https://support.google.com/accounts/answer/7026266" target="_blank" rel="noopener">prompt</a><span style="color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none;"> that Google sends to your phone. This prompt is an easier and even more secure way of authenticating your account, and it respects mobile policies enforced on G Suite employee devices.</span></span></p>
@@ -153,20 +153,20 @@ Always include a subject line. Time spent in an email inbox can be stressful, an
 <p><br style="content: ' '; display: block; padding: 4px; color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif; font-size: 17px; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;" /><span style="color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif; font-size: 17px; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none;">To get Google sign-in prompts on all of your phones, visit the </span><a style="color: #4184f3; text-decoration: none; font-family: Roboto, sans-serif; font-size: 17px; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;" href="https://myaccount.google.com/signinoptions/two-step-verification" target="_blank" rel="noopener">2-Step Verification page in My Account</a><span style="color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif; font-size: 17px; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none;">.</span></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/get-google-sign-in-prompts-on-all-of-your-phones/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/get-google-sign-in-prompts-on-all-of-your-phones/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Get notified of Gmail message rejections</title>
-		<link>/blog/get-notified-of-gmail-message-rejections/</link>
-					<comments>/blog/get-notified-of-gmail-message-rejections/#respond</comments>
+		<link>https://www.easygcloud.com/blog/get-notified-of-gmail-message-rejections/</link>
+					<comments>https://www.easygcloud.com/blog/get-notified-of-gmail-message-rejections/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Tue, 28 Aug 2018 13:23:18 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
-		<guid isPermaLink="false">/2018/08/28/get-notified-of-gmail-message-rejections/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2018/08/28/get-notified-of-gmail-message-rejections/</guid>
 
 					<description><![CDATA[As an administrator, would you like to be notified if Gmail rejects over 24 messages to a single recipient within one hour?  As an administrator you are tasked with protecting your Company and it's employees. Google just announced a new feature to help you. To receive this notification, you need to enable the rate-limiting email alert.]]></description>
 										<content:encoded><![CDATA[<p><span style="color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif; font-size: 10pt; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none;">As an administrator, would you like to be notified if Gmail rejects over 24 messages to a single recipient within one hour?</span></p>
@@ -176,20 +176,20 @@ Always include a subject line. Time spent in an email inbox can be stressful, an
 <p><span style="font-size: 10pt;"><span style="color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none;">To receive this notification, you need to </span></span><a href="https://support.google.com/a/answer/6145869#rate_limiting" target="_blank" rel="noopener">enable the rate-limiting email alert</a><span style="color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none;">.</span></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/get-notified-of-gmail-message-rejections/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/get-notified-of-gmail-message-rejections/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Hangouts to be replaced by Google Meet and Google Chat</title>
-		<link>/blog/hangouts-to-be-replaced-by-google-meet-and-google-chat/</link>
-					<comments>/blog/hangouts-to-be-replaced-by-google-meet-and-google-chat/#respond</comments>
+		<link>https://www.easygcloud.com/blog/hangouts-to-be-replaced-by-google-meet-and-google-chat/</link>
+					<comments>https://www.easygcloud.com/blog/hangouts-to-be-replaced-by-google-meet-and-google-chat/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Wed, 28 Feb 2018 20:07:14 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
-		<guid isPermaLink="false">/2018/02/28/hangouts-to-be-replaced-by-google-meet-and-google-chat/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2018/02/28/hangouts-to-be-replaced-by-google-meet-and-google-chat/</guid>
 
 					<description><![CDATA[Whether you love it or hate it, Google Hangouts has helped millions of people connect better. Last year, Google Meet was released and today, Google Chat is going live. Meet and Chat will eventually replace the original Google Hangouts. Both are new, improved, specialized and optimized for a much better experience. Your admin may need [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>Whether you love it or hate it, Google Hangouts has helped millions of people connect better.</p>
@@ -201,20 +201,20 @@ Always include a subject line. Time spent in an email inbox can be stressful, an
 <p>here: <a href="https://get.google.com/chat/">https://get.google.com/chat/</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/hangouts-to-be-replaced-by-google-meet-and-google-chat/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/hangouts-to-be-replaced-by-google-meet-and-google-chat/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Map your site to a custom URL in the new Google Sites</title>
-		<link>/blog/map-your-site-to-a-custom-url-in-the-new-google-sites/</link>
-					<comments>/blog/map-your-site-to-a-custom-url-in-the-new-google-sites/#respond</comments>
+		<link>https://www.easygcloud.com/blog/map-your-site-to-a-custom-url-in-the-new-google-sites/</link>
+					<comments>https://www.easygcloud.com/blog/map-your-site-to-a-custom-url-in-the-new-google-sites/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Mon, 21 Aug 2017 19:02:34 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
-		<guid isPermaLink="false">/2017/08/21/map-your-site-to-a-custom-url-in-the-new-google-sites/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2017/08/21/map-your-site-to-a-custom-url-in-the-new-google-sites/</guid>
 
 					<description><![CDATA[The classic Google Sites allowed web address mapping. When the new Google Sites launched, this feature was not available. Until now: https://gsuiteupdates.googleblog.com/2017/08/map-your-site-to-custom-url-in-new-sites.html]]></description>
 										<content:encoded><![CDATA[<p>The classic Google Sites allowed web address mapping. When the new Google Sites launched, this feature was not available.</p>
@@ -223,20 +223,20 @@ Always include a subject line. Time spent in an email inbox can be stressful, an
 <p><a href="https://gsuiteupdates.googleblog.com/2017/08/map-your-site-to-custom-url-in-new-sites.html">https://gsuiteupdates.googleblog.com/2017/08/map-your-site-to-custom-url-in-new-sites.html</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/map-your-site-to-a-custom-url-in-the-new-google-sites/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/map-your-site-to-a-custom-url-in-the-new-google-sites/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Google Storage Options</title>
-		<link>/blog/google-storage-options/</link>
-					<comments>/blog/google-storage-options/#respond</comments>
+		<link>https://www.easygcloud.com/blog/google-storage-options/</link>
+					<comments>https://www.easygcloud.com/blog/google-storage-options/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 27 Apr 2017 20:51:49 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
-		<guid isPermaLink="false">/2017/04/27/google-storage-options/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2017/04/27/google-storage-options/</guid>
 
 					<description><![CDATA[What kind of Google storage are you using for Gmail, Google Drive, and Google Photos? If you're using Google for a business, the answer matters! G Suite (Basic, Business, and Enterprise) customers might not realize that there are two different kinds of storage available. Either way, Google definitely does not own your data. By default, [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>What kind of Google storage are you using for Gmail, Google Drive, and Google Photos? If you're using Google for a business, the answer matters! G Suite (Basic, Business, and Enterprise) customers might not realize that there are two different kinds of storage available. Either way, <em>Google definitely does not own your data.</em></p>
@@ -244,7 +244,7 @@ Always include a subject line. Time spent in an email inbox can be stressful, an
 <p>By default, employees can purchase individual data storage for use in their G Suite accounts. If a business owner wants all data in their employee's business accounts to be covered by the G Suite Agreement, including technical support service guidelines, the administrator for the organization has the option to prevent employees from purchasing or renewing extra storage, or to prevent them from using Google Drive, Gmail, or Google Photos. These actions could prevent them from taking full advantage of the extra storage. Individual storage costs less, but the extra storage purchased by employees is only available to them. They can't share it with other users or transfer it to another account, and they can't purchase storage for other users.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/google-storage-options/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/google-storage-options/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

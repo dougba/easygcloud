@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Google Apps Vault - easyG Cloud</title>
-	<atom:link href="/tag/google-apps-vault/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/tag/google-apps-vault/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Tue, 01 May 2012 13:26:05 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Google Apps Vault - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Google Vault</title>
-		<link>/blog/google-apps-vault-2/</link>
-					<comments>/blog/google-apps-vault-2/#respond</comments>
+		<link>https://www.easygcloud.com/blog/google-apps-vault-2/</link>
+					<comments>https://www.easygcloud.com/blog/google-apps-vault-2/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Tue, 01 May 2012 13:26:05 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Google Apps Vault]]></category>
-		<guid isPermaLink="false">/2012/05/01/google-apps-vault-2/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2012/05/01/google-apps-vault-2/</guid>
 
 					<description><![CDATA[Google has announced [and is deploying] Google Vault. What is it? Vault is Google's native solution which appears to have evolved from the acquisitionn of Postini in September 2007. The two services are similar but not identical. Vault is an easy-to-use and cost-effective solution for managing and preserving important messages and data. When used properly, [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>Google has announced [and is deploying] Google Vault. What is it?</p>
@@ -44,7 +44,7 @@
 <p>Vault is Google's native solution which appears to have evolved from the acquisitionn of Postini in September 2007. The two services are similar but not identical. Vault is an easy-to-use and cost-effective solution for managing and preserving important messages and data. When used properly, it reduces the costs of litigation, regulatory investigation and compliance actions. Vault costs $6/user/month. Learn more about <a href="tools/google-apps-vault">Google Apps Vault.</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/google-apps-vault-2/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/google-apps-vault-2/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

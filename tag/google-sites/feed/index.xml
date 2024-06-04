@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Google sites - easyG Cloud</title>
-	<atom:link href="/tag/google-sites/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/tag/google-sites/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sun, 11 Oct 2015 16:31:37 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,16 +21,16 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Google sites - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Project Management in Google Apps</title>
-		<link>/blog/project-management-in-google-apps/</link>
-					<comments>/blog/project-management-in-google-apps/#respond</comments>
+		<link>https://www.easygcloud.com/blog/project-management-in-google-apps/</link>
+					<comments>https://www.easygcloud.com/blog/project-management-in-google-apps/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Sun, 11 Oct 2015 16:31:37 +0000</pubDate>
@@ -38,7 +38,7 @@
 		<category><![CDATA[Google sites]]></category>
 		<category><![CDATA[project management]]></category>
 		<category><![CDATA[projects]]></category>
-		<guid isPermaLink="false">/2015/10/11/project-management-in-google-apps/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2015/10/11/project-management-in-google-apps/</guid>
 
 					<description><![CDATA[A project is any outcome that requires more than one action step. Most teams need project management. If your team is using Google Apps, Google Sites may be used as a simple project management tool. Google Sites allow you to embed Google sheets, docs, slides, groups and calendars to help your team get things done [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>A project is any outcome that requires more than one action step. Most teams need project management. If your team is using Google Apps, Google Sites may be used as a simple project management tool.</p>
@@ -80,7 +80,7 @@
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/project-management-in-google-apps/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/project-management-in-google-apps/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

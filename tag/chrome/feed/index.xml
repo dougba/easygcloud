@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Chrome - easyG Cloud</title>
-	<atom:link href="/tag/chrome/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/tag/chrome/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 31 Oct 2013 02:56:00 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,23 +21,23 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Chrome - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Start using Google Chrome Browser</title>
-		<link>/blog/start-using-google-chrome-browser/</link>
-					<comments>/blog/start-using-google-chrome-browser/#respond</comments>
+		<link>https://www.easygcloud.com/blog/start-using-google-chrome-browser/</link>
+					<comments>https://www.easygcloud.com/blog/start-using-google-chrome-browser/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 31 Oct 2013 02:56:00 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[best browser]]></category>
 		<category><![CDATA[Chrome]]></category>
-		<guid isPermaLink="false">/2013/10/31/start-using-google-chrome-browser/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2013/10/31/start-using-google-chrome-browser/</guid>
 
 					<description><![CDATA[Google's Chrome browser is the fastest, safest and most stable browser for Microsoft Windows and Macintosh operating systems. It's free and easy to try. Install Google Chrome Import bookmarks (favorites) from your old browser into Google Chrome Sign into Google Chrome&#160;(you only need to do this once) If you like it, make Google Chrome your [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p><span style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;">Google's Chrome browser is the fastest, safest and most stable browser for Microsoft Windows and Macintosh operating systems. It's free and easy to try.</span></p>
@@ -51,7 +51,7 @@
 <p>&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/start-using-google-chrome-browser/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/start-using-google-chrome-browser/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

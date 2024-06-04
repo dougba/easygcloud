@@ -9,8 +9,8 @@
 
 <channel>
 	<title>bulk mail spam filter Gmail - easyG Cloud</title>
-	<atom:link href="/tag/bulk-mail-spam-filter-gmail/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/tag/bulk-mail-spam-filter-gmail/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sat, 09 Aug 2014 15:23:55 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>bulk mail spam filter Gmail - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>New bulk mail spam filter</title>
-		<link>/blog/new-bulk-mail-spam-filter/</link>
-					<comments>/blog/new-bulk-mail-spam-filter/#respond</comments>
+		<link>https://www.easygcloud.com/blog/new-bulk-mail-spam-filter/</link>
+					<comments>https://www.easygcloud.com/blog/new-bulk-mail-spam-filter/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Sat, 09 Aug 2014 15:23:55 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[bulk mail spam filter Gmail]]></category>
-		<guid isPermaLink="false">/2014/08/09/new-bulk-mail-spam-filter/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2014/08/09/new-bulk-mail-spam-filter/</guid>
 
 					<description><![CDATA[Gmail does a great job removing spam from your inbox, but if you need even more filtering there's a new option: http://googleappsupdates.blogspot.com/2014/08/new-bulk-mail-filter-in-gmail-spam.html]]></description>
 										<content:encoded><![CDATA[<p><span style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: 13px;">Gmail does a great job removing spam from your inbox, but if you need even more filtering there's a new option:</span></p>
@@ -44,7 +44,7 @@
 <p><div style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: 13px;"><a href="http://googleappsupdates.blogspot.com/2014/08/new-bulk-mail-filter-in-gmail-spam.html" target="_blank" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; text-decoration: none; color: #6611cc; cursor: pointer;" rel="noopener">http://googleappsupdates.blogspot.com/2014/08/new-bulk-mail-filter-in-gmail-spam.html</a></div></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/new-bulk-mail-spam-filter/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/new-bulk-mail-spam-filter/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

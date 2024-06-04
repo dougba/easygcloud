@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Google business solution - easyG Cloud</title>
-	<atom:link href="/tag/google-business-solution/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/tag/google-business-solution/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 17 Nov 2011 20:39:00 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,29 +21,29 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Google business solution - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Going Google</title>
-		<link>/video/going-google/</link>
-					<comments>/video/going-google/#respond</comments>
+		<link>https://www.easygcloud.com/video/going-google/</link>
+					<comments>https://www.easygcloud.com/video/going-google/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Google business solution]]></category>
-		<guid isPermaLink="false">/2011/11/17/going-google/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/going-google/</guid>
 
 					<description><![CDATA[Going Google]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Going Google</h1>
 <div style="text-align: center;"><iframe width="640" height="360" src="https://www.youtube.com/embed/QBcHT0XJRP8?rel=0&amp&autoplay=1&modestbranding=1&showinfo=0;wmode=transparent"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/video/going-google/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/video/going-google/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>BYOD - easyG Cloud</title>
-	<atom:link href="/tag/byod/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/tag/byod/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 05 Mar 2015 15:32:53 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,16 +21,16 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>BYOD - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Android for Work</title>
-		<link>/blog/android-for-work/</link>
-					<comments>/blog/android-for-work/#respond</comments>
+		<link>https://www.easygcloud.com/blog/android-for-work/</link>
+					<comments>https://www.easygcloud.com/blog/android-for-work/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 05 Mar 2015 15:32:53 +0000</pubDate>
@@ -38,7 +38,7 @@
 		<category><![CDATA[Android]]></category>
 		<category><![CDATA[Android for Work]]></category>
 		<category><![CDATA[BYOD]]></category>
-		<guid isPermaLink="false">/2015/03/05/android-for-work/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2015/03/05/android-for-work/</guid>
 
 					<description><![CDATA[The latest news for BYOD (Bring Your Own Device) is yet another Google SKU, Android for Work. It includes a new App Store with a funny name "Google Play for Work":  http://www.wired.com/2015/02/googles-android-work-gives-phone-split-personality/]]></description>
 										<content:encoded><![CDATA[<p>The latest news for BYOD (Bring Your Own Device) is yet another Google SKU, Android for Work. It includes a new App Store with a funny name "Google Play for Work":</p>
@@ -46,7 +46,7 @@
 <p> <a href="http://www.wired.com/2015/02/googles-android-work-gives-phone-split-personality/" target="_blank" rel="noopener">http://www.wired.com/2015/02/googles-android-work-gives-phone-split-personality/</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/android-for-work/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/android-for-work/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>EasyGApps.com EasyGApps Google Apps for Work Premier Reseller Partner - easyG Cloud</title>
-	<atom:link href="/tag/easygapps-com-easygapps-google-apps-for-work-premier-reseller-partner/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/tag/easygapps-com-easygapps-google-apps-for-work-premier-reseller-partner/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sat, 31 Dec 2022 01:22:41 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>EasyGApps.com EasyGApps Google Apps for Work Premier Reseller Partner - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>easyG Cloud.com Becomes a Google Workspace Premier Partner</title>
-		<link>/blog/easyg-apps-com-becomes-a-google-apps-premier-reseller/</link>
-					<comments>/blog/easyg-apps-com-becomes-a-google-apps-premier-reseller/#respond</comments>
+		<link>https://www.easygcloud.com/blog/easyg-apps-com-becomes-a-google-apps-premier-reseller/</link>
+					<comments>https://www.easygcloud.com/blog/easyg-apps-com-becomes-a-google-apps-premier-reseller/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Fri, 06 Jun 2014 15:58:46 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[EasyGApps.com EasyGApps Google Apps for Work Premier Reseller Partner]]></category>
-		<guid isPermaLink="false">/2014/06/06/easyg-apps-com-becomes-a-google-apps-premier-reseller/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2014/06/06/easyg-apps-com-becomes-a-google-apps-premier-reseller/</guid>
 
 					<description><![CDATA[&#160; EasyG Apps.com Becomes a Google Apps Premier Partner June 6, 2014 -- EasyG Apps.com announced it has become a Premier Partner of the Google Apps for Work™ suite of communication and collaboration tools. This new designation from Google enables customers to more easily assess a partner’s expertise advising on and deploying Google services. EasyG [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>&nbsp;</p>
@@ -56,7 +56,7 @@
 <p>&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/easyg-apps-com-becomes-a-google-apps-premier-reseller/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/easyg-apps-com-becomes-a-google-apps-premier-reseller/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

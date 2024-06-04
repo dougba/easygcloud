@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Google Drive for iPhone - easyG Cloud</title>
-	<atom:link href="/tag/google-drive-for-iphone/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/tag/google-drive-for-iphone/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sat, 21 Jul 2012 23:45:53 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Google Drive for iPhone - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Google Drive for iOS</title>
-		<link>/blog/google-drive-for-ios/</link>
-					<comments>/blog/google-drive-for-ios/#respond</comments>
+		<link>https://www.easygcloud.com/blog/google-drive-for-ios/</link>
+					<comments>https://www.easygcloud.com/blog/google-drive-for-ios/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Sat, 21 Jul 2012 23:45:53 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Google Drive for iPhone]]></category>
-		<guid isPermaLink="false">/2012/07/21/google-drive-for-ios/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2012/07/21/google-drive-for-ios/</guid>
 
 					<description><![CDATA[It may surprise you to know that many of Google's employees don't use Microsoft Windows, they use Apple's Macintosh computers. For those of you who want to use Google Drive but love your iPhone, a new solution was released June 28 2012.&#160; Google Drive is now available for your iPhone, iPad and iPod touch. With [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>It may surprise you to know that many of Google's employees don't use Microsoft Windows, they use Apple's Macintosh computers. For those of you who want to use Google Drive but love your iPhone, a new solution was released June 28 2012.&nbsp;</p>
@@ -44,7 +44,7 @@
 <p>Google Drive is now available for your iPhone, iPad and iPod touch. With the Drive app, you can open PDFs, photos, videos, documents and anything else stored in your Drive while you're on the go. You can also search all your files, add collaborators to documents, and make files available offline to view them even without an internet connection. For blind and low-vision users, the app also works great in VoiceOver mode. Learn more about what you can do with the app in our Help Center. Get Drive in the App Store for your iPhone, iPad or iPod touch running iOS 5.0+ and visit the Play Store to get the latest on your Android phone or tablet.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/google-drive-for-ios/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/google-drive-for-ios/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

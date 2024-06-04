@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Video - easyG Cloud</title>
-	<atom:link href="/category/video/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/category/video/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Tue, 27 Dec 2022 00:13:36 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,16 +21,16 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Video - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Google Voice</title>
-		<link>/video/google-voice-by-g-suite/</link>
-					<comments>/video/google-voice-by-g-suite/#respond</comments>
+		<link>https://www.easygcloud.com/video/google-voice-by-g-suite/</link>
+					<comments>https://www.easygcloud.com/video/google-voice-by-g-suite/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 20 Jun 2019 11:46:44 +0000</pubDate>
@@ -40,7 +40,7 @@
 		<category><![CDATA[telephony]]></category>
 		<category><![CDATA[unified]]></category>
 		<category><![CDATA[voice]]></category>
-		<guid isPermaLink="false">/2019/06/20/google-voice-by-g-suite/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2019/06/20/google-voice-by-g-suite/</guid>
 
 					<description><![CDATA[Google Voice If your work days are filled with email, text, voice, messenger, chat &#38; tweets, you know more channels make it harder to stay connected &#38; organized. There are more phone numbers than people in the world, so voice communication is still the most universal way to connect. Combining communication channels is a great way to [&#8230;]]]></description>
 										<content:encoded><![CDATA[<div>
@@ -52,36 +52,36 @@
 <div style="text-align: center;"><iframe src="https://www.youtube-nocookie.com/embed/EYacwIMUWvU?controls=0;showinfo=0; modestbranding=1&amp;showinfo=0&amp;iv_load_policy=3;wmode=transparent" width="560" height="315" allowfullscreen="allowfullscreen"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/video/google-voice-by-g-suite/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/video/google-voice-by-g-suite/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Reimagine how your team works</title>
-		<link>/video/reimagine-how-your-team-works/</link>
-					<comments>/video/reimagine-how-your-team-works/#respond</comments>
+		<link>https://www.easygcloud.com/video/reimagine-how-your-team-works/</link>
+					<comments>https://www.easygcloud.com/video/reimagine-how-your-team-works/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Sun, 22 Jun 2014 16:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[sign in Google Chrome browser]]></category>
-		<guid isPermaLink="false">/2014/06/22/reimagine-how-your-team-works/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2014/06/22/reimagine-how-your-team-works/</guid>
 
 					<description><![CDATA[Reimagine how your team works]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Reimagine how your team works</h1>
 <div style="text-align: center;"><iframe src="https://www.youtube.com/embed/hp9Wp_SZzNA?rel=0&amp;amp&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0;wmode=transparent" width="640" height="360"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/video/reimagine-how-your-team-works/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/video/reimagine-how-your-team-works/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Pain free conference calls</title>
-		<link>/video/pain-free-conference-calls/</link>
-					<comments>/video/pain-free-conference-calls/#respond</comments>
+		<link>https://www.easygcloud.com/video/pain-free-conference-calls/</link>
+					<comments>https://www.easygcloud.com/video/pain-free-conference-calls/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Tue, 01 Apr 2014 23:32:37 +0000</pubDate>
@@ -89,7 +89,7 @@
 		<category><![CDATA[easy]]></category>
 		<category><![CDATA[pain free]]></category>
 		<category><![CDATA[painless conference conferencing call service]]></category>
-		<guid isPermaLink="false">/2014/04/01/pain-free-conference-calls/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2014/04/01/pain-free-conference-calls/</guid>
 
 					<description><![CDATA[Pain Free Conference Calls Schedule conferences that call people Participants simply receive the call&#160; Powerful web interface shows&#160;who's speaking&#160; Share your screen and your files Relax &#38; enjoy high definition audio Free Trial Codes Available]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Pain Free Conference Calls</h1>
@@ -102,21 +102,21 @@
 <div style="text-align: center;"><iframe src="https://www.youtube.com/embed/Oa33Eb1O5_Y?rel=0&start=7&end=65&autoplay=1;controls=0&amp;showinfo=0; modestbranding=1&amp;showinfo=0&amp;iv_load_policy=3;wmode=transparent" width="560" height="315"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/video/pain-free-conference-calls/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/video/pain-free-conference-calls/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Priority Inbox</title>
-		<link>/video/priority-inbox/</link>
-					<comments>/video/priority-inbox/#respond</comments>
+		<link>https://www.easygcloud.com/video/priority-inbox/</link>
+					<comments>https://www.easygcloud.com/video/priority-inbox/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Priority Inbox importance marker]]></category>
-		<guid isPermaLink="false">/2011/11/17/priority-inbox/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/priority-inbox/</guid>
 
 					<description><![CDATA[Priority Inbox &#160; What's your email inbox type? Many people are uncomfortable with their inbox. Most use Outlook or Google mail. Both list messages in the order received, but there's a better way! Want to see your important messages first? The same service that powers the world's best spam filter can also help&#160;organize you. The [&#8230;]]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Priority Inbox</h1>
@@ -126,63 +126,63 @@
 <div style="text-align: center;"><iframe loading="lazy" src="//www.youtube.com/embed/5nt3gE9dGHQ?rel=0&amp;amp&amp;autoplay=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;end=107&amp;showinfo=0;wmode=transparent" width="640" height="360"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/video/priority-inbox/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/video/priority-inbox/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Going Google</title>
-		<link>/video/going-google/</link>
-					<comments>/video/going-google/#respond</comments>
+		<link>https://www.easygcloud.com/video/going-google/</link>
+					<comments>https://www.easygcloud.com/video/going-google/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Google business solution]]></category>
-		<guid isPermaLink="false">/2011/11/17/going-google/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/going-google/</guid>
 
 					<description><![CDATA[Going Google]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Going Google</h1>
 <div style="text-align: center;"><iframe loading="lazy" width="640" height="360" src="https://www.youtube.com/embed/QBcHT0XJRP8?rel=0&amp&autoplay=1&modestbranding=1&showinfo=0;wmode=transparent"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/video/going-google/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/video/going-google/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Gmail Advanced Search</title>
-		<link>/video/gmail-advanced-search/</link>
-					<comments>/video/gmail-advanced-search/#respond</comments>
+		<link>https://www.easygcloud.com/video/gmail-advanced-search/</link>
+					<comments>https://www.easygcloud.com/video/gmail-advanced-search/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Gmail search technique]]></category>
-		<guid isPermaLink="false">/2011/11/17/gmail-advanced-search/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/gmail-advanced-search/</guid>
 
 					<description><![CDATA[Gmail Advanced Search]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Gmail Advanced Search</h1>
 <div style="text-align: center;"><iframe loading="lazy" width="640" height="360" src="https://www.youtube.com/embed/Zd79-NZrqEg?rel=0&amp&autoplay=1&modestbranding=1&showinfo=0;wmode=transparent"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/video/gmail-advanced-search/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/video/gmail-advanced-search/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Hangout video meeting</title>
-		<link>/video/hangout-video-meeting/</link>
-					<comments>/video/hangout-video-meeting/#respond</comments>
+		<link>https://www.easygcloud.com/video/hangout-video-meeting/</link>
+					<comments>https://www.easygcloud.com/video/hangout-video-meeting/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[hangout video call conference easy service free]]></category>
-		<guid isPermaLink="false">/2011/11/17/hangout-video-meeting/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/hangout-video-meeting/</guid>
 
 					<description><![CDATA[Hangout Video Meeting Meet with up to 25 people or stream live to the world!]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Hangout Video Meeting</h1>
@@ -190,42 +190,42 @@
 <div style="text-align: center;"><iframe loading="lazy" src="//www.youtube.com/embed/ULfD5mBQ-xw?rel=0&amp;amp&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;iv_load_policy=3;wmode=transparent" width="640" height="360"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/video/hangout-video-meeting/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/video/hangout-video-meeting/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Inbox Zero</title>
-		<link>/video/inbox-zero/</link>
-					<comments>/video/inbox-zero/#respond</comments>
+		<link>https://www.easygcloud.com/video/inbox-zero/</link>
+					<comments>https://www.easygcloud.com/video/inbox-zero/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[inbox zero]]></category>
-		<guid isPermaLink="false">/2011/11/17/inbox-zero/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/inbox-zero/</guid>
 
 					<description><![CDATA[Tips for getting to inbox zero]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Tips for getting to inbox zero</h1>
 <div style="text-align: center;"><iframe loading="lazy" src="//www.youtube.com/embed/4YxGH37cHAM?rel=0&amp;amp&amp;autoplay=1&amp;end=82&amp;modestbranding=1&amp;showinfo=0;wmode=transparent" width="640" height="360"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/video/inbox-zero/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/video/inbox-zero/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Use Forms in Google Drive</title>
-		<link>/video/use-forms-in-google-drive/</link>
-					<comments>/video/use-forms-in-google-drive/#respond</comments>
+		<link>https://www.easygcloud.com/video/use-forms-in-google-drive/</link>
+					<comments>https://www.easygcloud.com/video/use-forms-in-google-drive/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Google forms docs drive data collect easy]]></category>
-		<guid isPermaLink="false">/2011/11/17/use-forms-in-google-drive/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/use-forms-in-google-drive/</guid>
 
 					<description><![CDATA[Use Forms in Google Drive]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Use Forms in Google Drive</h1>
@@ -233,21 +233,21 @@
 rel=0&amp;autoplay=1&amp;end=120&amp;modestbranding=1&amp;showinfo=0;wmode=transparent"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/video/use-forms-in-google-drive/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/video/use-forms-in-google-drive/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Explore a Google Data Center</title>
-		<link>/video/explore-a-google-data-center/</link>
-					<comments>/video/explore-a-google-data-center/#respond</comments>
+		<link>https://www.easygcloud.com/video/explore-a-google-data-center/</link>
+					<comments>https://www.easygcloud.com/video/explore-a-google-data-center/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Data Center Security Safe]]></category>
-		<guid isPermaLink="false">/2011/11/17/explore-a-google-data-center/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/explore-a-google-data-center/</guid>
 
 					<description><![CDATA[Explore a Google Data Center]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Explore a Google Data Center</h1>
@@ -255,7 +255,7 @@ rel=0&amp;autoplay=1&amp;end=120&amp;modestbranding=1&amp;showinfo=0;wmode=trans
 <p><iframe loading="lazy" src="//www.youtube.com/embed/avP5d16wEp0?rel=0&amp;amp&amp;autoplay=1&amp;showinfo=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;wmode=transparent" width="640" height="360"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/video/explore-a-google-data-center/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/video/explore-a-google-data-center/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

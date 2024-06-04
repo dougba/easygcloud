@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Google Apps Calendar Reminders Tasks - easyG Cloud</title>
-	<atom:link href="/tag/google-apps-calendar-reminders-tasks/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://www.easygcloud.com/tag/google-apps-calendar-reminders-tasks/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Tue, 05 Jan 2016 14:51:41 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Google Apps Calendar Reminders Tasks - easyG Cloud</title>
-	<link>/</link>
+	<link>https://www.easygcloud.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Reminders in Google Calendar</title>
-		<link>/blog/reminders-in-google-calendar/</link>
-					<comments>/blog/reminders-in-google-calendar/#respond</comments>
+		<link>https://www.easygcloud.com/blog/reminders-in-google-calendar/</link>
+					<comments>https://www.easygcloud.com/blog/reminders-in-google-calendar/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Tue, 05 Jan 2016 14:51:41 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Google Apps Calendar Reminders Tasks]]></category>
-		<guid isPermaLink="false">/2016/01/05/reminders-in-google-calendar/</guid>
+		<guid isPermaLink="false">https://www.easygcloud.com/2016/01/05/reminders-in-google-calendar/</guid>
 
 					<description><![CDATA[One of the weak points in Google Apps has always been the task list (also known as a to-do list). Google has finally improved on it's antiquated task list with it's new "Reminders", which are integrated with Calendar in a way that's a pleasure to use. &#160; Reminders in Google Calendar]]></description>
 										<content:encoded><![CDATA[<p>One of the weak points in Google Apps has always been the task list (also known as a to-do list).</p>
@@ -47,7 +47,7 @@
 <div style="text-align: center;"><iframe src="//www.youtube.com/embed/cPuvf2lzZMY?rel=0&amp;amp&amp;autoplay=1&amp;showinfo=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;wmode=transparent" width="560" height="315"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/blog/reminders-in-google-calendar/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.easygcloud.com/blog/reminders-in-google-calendar/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

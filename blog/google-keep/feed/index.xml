@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Google Keep	</title>
-	<atom:link href="/blog/google-keep/feed/" rel="self" type="application/rss+xml" />
-	<link>/blog/google-keep/</link>
+	<atom:link href="https://www.easygcloud.com/blog/google-keep/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/blog/google-keep/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Wed, 20 Mar 2013 21:29:50 +0000</lastBuildDate>
 	<sy:updatePeriod>

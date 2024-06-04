@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Google Apps Update Alerts	</title>
-	<atom:link href="/easygapps/newsfeed/feed/" rel="self" type="application/rss+xml" />
-	<link>/easygapps/newsfeed/</link>
+	<atom:link href="https://www.easygcloud.com/easygapps/newsfeed/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.easygcloud.com/easygapps/newsfeed/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Tue, 28 Jul 2015 15:20:54 +0000</lastBuildDate>
 	<sy:updatePeriod>
