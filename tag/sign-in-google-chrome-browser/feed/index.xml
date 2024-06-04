@@ -9,8 +9,8 @@
 
 <channel>
 	<title>sign in Google Chrome browser - easyG Cloud</title>
-	<atom:link href="/./tag/sign-in-google-chrome-browser/feed/" rel="self" type="application/rss+xml" />
-	<link>/./</link>
+	<atom:link href="/tag/sign-in-google-chrome-browser/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sun, 22 Jun 2014 16:39:00 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,29 +21,29 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>sign in Google Chrome browser - easyG Cloud</title>
-	<link>/./</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Reimagine how your team works</title>
-		<link>/./video/reimagine-how-your-team-works/</link>
-					<comments>/./video/reimagine-how-your-team-works/#respond</comments>
+		<link>/video/reimagine-how-your-team-works/</link>
+					<comments>/video/reimagine-how-your-team-works/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Sun, 22 Jun 2014 16:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[sign in Google Chrome browser]]></category>
-		<guid isPermaLink="false">/./2014/06/22/reimagine-how-your-team-works/</guid>
+		<guid isPermaLink="false">/2014/06/22/reimagine-how-your-team-works/</guid>
 
 					<description><![CDATA[Reimagine how your team works]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Reimagine how your team works</h1>
 <div style="text-align: center;"><iframe src="https://www.youtube.com/embed/hp9Wp_SZzNA?rel=0&amp;amp&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0;wmode=transparent" width="640" height="360"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/./video/reimagine-how-your-team-works/feed/</wfw:commentRss>
+					<wfw:commentRss>/video/reimagine-how-your-team-works/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

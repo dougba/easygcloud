@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Meet the new Hangouts	</title>
-	<atom:link href="/./blog/meet-the-new-hangouts/feed/" rel="self" type="application/rss+xml" />
-	<link>/./blog/meet-the-new-hangouts/</link>
+	<atom:link href="/blog/meet-the-new-hangouts/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/meet-the-new-hangouts/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 23 Feb 2023 13:49:26 +0000</lastBuildDate>
 	<sy:updatePeriod>

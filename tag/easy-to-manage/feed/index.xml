@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Easy-to-manage - easyG Cloud</title>
-	<atom:link href="/./tag/easy-to-manage/feed/" rel="self" type="application/rss+xml" />
-	<link>/./</link>
+	<atom:link href="/tag/easy-to-manage/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Wed, 01 May 2024 16:36:04 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Easy-to-manage - easyG Cloud</title>
-	<link>/./</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 

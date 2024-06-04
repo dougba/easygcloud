@@ -9,8 +9,8 @@
 
 <channel>
 	<title>pain free - easyG Cloud</title>
-	<atom:link href="/./tag/pain-free/feed/" rel="self" type="application/rss+xml" />
-	<link>/./</link>
+	<atom:link href="/tag/pain-free/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Tue, 01 Apr 2014 23:32:37 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,16 +21,16 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>pain free - easyG Cloud</title>
-	<link>/./</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Pain free conference calls</title>
-		<link>/./video/pain-free-conference-calls/</link>
-					<comments>/./video/pain-free-conference-calls/#respond</comments>
+		<link>/video/pain-free-conference-calls/</link>
+					<comments>/video/pain-free-conference-calls/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Tue, 01 Apr 2014 23:32:37 +0000</pubDate>
@@ -38,7 +38,7 @@
 		<category><![CDATA[easy]]></category>
 		<category><![CDATA[pain free]]></category>
 		<category><![CDATA[painless conference conferencing call service]]></category>
-		<guid isPermaLink="false">/./2014/04/01/pain-free-conference-calls/</guid>
+		<guid isPermaLink="false">/2014/04/01/pain-free-conference-calls/</guid>
 
 					<description><![CDATA[Pain Free Conference Calls Schedule conferences that call people Participants simply receive the call&#160; Powerful web interface shows&#160;who's speaking&#160; Share your screen and your files Relax &#38; enjoy high definition audio Free Trial Codes Available]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Pain Free Conference Calls</h1>
@@ -51,7 +51,7 @@
 <div style="text-align: center;"><iframe src="https://www.youtube.com/embed/Oa33Eb1O5_Y?rel=0&start=7&end=65&autoplay=1;controls=0&amp;showinfo=0; modestbranding=1&amp;showinfo=0&amp;iv_load_policy=3;wmode=transparent" width="560" height="315"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/./video/pain-free-conference-calls/feed/</wfw:commentRss>
+					<wfw:commentRss>/video/pain-free-conference-calls/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

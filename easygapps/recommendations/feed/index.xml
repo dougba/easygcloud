@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Recommendations	</title>
-	<atom:link href="/./easygapps/recommendations/feed/" rel="self" type="application/rss+xml" />
-	<link>/./easygapps/recommendations/</link>
+	<atom:link href="/easygapps/recommendations/feed/" rel="self" type="application/rss+xml" />
+	<link>/easygapps/recommendations/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sat, 12 Nov 2011 00:52:54 +0000</lastBuildDate>
 	<sy:updatePeriod>

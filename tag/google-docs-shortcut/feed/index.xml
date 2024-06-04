@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Google Docs shortcut - easyG Cloud</title>
-	<atom:link href="/./tag/google-docs-shortcut/feed/" rel="self" type="application/rss+xml" />
-	<link>/./</link>
+	<atom:link href="/tag/google-docs-shortcut/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Fri, 02 May 2014 15:39:27 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Google Docs shortcut - easyG Cloud</title>
-	<link>/./</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>King of Docs Shortcuts</title>
-		<link>/./blog/king-of-docs-shortcuts/</link>
-					<comments>/./blog/king-of-docs-shortcuts/#respond</comments>
+		<link>/blog/king-of-docs-shortcuts/</link>
+					<comments>/blog/king-of-docs-shortcuts/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Fri, 02 May 2014 15:39:27 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Google Docs shortcut]]></category>
-		<guid isPermaLink="false">/./2014/05/02/king-of-docs-shortcuts/</guid>
+		<guid isPermaLink="false">/2014/05/02/king-of-docs-shortcuts/</guid>
 
 					<description><![CDATA[If you're like most people, you use perhaps 15% of the features of Microsoft Word. If you're using Google Docs, there's a great way to learn to use more features. Try Alt+/ to search all Docs functions. Just start typing in the search box and matching features will appear. This is the king of Google [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>If you're like most people, you use perhaps 15% of the features of Microsoft Word. If you're using Google Docs, there's a great way to learn to use more features.</p>
@@ -44,7 +44,7 @@
 <p>Try Alt+/ to search all Docs functions. Just start typing in the search box and matching features will appear. This is the king of Google Docs shortcuts!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/./blog/king-of-docs-shortcuts/feed/</wfw:commentRss>
+					<wfw:commentRss>/blog/king-of-docs-shortcuts/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

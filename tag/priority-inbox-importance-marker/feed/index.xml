@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Priority Inbox importance marker - easyG Cloud</title>
-	<atom:link href="/./tag/priority-inbox-importance-marker/feed/" rel="self" type="application/rss+xml" />
-	<link>/./</link>
+	<atom:link href="/tag/priority-inbox-importance-marker/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 17 Nov 2011 20:39:00 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Priority Inbox importance marker - easyG Cloud</title>
-	<link>/./</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Priority Inbox</title>
-		<link>/./video/priority-inbox/</link>
-					<comments>/./video/priority-inbox/#respond</comments>
+		<link>/video/priority-inbox/</link>
+					<comments>/video/priority-inbox/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Priority Inbox importance marker]]></category>
-		<guid isPermaLink="false">/./2011/11/17/priority-inbox/</guid>
+		<guid isPermaLink="false">/2011/11/17/priority-inbox/</guid>
 
 					<description><![CDATA[Priority Inbox &#160; What's your email inbox type? Many people are uncomfortable with their inbox. Most use Outlook or Google mail. Both list messages in the order received, but there's a better way! Want to see your important messages first? The same service that powers the world's best spam filter can also help&#160;organize you. The [&#8230;]]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Priority Inbox</h1>
@@ -46,7 +46,7 @@
 <div style="text-align: center;"><iframe src="//www.youtube.com/embed/5nt3gE9dGHQ?rel=0&amp;amp&amp;autoplay=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;end=107&amp;showinfo=0;wmode=transparent" width="640" height="360"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/./video/priority-inbox/feed/</wfw:commentRss>
+					<wfw:commentRss>/video/priority-inbox/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

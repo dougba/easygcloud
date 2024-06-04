@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Data Center Security Safe - easyG Cloud</title>
-	<atom:link href="/./tag/data-center-security-safe/feed/" rel="self" type="application/rss+xml" />
-	<link>/./</link>
+	<atom:link href="/tag/data-center-security-safe/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 17 Nov 2011 20:39:00 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Data Center Security Safe - easyG Cloud</title>
-	<link>/./</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Work Smarter</title>
-		<link>/./video/work-smarter/</link>
-					<comments>/./video/work-smarter/#respond</comments>
+		<link>/video/work-smarter/</link>
+					<comments>/video/work-smarter/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Data Center Security Safe]]></category>
-		<guid isPermaLink="false">/./2011/11/17/work-smarter/</guid>
+		<guid isPermaLink="false">/2011/11/17/work-smarter/</guid>
 
 					<description><![CDATA[Work Smarter with G Suite]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Work Smarter with G Suite</h1>
@@ -45,21 +45,21 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/./video/work-smarter/feed/</wfw:commentRss>
+					<wfw:commentRss>/video/work-smarter/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Google Cloud Security</title>
-		<link>/./video/google-security/</link>
-					<comments>/./video/google-security/#respond</comments>
+		<link>/video/google-security/</link>
+					<comments>/video/google-security/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Data Center Security Safe]]></category>
-		<guid isPermaLink="false">/./2011/11/17/google-security/</guid>
+		<guid isPermaLink="false">/2011/11/17/google-security/</guid>
 
 					<description><![CDATA[Google Security]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Google Security</h1>
@@ -68,21 +68,21 @@
 rel=0&amp;autoplay=1&amp;showinfo=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;end=409;wmode=transparent" width="640" height="360"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/./video/google-security/feed/</wfw:commentRss>
+					<wfw:commentRss>/video/google-security/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Explore a Google Data Center</title>
-		<link>/./video/explore-a-google-data-center/</link>
-					<comments>/./video/explore-a-google-data-center/#respond</comments>
+		<link>/video/explore-a-google-data-center/</link>
+					<comments>/video/explore-a-google-data-center/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Data Center Security Safe]]></category>
-		<guid isPermaLink="false">/./2011/11/17/explore-a-google-data-center/</guid>
+		<guid isPermaLink="false">/2011/11/17/explore-a-google-data-center/</guid>
 
 					<description><![CDATA[Explore a Google Data Center]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Explore a Google Data Center</h1>
@@ -90,7 +90,7 @@ rel=0&amp;autoplay=1&amp;showinfo=0&amp;modestbranding=1&amp;iv_load_policy=3&am
 <p><iframe src="//www.youtube.com/embed/avP5d16wEp0?rel=0&amp;amp&amp;autoplay=1&amp;showinfo=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;wmode=transparent" width="640" height="360"></iframe></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/./video/explore-a-google-data-center/feed/</wfw:commentRss>
+					<wfw:commentRss>/video/explore-a-google-data-center/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

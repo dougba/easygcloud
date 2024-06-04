@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Android for Work	</title>
-	<atom:link href="/./blog/android-for-work/feed/" rel="self" type="application/rss+xml" />
-	<link>/./blog/android-for-work/</link>
+	<atom:link href="/blog/android-for-work/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/android-for-work/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 05 Mar 2015 15:32:53 +0000</lastBuildDate>
 	<sy:updatePeriod>

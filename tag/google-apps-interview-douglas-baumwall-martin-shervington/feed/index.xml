@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Google Apps interview Douglas Baumwall Martin Shervington - easyG Cloud</title>
-	<atom:link href="/./tag/google-apps-interview-douglas-baumwall-martin-shervington/feed/" rel="self" type="application/rss+xml" />
-	<link>/./</link>
+	<atom:link href="/tag/google-apps-interview-douglas-baumwall-martin-shervington/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sun, 23 Jun 2013 19:39:00 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<url>/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
 	<title>Google Apps interview Douglas Baumwall Martin Shervington - easyG Cloud</title>
-	<link>/./</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Everything you always wanted to know about Google Apps</title>
-		<link>/./blog/everything-you-always-wanted-to-know-about-google-apps/</link>
-					<comments>/./blog/everything-you-always-wanted-to-know-about-google-apps/#respond</comments>
+		<link>/blog/everything-you-always-wanted-to-know-about-google-apps/</link>
+					<comments>/blog/everything-you-always-wanted-to-know-about-google-apps/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Sun, 23 Jun 2013 19:39:00 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Google Apps interview Douglas Baumwall Martin Shervington]]></category>
-		<guid isPermaLink="false">/./2013/06/23/everything-you-always-wanted-to-know-about-google-apps/</guid>
+		<guid isPermaLink="false">/2013/06/23/everything-you-always-wanted-to-know-about-google-apps/</guid>
 
 					<description><![CDATA[Everything you want to know about Google Apps but were afraid to ask; an interview with Martin Shervington &#38; Douglas Baumwall &#160;]]></description>
 										<content:encoded><![CDATA[<p style="text-align: left;">Everything you want to know about Google Apps but were afraid to ask; an interview with Martin Shervington &amp; Douglas Baumwall</p>
@@ -45,7 +45,7 @@
 <h1 style="text-align: center;">&nbsp;</h1>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/./blog/everything-you-always-wanted-to-know-about-google-apps/feed/</wfw:commentRss>
+					<wfw:commentRss>/blog/everything-you-always-wanted-to-know-about-google-apps/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
