@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>projects Archives - easyG Cloud</title>
-	<atom:link href="https://www.easygcloud.com/tag/projects/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/tag/projects/</link>
+	<title>projects - easyG Cloud</title>
+	<atom:link href="/./tag/projects/feed/" rel="self" type="application/rss+xml" />
+	<link>/./</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sun, 11 Oct 2015 16:31:37 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -18,19 +18,19 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
-	<title>projects Archives - easyG Cloud</title>
-	<link>https://www.easygcloud.com/tag/projects/</link>
+	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<title>projects - easyG Cloud</title>
+	<link>/./</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Project Management in Google Apps</title>
-		<link>https://www.easygcloud.com/blog/project-management-in-google-apps/</link>
-					<comments>https://www.easygcloud.com/blog/project-management-in-google-apps/#respond</comments>
+		<link>/./blog/project-management-in-google-apps/</link>
+					<comments>/./blog/project-management-in-google-apps/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Sun, 11 Oct 2015 16:31:37 +0000</pubDate>
@@ -38,11 +38,9 @@
 		<category><![CDATA[Google sites]]></category>
 		<category><![CDATA[project management]]></category>
 		<category><![CDATA[projects]]></category>
-		<guid isPermaLink="false">https://www.easygcloud.com/2015/10/11/project-management-in-google-apps/</guid>
+		<guid isPermaLink="false">/./2015/10/11/project-management-in-google-apps/</guid>
 
-					<description><![CDATA[<p>A project is any outcome that requires more than one action step. Most teams need project management. If your team is using Google Apps, Google Sites may be used as a simple project management tool. Google Sites allow you to embed Google sheets, docs, slides, groups and calendars to help your team get things done [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/project-management-in-google-apps/">Project Management in Google Apps</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
-]]></description>
+					<description><![CDATA[A project is any outcome that requires more than one action step. Most teams need project management. If your team is using Google Apps, Google Sites may be used as a simple project management tool. Google Sites allow you to embed Google sheets, docs, slides, groups and calendars to help your team get things done [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>A project is any outcome that requires more than one action step. Most teams need project management. If your team is using Google Apps, Google Sites may be used as a simple project management tool.</p>
 <p><span id="more-115"></span></p>
 <p>Google Sites allow you to embed Google sheets, docs, slides, groups and calendars to help your team get things done painlessly. They also allow page level sharing, so you can control access to each page of the project site. A well designed project management site clearly conveys the "next action" to move the project forward and stay on track. It is important to emphasize action more than just data.</p>
@@ -80,10 +78,9 @@
 <li>Trello</li>
 <li>Wrike</li>
 </ul>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/project-management-in-google-apps/">Project Management in Google Apps</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.easygcloud.com/blog/project-management-in-google-apps/feed/</wfw:commentRss>
+					<wfw:commentRss>/./blog/project-management-in-google-apps/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

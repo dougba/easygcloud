@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>Google Apps interview Douglas Baumwall Martin Shervington Archives - easyG Cloud</title>
-	<atom:link href="https://www.easygcloud.com/tag/google-apps-interview-douglas-baumwall-martin-shervington/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/tag/google-apps-interview-douglas-baumwall-martin-shervington/</link>
+	<title>Google Apps interview Douglas Baumwall Martin Shervington - easyG Cloud</title>
+	<atom:link href="/./tag/google-apps-interview-douglas-baumwall-martin-shervington/feed/" rel="self" type="application/rss+xml" />
+	<link>/./</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sun, 23 Jun 2013 19:39:00 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -18,37 +18,34 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
-	<title>Google Apps interview Douglas Baumwall Martin Shervington Archives - easyG Cloud</title>
-	<link>https://www.easygcloud.com/tag/google-apps-interview-douglas-baumwall-martin-shervington/</link>
+	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<title>Google Apps interview Douglas Baumwall Martin Shervington - easyG Cloud</title>
+	<link>/./</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Everything you always wanted to know about Google Apps</title>
-		<link>https://www.easygcloud.com/blog/everything-you-always-wanted-to-know-about-google-apps/</link>
-					<comments>https://www.easygcloud.com/blog/everything-you-always-wanted-to-know-about-google-apps/#respond</comments>
+		<link>/./blog/everything-you-always-wanted-to-know-about-google-apps/</link>
+					<comments>/./blog/everything-you-always-wanted-to-know-about-google-apps/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Sun, 23 Jun 2013 19:39:00 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Google Apps interview Douglas Baumwall Martin Shervington]]></category>
-		<guid isPermaLink="false">https://www.easygcloud.com/2013/06/23/everything-you-always-wanted-to-know-about-google-apps/</guid>
+		<guid isPermaLink="false">/./2013/06/23/everything-you-always-wanted-to-know-about-google-apps/</guid>
 
-					<description><![CDATA[<p>Everything you want to know about Google Apps but were afraid to ask; an interview with Martin Shervington &#38; Douglas Baumwall &#160;</p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/everything-you-always-wanted-to-know-about-google-apps/">Everything you always wanted to know about Google Apps</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
-]]></description>
+					<description><![CDATA[Everything you want to know about Google Apps but were afraid to ask; an interview with Martin Shervington &#38; Douglas Baumwall &#160;]]></description>
 										<content:encoded><![CDATA[<p style="text-align: left;">Everything you want to know about Google Apps but were afraid to ask; an interview with Martin Shervington &amp; Douglas Baumwall</p>
 <p><span id="more-76"></span></p>
 <p style="text-align: center;"><iframe width="635" height="357" src="http://www.youtube.com/embed/QXhLKWEHuwA?rel=0&amp;wmode=transparent" style="font-size: 22.22222328186035px; line-height: 1.1em;"></iframe></p>
 <h1 style="text-align: center;">&nbsp;</h1>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/everything-you-always-wanted-to-know-about-google-apps/">Everything you always wanted to know about Google Apps</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.easygcloud.com/blog/everything-you-always-wanted-to-know-about-google-apps/feed/</wfw:commentRss>
+					<wfw:commentRss>/./blog/everything-you-always-wanted-to-know-about-google-apps/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

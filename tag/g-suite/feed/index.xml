@@ -8,22 +8,22 @@
 	>
 
 <channel>
-	<title>G Suite Archives - easyG Cloud</title>
-	<atom:link href="https://www.easygcloud.com/tag/g-suite/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/tag/g-suite/</link>
+	<title>G Suite - easyG Cloud</title>
+	<atom:link href="/./tag/g-suite/feed/" rel="self" type="application/rss+xml" />
+	<link>/./</link>
 	<description>Your Work, Made Easier</description>
-	<lastBuildDate>Fri, 24 Feb 2023 13:22:30 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 May 2024 16:36:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
-	<title>G Suite Archives - easyG Cloud</title>
-	<link>https://www.easygcloud.com/tag/g-suite/</link>
+	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<title>G Suite - easyG Cloud</title>
+	<link>/./</link>
 	<width>32</width>
 	<height>32</height>
 </image> 

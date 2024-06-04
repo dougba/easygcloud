@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>Google for Entrepreneurs Archives - easyG Cloud</title>
-	<atom:link href="https://www.easygcloud.com/tag/google-for-entrepreneurs/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/tag/google-for-entrepreneurs/</link>
+	<title>Google for Entrepreneurs - easyG Cloud</title>
+	<atom:link href="/./tag/google-for-entrepreneurs/feed/" rel="self" type="application/rss+xml" />
+	<link>/./</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Mon, 01 Oct 2012 18:44:49 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -18,29 +18,27 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
-	<title>Google for Entrepreneurs Archives - easyG Cloud</title>
-	<link>https://www.easygcloud.com/tag/google-for-entrepreneurs/</link>
+	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<title>Google for Entrepreneurs - easyG Cloud</title>
+	<link>/./</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Google for Entrepreneurs</title>
-		<link>https://www.easygcloud.com/blog/google-for-entrepreneurs/</link>
-					<comments>https://www.easygcloud.com/blog/google-for-entrepreneurs/#respond</comments>
+		<link>/./blog/google-for-entrepreneurs/</link>
+					<comments>/./blog/google-for-entrepreneurs/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Mon, 01 Oct 2012 18:44:49 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Google for Entrepreneurs]]></category>
-		<guid isPermaLink="false">https://www.easygcloud.com/2012/10/01/google-for-entrepreneurs/</guid>
+		<guid isPermaLink="false">/./2012/10/01/google-for-entrepreneurs/</guid>
 
-					<description><![CDATA[<p>Google has announced a new initiative, Google for Entrepreneurs, designed to foster the spirit of entrepreneurship worldwide by supporting entrepreneurs in local communities. The initiative will serve as the umbrella for several dozen programs and partnerships involving Google that support startups and entrepreneurs. For more on these existing programs and to stay connected on upcoming [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/google-for-entrepreneurs/">Google for Entrepreneurs</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
-]]></description>
+					<description><![CDATA[Google has announced a new initiative, Google for Entrepreneurs, designed to foster the spirit of entrepreneurship worldwide by supporting entrepreneurs in local communities. The initiative will serve as the umbrella for several dozen programs and partnerships involving Google that support startups and entrepreneurs. For more on these existing programs and to stay connected on upcoming [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p dir="ltr" style="margin-top: 0pt; margin-right: 4.5pt; margin-bottom: 0pt; text-align: left;"><span style="font-size: 13px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Google has announced </span><span style="font-size: 13px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">a new initiative, Google for Entrepreneurs, designed to foster the spirit of entrepreneurship worldwide by supporting entrepreneurs in local communities. The initiative will serve as the umbrella for several dozen programs and partnerships involving Google that support startups and entrepreneurs. For more on these existing programs and to stay connected on upcoming events</span></p>
 <p><span id="more-56"></span></p>
 <div dir="ltr">
@@ -109,10 +107,9 @@
 <p dir="ltr" style="margin: 0pt 4.5pt 0pt 13.36082474226804pt;"><span style="font-size: 13px; font-family: Arial; background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">IE8 deprecation details</span></p>
 <p dir="ltr" style="margin: 0pt 4.5pt 0pt 13.36082474226804pt;">&nbsp;</p>
 <p dir="ltr" style="margin: 0pt 4.5pt 0pt 13.36082474226804pt;"><span style="font-size: 13px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">As you may have seen in</span><a href="http://googleappsupdates.blogspot.com/2012/09/supporting-modern-browsers-internet.html"><span style="font-size: 13px; font-family: Arial; color: #1155cc; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> a recent Google blog post</span></a><span style="font-size: 13px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">, support for Microsoft Internet Explorer 8 (IE8) will be deprecated beginning November 15, 2012. &nbsp;Starting this week, IE8 users will begin seeing an in-product notification that their browser will soon be unsupported. If you have users accessing Google Apps from IE8, we want to ensure your users are ready to have the best Google Apps experience. &nbsp;We strongly recommend that our customers implement a dual-browser strategy by deploying</span><a href="https://www.google.com/intl/en/chrome/business/browser"><span style="font-size: 13px; font-family: Arial; color: #1155cc; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> Google Chrome for Business</span></a><span style="font-size: 13px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> for Google Apps use and leaving IE8 for legacy web apps. </span><a href="contact.html"><span style="font-size: 13px; font-family: Arial; color: #1155cc; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Contact us</span></a><span style="font-size: 13px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> for more information.</span></p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/google-for-entrepreneurs/">Google for Entrepreneurs</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.easygcloud.com/blog/google-for-entrepreneurs/feed/</wfw:commentRss>
+					<wfw:commentRss>/./blog/google-for-entrepreneurs/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

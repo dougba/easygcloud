@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>Transform your work with Google Archives - easyG Cloud</title>
-	<atom:link href="https://www.easygcloud.com/tag/transform-your-work-with-google/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/tag/transform-your-work-with-google/</link>
+	<title>Transform your work with Google - easyG Cloud</title>
+	<atom:link href="/./tag/transform-your-work-with-google/feed/" rel="self" type="application/rss+xml" />
+	<link>/./</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 10 Sep 2015 21:39:25 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -18,36 +18,33 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
-	<title>Transform your work with Google Archives - easyG Cloud</title>
-	<link>https://www.easygcloud.com/tag/transform-your-work-with-google/</link>
+	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<title>Transform your work with Google - easyG Cloud</title>
+	<link>/./</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Transform your work with Google</title>
-		<link>https://www.easygcloud.com/blog/transform-your-work-with-google/</link>
-					<comments>https://www.easygcloud.com/blog/transform-your-work-with-google/#respond</comments>
+		<link>/./blog/transform-your-work-with-google/</link>
+					<comments>/./blog/transform-your-work-with-google/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 10 Sep 2015 21:39:25 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Transform your work with Google]]></category>
-		<guid isPermaLink="false">https://www.easygcloud.com/2015/09/10/transform-your-work-with-google/</guid>
+		<guid isPermaLink="false">/./2015/09/10/transform-your-work-with-google/</guid>
 
-					<description><![CDATA[<p>Transform the way you work with Google. These templates will help you use Google for some of your most basic business processes. https://transformationgallery.withgoogle.com/</p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/transform-your-work-with-google/">Transform your work with Google</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
-]]></description>
+					<description><![CDATA[Transform the way you work with Google. These templates will help you use Google for some of your most basic business processes. https://transformationgallery.withgoogle.com/]]></description>
 										<content:encoded><![CDATA[<p>Transform the way you work with Google. These templates will help you use Google for some of your most basic business processes.</p>
 <p><span id="more-113"></span></p>
 <p><a href="https://transformationgallery.withgoogle.com/" target="_blank" rel="noopener">https://transformationgallery.withgoogle.com/</a></p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/transform-your-work-with-google/">Transform your work with Google</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.easygcloud.com/blog/transform-your-work-with-google/feed/</wfw:commentRss>
+					<wfw:commentRss>/./blog/transform-your-work-with-google/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

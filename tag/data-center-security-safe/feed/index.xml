@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>Data Center Security Safe Archives - easyG Cloud</title>
-	<atom:link href="https://www.easygcloud.com/tag/data-center-security-safe/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/tag/data-center-security-safe/</link>
+	<title>Data Center Security Safe - easyG Cloud</title>
+	<atom:link href="/./tag/data-center-security-safe/feed/" rel="self" type="application/rss+xml" />
+	<link>/./</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Thu, 17 Nov 2011 20:39:00 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -18,88 +18,79 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
-	<title>Data Center Security Safe Archives - easyG Cloud</title>
-	<link>https://www.easygcloud.com/tag/data-center-security-safe/</link>
+	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<title>Data Center Security Safe - easyG Cloud</title>
+	<link>/./</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Work Smarter</title>
-		<link>https://www.easygcloud.com/video/work-smarter/</link>
-					<comments>https://www.easygcloud.com/video/work-smarter/#respond</comments>
+		<link>/./video/work-smarter/</link>
+					<comments>/./video/work-smarter/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Data Center Security Safe]]></category>
-		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/work-smarter/</guid>
+		<guid isPermaLink="false">/./2011/11/17/work-smarter/</guid>
 
-					<description><![CDATA[<p>Work Smarter with G Suite</p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/video/work-smarter/">Work Smarter</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
-]]></description>
+					<description><![CDATA[Work Smarter with G Suite]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Work Smarter with G Suite</h1>
 <div style="text-align: center;">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/_2JZwUbKeEw?rel=0&amp&autoplay=1&modestbranding=1&showinfo=0;wmode=transparent"></iframe>
 </div>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/video/work-smarter/">Work Smarter</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.easygcloud.com/video/work-smarter/feed/</wfw:commentRss>
+					<wfw:commentRss>/./video/work-smarter/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Google Cloud Security</title>
-		<link>https://www.easygcloud.com/video/google-security/</link>
-					<comments>https://www.easygcloud.com/video/google-security/#respond</comments>
+		<link>/./video/google-security/</link>
+					<comments>/./video/google-security/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Data Center Security Safe]]></category>
-		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/google-security/</guid>
+		<guid isPermaLink="false">/./2011/11/17/google-security/</guid>
 
-					<description><![CDATA[<p>Google Security</p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/video/google-security/">Google Cloud Security</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
-]]></description>
+					<description><![CDATA[Google Security]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Google Security</h1>
 <div style="text-align: center;">
 <p><iframe src="//www.youtube.com/embed/TQoKFovvigI?
 rel=0&amp;autoplay=1&amp;showinfo=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;end=409;wmode=transparent" width="640" height="360"></iframe></div>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/video/google-security/">Google Cloud Security</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.easygcloud.com/video/google-security/feed/</wfw:commentRss>
+					<wfw:commentRss>/./video/google-security/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Explore a Google Data Center</title>
-		<link>https://www.easygcloud.com/video/explore-a-google-data-center/</link>
-					<comments>https://www.easygcloud.com/video/explore-a-google-data-center/#respond</comments>
+		<link>/./video/explore-a-google-data-center/</link>
+					<comments>/./video/explore-a-google-data-center/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
 				<category><![CDATA[Video]]></category>
 		<category><![CDATA[Data Center Security Safe]]></category>
-		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/explore-a-google-data-center/</guid>
+		<guid isPermaLink="false">/./2011/11/17/explore-a-google-data-center/</guid>
 
-					<description><![CDATA[<p>Explore a Google Data Center</p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/video/explore-a-google-data-center/">Explore a Google Data Center</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
-]]></description>
+					<description><![CDATA[Explore a Google Data Center]]></description>
 										<content:encoded><![CDATA[<h1 style="text-align: center;">Explore a Google Data Center</h1>
 <div style="text-align: center;">
 <p><iframe src="//www.youtube.com/embed/avP5d16wEp0?rel=0&amp;amp&amp;autoplay=1&amp;showinfo=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;wmode=transparent" width="640" height="360"></iframe></div>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/video/explore-a-google-data-center/">Explore a Google Data Center</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.easygcloud.com/video/explore-a-google-data-center/feed/</wfw:commentRss>
+					<wfw:commentRss>/./video/explore-a-google-data-center/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

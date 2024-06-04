@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>Newsletter Archives - easyG Cloud</title>
-	<atom:link href="https://www.easygcloud.com/category/newsletter/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/category/newsletter/</link>
+	<title>Newsletter - easyG Cloud</title>
+	<atom:link href="/./category/newsletter/feed/" rel="self" type="application/rss+xml" />
+	<link>/./</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Sat, 01 Sep 2012 14:48:47 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -18,33 +18,30 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
-	<title>Newsletter Archives - easyG Cloud</title>
-	<link>https://www.easygcloud.com/category/newsletter/</link>
+	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<title>Newsletter - easyG Cloud</title>
+	<link>/./</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Newsletter August 2012</title>
-		<link>https://www.easygcloud.com/newsletter/newsletter-august-2012/</link>
-					<comments>https://www.easygcloud.com/newsletter/newsletter-august-2012/#respond</comments>
+		<link>/./newsletter/newsletter-august-2012/</link>
+					<comments>/./newsletter/newsletter-august-2012/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Sat, 01 Sep 2012 14:48:47 +0000</pubDate>
 				<category><![CDATA[Newsletter]]></category>
-		<guid isPermaLink="false">https://www.easygcloud.com/2012/09/01/newsletter-august-2012/</guid>
+		<guid isPermaLink="false">/./2012/09/01/newsletter-august-2012/</guid>
 
-					<description><![CDATA[<p>{GoogleDoc docid="https://docs.google.com/a/easygapps.com/document/d/1y7qoy-abuowCBjBE7GwWLaetsgD8fbE3rI5RgGhKyO4/preview" type="doc" size="l" frameborder="0"}</p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/newsletter/newsletter-august-2012/">Newsletter August 2012</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
-]]></description>
+					<description><![CDATA[{GoogleDoc docid="https://docs.google.com/a/easygapps.com/document/d/1y7qoy-abuowCBjBE7GwWLaetsgD8fbE3rI5RgGhKyO4/preview" type="doc" size="l" frameborder="0"}]]></description>
 										<content:encoded><![CDATA[<p style="text-align: center;">{GoogleDoc docid="https://docs.google.com/a/easygapps.com/document/d/1y7qoy-abuowCBjBE7GwWLaetsgD8fbE3rI5RgGhKyO4/preview" type="doc" size="l" frameborder="0"}</p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/newsletter/newsletter-august-2012/">Newsletter August 2012</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.easygcloud.com/newsletter/newsletter-august-2012/feed/</wfw:commentRss>
+					<wfw:commentRss>/./newsletter/newsletter-august-2012/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

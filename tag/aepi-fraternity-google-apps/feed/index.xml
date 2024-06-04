@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>AEPi Fraternity Google Apps Archives - easyG Cloud</title>
-	<atom:link href="https://www.easygcloud.com/tag/aepi-fraternity-google-apps/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/tag/aepi-fraternity-google-apps/</link>
+	<title>AEPi Fraternity Google Apps - easyG Cloud</title>
+	<atom:link href="/./tag/aepi-fraternity-google-apps/feed/" rel="self" type="application/rss+xml" />
+	<link>/./</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Mon, 01 Oct 2012 18:32:21 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -18,29 +18,27 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
-	<title>AEPi Fraternity Google Apps Archives - easyG Cloud</title>
-	<link>https://www.easygcloud.com/tag/aepi-fraternity-google-apps/</link>
+	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<title>AEPi Fraternity Google Apps - easyG Cloud</title>
+	<link>/./</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Fraternity Goes Google</title>
-		<link>https://www.easygcloud.com/blog/fraternity-goes-google/</link>
-					<comments>https://www.easygcloud.com/blog/fraternity-goes-google/#respond</comments>
+		<link>/./blog/fraternity-goes-google/</link>
+					<comments>/./blog/fraternity-goes-google/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Mon, 01 Oct 2012 18:32:21 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[AEPi Fraternity Google Apps]]></category>
-		<guid isPermaLink="false">https://www.easygcloud.com/2012/10/01/fraternity-goes-google/</guid>
+		<guid isPermaLink="false">/./2012/10/01/fraternity-goes-google/</guid>
 
-					<description><![CDATA[<p>International Fraternity Alpha Epsilon Pi Goes Google With almost 100,000 E-mail messages at risk&#160;on an aging server, AEPi went live with Google Apps today, unifying staff and volunteers while reducing their risk and budget 10/1/2012 Indianapolis, Indianaby Douglas BaumwallCertified Google Apps ResellerEasygApps.com Eric Farbman, Technology Chair of Alpha Epsilon Pi Fraternity said “Everyone is happy [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/fraternity-goes-google/">Fraternity Goes Google</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
-]]></description>
+					<description><![CDATA[International Fraternity Alpha Epsilon Pi Goes Google With almost 100,000 E-mail messages at risk&#160;on an aging server, AEPi went live with Google Apps today, unifying staff and volunteers while reducing their risk and budget 10/1/2012 Indianapolis, Indianaby Douglas BaumwallCertified Google Apps ResellerEasygApps.com Eric Farbman, Technology Chair of Alpha Epsilon Pi Fraternity said “Everyone is happy [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p><span style="color: #000000; font-size: 10pt;">International Fraternity Alpha Epsilon Pi Goes Google</span></p>
 <p><span style="font-size: 10pt; color: #000000;">With almost 100,000 E-mail messages at risk&nbsp;</span><span style="color: #000000; font-size: 10pt;">on an aging server, AEPi went live with Google Apps today, unifying staff and volunteers while reducing their risk and budget</span></p>
 <p><span id="more-55"></span></p>
@@ -48,10 +46,9 @@
 <p><span style="font-size: 10pt; color: #000000;">Eric Farbman, Technology Chair of Alpha Epsilon Pi Fraternity said “Everyone is happy or more accurately, they are all thrilled...” After almost 10 years of use, their legacy Microsoft Exchange email software, installed on their aging computer server, put most of the Fraternity’s data at risk if the server failed. Their solution? Migrate years of email messages and attachments to the cloud, outsourcing their email and server needs. They chose the best-in-class email solution (Gmail) which is hosted on a worldwide network of over 1,000,000 custom built servers in secure, green, geographically dispersed Google data centers, and they chose a Certified Google Apps Reseller for deployment. Total recurring cost to Alpha Epsilon Pi? $0.00, nada, free! AEPi.org is owned by a not-for-profit 501(c)(3), so it qualifies for Google Apps for Education (free up to 3,000 users).</span></p>
 <p><span style="font-size: 10pt; color: #000000;">Alpha Epsilon Pi (AEPi) is the international Jewish fraternity, dedicated to combating Jewish assimilation and producing the Jewish leaders of the 21st Century. AEPi maintains chapters on 168 university and college campuses in the United States, Canada, Israel, the United Kingdom, and France, and is comprised of over 85,000 alumni members and more than 8,000 student members. Founded in 1913 at New York University, AEPi will celebrate its 100th anniversary at the Waldorf Astoria hotel on August 10, 2013.</span></p>
 <p><span style="font-size: 10pt; color: #000000;">EasygApps.com is located in Miami Florida and has Customers as far away as Australia. They offer discounts to veterans and not-for-profits and have migrated many Organizations to Google Apps, including Federally funded SCORE in Miami.</span></p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/fraternity-goes-google/">Fraternity Goes Google</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.easygcloud.com/blog/fraternity-goes-google/feed/</wfw:commentRss>
+					<wfw:commentRss>/./blog/fraternity-goes-google/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

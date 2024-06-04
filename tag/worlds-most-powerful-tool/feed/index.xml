@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>World&#039;s most powerful tool Archives - easyG Cloud</title>
-	<atom:link href="https://www.easygcloud.com/tag/worlds-most-powerful-tool/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.easygcloud.com/tag/worlds-most-powerful-tool/</link>
+	<title>World&#039;s most powerful tool - easyG Cloud</title>
+	<atom:link href="/./tag/worlds-most-powerful-tool/feed/" rel="self" type="application/rss+xml" />
+	<link>/./</link>
 	<description>Your Work, Made Easier</description>
 	<lastBuildDate>Fri, 29 Jun 2012 00:10:29 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -18,37 +18,34 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
-	<title>World&#039;s most powerful tool Archives - easyG Cloud</title>
-	<link>https://www.easygcloud.com/tag/worlds-most-powerful-tool/</link>
+	<url>/./wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
+	<title>World&#039;s most powerful tool - easyG Cloud</title>
+	<link>/./</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>World&#039;s most powerful tool</title>
-		<link>https://www.easygcloud.com/blog/world-s-most-powerful-tool/</link>
-					<comments>https://www.easygcloud.com/blog/world-s-most-powerful-tool/#respond</comments>
+		<link>/./blog/world-s-most-powerful-tool/</link>
+					<comments>/./blog/world-s-most-powerful-tool/#respond</comments>
 		
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Fri, 29 Jun 2012 00:10:29 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[World's most powerful tool]]></category>
-		<guid isPermaLink="false">https://www.easygcloud.com/2012/06/29/world-s-most-powerful-tool/</guid>
+		<guid isPermaLink="false">/./2012/06/29/world-s-most-powerful-tool/</guid>
 
-					<description><![CDATA[<p>How would you like to learn to better use the most powerful tool in the world?&#160;You may already be familiar with some shortcuts for Google Search, like using the search box as a calculator or finding local movie showtimes by typing [movies] and your zip code. But there are many more tips, tricks and tactics [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/world-s-most-powerful-tool/">World&#039;s most powerful tool</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
-]]></description>
+					<description><![CDATA[How would you like to learn to better use the most powerful tool in the world?&#160;You may already be familiar with some shortcuts for Google Search, like using the search box as a calculator or finding local movie showtimes by typing [movies] and your zip code. But there are many more tips, tricks and tactics [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>How would you like to learn to better use the most powerful tool in the world?&nbsp;You may already be familiar with some shortcuts for Google Search,</p>
 <p><span id="more-37"></span></p>
 <p>like using the search box as a calculator or finding local movie showtimes by typing [movies] and your zip code. But there are many more tips, tricks and tactics you can use to find exactly what you’re looking for, when you most need it.&nbsp;<a href="http://googleblog.blogspot.com/2012/06/become-google-power-searcher.html"></a><a href="http://googleblog.blogspot.com/2012/06/become-google-power-searcher.html" target="_blank" rel="noopener">http://googleblog.blogspot.com/2012/06/become-google-power-searcher.html</a></p>
 <p>&nbsp;</p>
-<p>The post <a rel="nofollow" href="https://www.easygcloud.com/blog/world-s-most-powerful-tool/">World&#039;s most powerful tool</a> appeared first on <a rel="nofollow" href="https://www.easygcloud.com/">easyG Cloud</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.easygcloud.com/blog/world-s-most-powerful-tool/feed/</wfw:commentRss>
+					<wfw:commentRss>/./blog/world-s-most-powerful-tool/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
