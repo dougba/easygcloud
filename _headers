@@ -7,6 +7,5 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
   Permissions-Policy: document-domain=()
-  Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
   Content-Security-Policy: connect-src https://cdn.oncehub.com/;
                            script-src https://cdn.oncehub.com/
