@@ -8,4 +8,4 @@
   Referrer-Policy: no-referrer
   Permissions-Policy: document-domain=()
  
-Content-Security-Policy: script-src 'self' https://cdn.oncehub.com/; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' google-analytics.com https://cdn.oncehub.com/
+Content-Security-Policy: script-src 'self' https://cdn.oncehub.com/; style-src 'self' https://fonts.googleapis.com; img-src 'self'; font-src 'self'; connect-src 'self' google-analytics.com https://cdn.oncehub.com/
