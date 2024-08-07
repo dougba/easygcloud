@@ -7,4 +7,4 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
   Permissions-Policy: document-domain=()
-  Content-Security-Policy: script-src 'self' https://www.googletagmanager.com https://pub.searchiq.co https://cdn.oncehub.com https://static.cloudflareinsights.com; script-src-attr 'unsafe-inline'
+  Content-Security-Policy: script-src 'self' https://www.googletagmanager.com https://pub.searchiq.co https://cdn.oncehub.com https://static.cloudflareinsights.com; script-src-elem 'unsafe-inline'; script-src-attr 'unsafe-inline'
