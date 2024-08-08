@@ -1,10 +1,9 @@
 /*
-  Content-Security-Policy: default-src 'self';
+  Content-Security-Policy: base-uri 'self'; connect-src 'self' https://cdn.oncehub.com; default-src 'self'; font-src 'self' https://fonts.gstatic.com; frame-src 'self' https://cdn.oncehub.com https://challenges.cloudflare.com https://customer.easygcloud.com; img-src 'self' https://static.searchiq.co; manifest-src 'self'; media-src 'self'; object-src 'none'; report-uri https://66b4a9fea05c71ef29160b8a.endpoint.csper.io/; script-src 'report-sample' 'self' https://api.searchiq.co/api/searchEngines/eb6aad83435ba7392ffb19394f224aed/settings.js https://cdn.oncehub.com/fo/form.js https://challenges.cloudflare.com/turnstile/v0/g/769ce3c24a3b/api.js https://pub.searchiq.co//js/container/siq-container-2.js https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015 https://static.searchiq.co/js/latest/sa.js https://www.googletagmanager.com/gtag/js; style-src 'report-sample' 'self' https://api.searchiq.co https://cdn.oncehub.com https://fonts.googleapis.com https://static.searchiq.co; worker-src 'none';
+
 
 /*
   Access-Control-Allow-Origin: *
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
-
-base-uri 'self'; connect-src 'self' https://cdn.oncehub.com; default-src 'self'; font-src 'self' https://fonts.gstatic.com; frame-src 'self' https://cdn.oncehub.com https://challenges.cloudflare.com https://customer.easygcloud.com; img-src 'self' https://static.searchiq.co; manifest-src 'self'; media-src 'self'; object-src 'none'; report-uri https://66b4a9fea05c71ef29160b8a.endpoint.csper.io/; script-src 'report-sample' 'self' https://api.searchiq.co/api/searchEngines/eb6aad83435ba7392ffb19394f224aed/settings.js https://cdn.oncehub.com/fo/form.js https://challenges.cloudflare.com/turnstile/v0/g/769ce3c24a3b/api.js https://pub.searchiq.co//js/container/siq-container-2.js https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015 https://static.searchiq.co/js/latest/sa.js https://www.googletagmanager.com/gtag/js; style-src 'report-sample' 'self' https://api.searchiq.co https://cdn.oncehub.com https://fonts.googleapis.com https://static.searchiq.co; worker-src 'none';
