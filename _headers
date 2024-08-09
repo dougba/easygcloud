@@ -1,6 +1,6 @@
 https://www.easygcloud.com/*
   Content-Security-Policy:
-  default-src 'self';
+    default-src 'self';
 
 
 https://www.easygcloud.com/*
