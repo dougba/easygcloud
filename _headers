@@ -18,4 +18,4 @@ https://www.easygcloud.com/*
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
-Permissions-Policy: geolocation=(self "https://www.easygcloud.com"), microphone=()
+  Permissions-Policy: geolocation=(self "https://www.easygcloud.com"), microphone=()
