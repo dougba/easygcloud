@@ -1,5 +1,4 @@
-https://www.easygcloud.com/*
-Content-Security-Policy: default-src https:;
+/* Content-Security-Policy: default-src https:
 
 https://www.easygcloud.com/*
   Access-Control-Allow-Origin: *
