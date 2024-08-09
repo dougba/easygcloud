@@ -1,8 +1,5 @@
 https://www.easygcloud.com/*
-  Content-Security-Policy: default-src 'self';
-  script-src 'self' 'nonce-94982982f2949n98292c249782';
-
-
+Content-Security-Policy: default-src https:;
 
 https://www.easygcloud.com/*
   Access-Control-Allow-Origin: *
