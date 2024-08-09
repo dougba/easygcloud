@@ -4,6 +4,7 @@
   style-src 'self' https://api.searchiq.co https://cdn.oncehub.com https://fonts.googleapis.com https://static.searchiq.co;
   style-src-elem https://api.searchiq.co https://cdn.oncehub.com https://fonts.googleapis.com https://static.searchiq.co;
   img-src 'self' https://cdn1.searchiq.co https://fonts.gstatic.com https://static.searchiq.co https://track.searchiq.co;
+  connect-src 'self' https://api.searchiq.co https://cdn.oncehub.com https://region1.google-analytics.com;
   font-src 'self' data:;
 
 
