@@ -1,12 +1,17 @@
-/*
-  Content-Security-Policy: 
-script-src 'self' 'unsafe-inline' https://pub.searchiq.co//js/container/siq-container-2.js?cb=901144&engineKey=eb6aad83435ba7392ffb19394f224aed https://cdn.oncehub.com/fo/form.js https://pub.searchiq.co/js/container/siq-container-2.js  https://static.searchiq.co/js/latest/sa.js https://www.googletagmanager.com/gtag/js; 
-style-src 'self' https://api.searchiq.co https://cdn.oncehub.com https://fonts.googleapis.com https://static.searchiq.co;
-  style-src-elem https://api.searchiq.co https://cdn.oncehub.com https://fonts.googleapis.com https://static.searchiq.co;
-  img-src 'self' https://cdn1.searchiq.co https://fonts.gstatic.com https://static.searchiq.co https://track.searchiq.co;
-  connect-src 'self' https://api.searchiq.co https://cdn.oncehub.com https://region1.google-analytics.com;
-  font-src 'self' data:;
-
+  https://www.easygcloud.com/*
+    Content-Security-Policy: 
+	  base-uri 'self'; 
+    connect-src 'self' https://api.searchiq.co https://cdn.oncehub.com https://region1.google-analytics.com; 
+	  default-src 'self'; 
+	  font-src 'self' data:; 
+	  frame-src 'self' https://cdn.oncehub.com https://customer.easygcloud.com; 
+	  img-src 'self' https://cdn1.searchiq.co https://fonts.gstatic.com https://static.searchiq.co https://track.searchiq.co; 
+	  manifest-src 'self'; 
+	  media-src 'self'; 
+	  object-src 'none'; 
+	  script-src 'self' https://api.searchiq.co/api/searchEngines/eb6aad83435ba7392ffb19394f224aed/settings.js https://cdn.oncehub.com/fo/form.js https://pub.searchiq.co//js/container/siq-container-2.js https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015 https://static.searchiq.co/js/latest/autocomplete.js https://www.googletagmanager.com/gtag/js; 
+	  style-src 'self' https://api.searchiq.co https://cdn.oncehub.com https://fonts.googleapis.com https://static.searchiq.co; 
+	  worker-src 'none';
 
 https://www.easygcloud.com/*
   Access-Control-Allow-Origin: *
