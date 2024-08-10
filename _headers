@@ -6,4 +6,4 @@ https://www.easygcloud.com/*
   Referrer-Policy: no-referrer
   Permissions-Policy: geolocation=(self "https://www.easygcloud.com"), microphone=()
 
-# Returns A+ but forms and search do not work
+# Returns A+ but search does not work
