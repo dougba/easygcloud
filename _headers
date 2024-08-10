@@ -1,5 +1,7 @@
+# Test02
+
 https://www.easygcloud.com/*
-  Content-Security-Policy: base-uri 'self';
+  Content-Security-Policy: default-src 'self';
 
 https://www.easygcloud.com/*
   Access-Control-Allow-Origin: *
