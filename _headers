@@ -1,4 +1,6 @@
- /*
+#results in A+, but has lots of console errors and search does not work
+
+/*
   Content-Security-Policy: default-src 'self';
 
 /*
