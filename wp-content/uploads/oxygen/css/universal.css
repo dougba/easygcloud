@@ -312,7 +312,46 @@ font-weight: 900;
             .oxy_shape_divider svg {
                 width: 100%;
             }
-            .oxy-pro-menu .oxy-pro-menu-container:not(.oxy-pro-menu-open-container):not(.oxy-pro-menu-off-canvas-container) .sub-menu{
+            .oxy-pro-media-player .oxy-pro-media-player_play{
+--extras-play-icon-size:60px;
+}
+
+.oxy-pro-media-player .oxy-pro-media-player_play button:hover{
+--vm-play-scale:1;
+}
+
+.oxy-pro-media-player .oxy-pro-media-player_play button{
+transition-duration:.3s;
+}
+
+.oxy-pro-media-player vime-player{
+--vm-control-scale:.9;
+--extras-slider-height:2px;
+--vm-control-group-spacing:12px;
+--vm-controls-padding:15px;
+--vm-controls-spacing:15px;
+--vm-time-font-size:13px;
+--vm-control-border-radius:3px;
+--extras-spinner-size:80px;
+--vm-spinner-thickness:3px;
+--vm-spinner-spin-duration:1s;
+--vm-tooltip-spacing:3px;
+--vm-tooltip-padding:3px;
+}
+
+.oxy-pro-media-player .oxy-pro-media-player_custom-image{
+--extras-poster-left:50%;
+--extras-poster-top:50%;
+}
+
+.oxy-pro-media-player vime-player.video{
+                            height: 0;
+                            overflow: hidden;
+                        }
+.oxy-pro-media-player .extras-in-builder vime-spinner{
+                                opacity: 0;
+                            }
+.oxy-pro-menu .oxy-pro-menu-container:not(.oxy-pro-menu-open-container):not(.oxy-pro-menu-off-canvas-container) .sub-menu{
 box-shadow:px px px px ;}
 
 .oxy-pro-menu .oxy-pro-menu-show-dropdown .oxy-pro-menu-list .menu-item-has-children > a svg{
