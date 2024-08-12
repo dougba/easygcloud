@@ -45,6 +45,26 @@
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.easygcloud.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.easygcloud.com%2Fblog%2Fnew-tool-to-analyze-gmail%2F#038;format=xml">
 <style id="script-631775a65f4f8-css" type="text/css">.oncehub-contact {width:100%;height:400px;}
 
+/* fuse.js search box edits */
+.ssp-search .search-submit svg {
+    width: 22px;
+    height: 22px;
+}
+
+.ssp-search .search-submit {
+     background: #34A852;
+     padding: 9px;
+     height: 28px;
+}
+
+.ssp-search .search-input {
+    padding: 4px;
+    font-size: 16px;
+    line-height: 1.0;
+    height: 28px;
+}
+
+
 .oxy-search-form input {
 padding: 0;
 padding-top:3px;
@@ -200,7 +220,7 @@ padding-bottom:3px;
 <a id="link_text-491-180" class="ct-link-text atomic-footer-7-small-link" href="https://www.easygcloud.com/privacy/" target="_self">Privacy Policy</a><a id="link_text-56-225" class="ct-link-text atomic-footer-7-small-link" href="https://www.easygcloud.com/tos/" target="_self">Terms &amp; Conditions</a>
 </div></div>
 </div>
-<div id="div_block-505-180" class="ct-div-block"><div id="shortcode-515-180" class="ct-shortcode">08-12-2024 07:35:31</div></div>
+<div id="div_block-505-180" class="ct-div-block"><div id="shortcode-515-180" class="ct-shortcode">08-12-2024 09:44:44</div></div>
 </div></section>	<!-- WP_FOOTER -->
          <span class="ssp-id" style="display:none;">99</span>
 		<span style="display:none">            <div class="ssp-search">
@@ -219,7 +239,10 @@ padding-bottom:3px;
                 </form>
                 <div class="result"></div>
             </div>
-			</span>
+			</span>    <script>jQuery(document).ready(function ($) {
+            $('.search-input').focus();
+        });</script>
+	
 		<script type="text/javascript">jQuery(document).ready(function() {
 				jQuery('body').on('click', '.oxy-menu-toggle', function() {
 					jQuery(this).parent('.oxy-nav-menu').toggleClass('oxy-nav-menu-open');
