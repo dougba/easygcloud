@@ -91,6 +91,7 @@ if (null !== fuse_config_element) {
             {
                 keys: keys,
                 shouldSort: true,
+				minMatchCharLength: 3, // mph added to make search less fuzzy
                 threshold: 0.5,
                 maxPatternLength: 50
             }
