@@ -108,29 +108,6 @@
 		
 			</item>
 		<item>
-		<title>Group Collaborative Inbox</title>
-		<link>https://www.easygcloud.com/video/group-collaborative-inbox/</link>
-					<comments>https://www.easygcloud.com/video/group-collaborative-inbox/#respond</comments>
-		
-		<dc:creator><![CDATA[easyG]]></dc:creator>
-		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
-				<category><![CDATA[Video]]></category>
-		<category><![CDATA[Group Collaboration]]></category>
-		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/group-collaborative-inbox/</guid>
-
-					<description><![CDATA[Group Collaborative Inbox]]></description>
-										<content:encoded><![CDATA[<h1 style="text-align: center;">Group Collaborative Inbox</h1>
-<div style="text-align: center;">
-<iframe loading="lazy" width="640" height="360" src="//www.youtube.com/embed/2uzYQIRS0Ks?modestbranding=1&end=109&showinfo=0;wmode=transparent&rel=0&amp&autoplay=1"></iframe>
-</div>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.easygcloud.com/video/group-collaborative-inbox/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
 		<title>Google Cloud Security</title>
 		<link>https://www.easygcloud.com/video/google-security/</link>
 					<comments>https://www.easygcloud.com/video/google-security/#respond</comments>
@@ -258,6 +235,28 @@ rel=0&amp;autoplay=1&amp;showinfo=0&amp;modestbranding=1&amp;iv_load_policy=3&am
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://www.easygcloud.com/video/inbox-zero/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Use Forms in Google Drive</title>
+		<link>https://www.easygcloud.com/video/use-forms-in-google-drive/</link>
+					<comments>https://www.easygcloud.com/video/use-forms-in-google-drive/#respond</comments>
+		
+		<dc:creator><![CDATA[easyG]]></dc:creator>
+		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
+				<category><![CDATA[Video]]></category>
+		<category><![CDATA[Google forms docs drive data collect easy]]></category>
+		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/use-forms-in-google-drive/</guid>
+
+					<description><![CDATA[Use Forms in Google Drive]]></description>
+										<content:encoded><![CDATA[<h1 style="text-align: center;">Use Forms in Google Drive</h1>
+<div style="text-align: center;"><iframe loading="lazy" width="640" height="360" src="//www.youtube.com/embed/78KZUyjehwc?
+rel=0&amp;autoplay=1&amp;end=120&amp;modestbranding=1&amp;showinfo=0;wmode=transparent"></iframe></div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.easygcloud.com/video/use-forms-in-google-drive/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
