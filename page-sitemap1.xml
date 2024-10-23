@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.easygcloud.com/sitemaps_xsl.xsl"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
+<loc>https://www.easygcloud.com/</loc>
+<lastmod>2024-10-23T08:52:27-04:00</lastmod></url>
+<url>
 <loc>https://www.easygcloud.com/blog/</loc>
 <lastmod>2024-08-13T10:41:38-04:00</lastmod>
 <image:image>
@@ -8,9 +11,6 @@
 <url>
 <loc>https://www.easygcloud.com/new-project/</loc>
 <lastmod>2024-07-24T16:09:48-04:00</lastmod></url>
-<url>
-<loc>https://www.easygcloud.com/</loc>
-<lastmod>2024-02-28T14:55:19-05:00</lastmod></url>
 <url>
 <loc>https://www.easygcloud.com/services/</loc>
 <lastmod>2023-12-16T12:06:57-05:00</lastmod></url>
