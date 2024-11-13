@@ -12,13 +12,13 @@
 	<atom:link href="https://www.easygcloud.com/category/google-chrome/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
-	<lastBuildDate>Fri, 08 Nov 2024 16:17:15 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 11 Nov 2024 15:20:15 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<generator>https://wordpress.org/?v=6.7</generator>
 
 <image>
 	<url>https://www.easygcloud.com/wp-content/uploads/2022/12/cropped-favicon-32x32-1-32x32.png</url>
@@ -27,5 +27,31 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-</channel>
+	<item>
+		<title>Chrome Remote Desktop</title>
+		<link>https://www.easygcloud.com/google-chrome/chrome-remote-desktop/</link>
+					<comments>https://www.easygcloud.com/google-chrome/chrome-remote-desktop/#respond</comments>
+		
+		<dc:creator><![CDATA[easyG]]></dc:creator>
+		<pubDate>Thu, 01 Aug 2013 11:58:01 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Google Chrome]]></category>
+		<category><![CDATA[Chrome remote desktop]]></category>
+		<guid isPermaLink="false">https://www.easygcloud.com/2013/08/01/chrome-remote-desktop/</guid>
+
+					<description><![CDATA[Here's an easy way to share your screen remotely, or help someone who shares their screen with you. Both users must be using Google's Chrome browser remotedesktop.google.com/support &#160; &#160; &#160;]]></description>
+										<content:encoded><![CDATA[<p>Here's an easy way to share your screen remotely, or help someone who shares their screen with you. Both users must be using Google's Chrome browser</p>
+<p><span id="more-77"></span></p>
+<p><a href="https://remotedesktop.google.com/support">remotedesktop.google.com/support</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.easygcloud.com/google-chrome/chrome-remote-desktop/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
 </rss>
