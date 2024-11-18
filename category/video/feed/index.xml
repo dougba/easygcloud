@@ -108,29 +108,6 @@
 		
 			</item>
 		<item>
-		<title>Google Cloud Security</title>
-		<link>https://www.easygcloud.com/video/google-security/</link>
-					<comments>https://www.easygcloud.com/video/google-security/#respond</comments>
-		
-		<dc:creator><![CDATA[easyG]]></dc:creator>
-		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
-				<category><![CDATA[Video]]></category>
-		<category><![CDATA[Data Center Security Safe]]></category>
-		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/google-security/</guid>
-
-					<description><![CDATA[Google Security]]></description>
-										<content:encoded><![CDATA[<h1 style="text-align: center;">Google Security</h1>
-<div style="text-align: center;">
-<p><iframe loading="lazy" src="//www.youtube.com/embed/TQoKFovvigI?
-rel=0&amp;autoplay=1&amp;showinfo=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;end=409;wmode=transparent" width="640" height="360"></iframe></div>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.easygcloud.com/video/google-security/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
 		<title>Priority Inbox</title>
 		<link>https://www.easygcloud.com/video/priority-inbox/</link>
 					<comments>https://www.easygcloud.com/video/priority-inbox/#respond</comments>
@@ -257,6 +234,28 @@ rel=0&amp;autoplay=1&amp;end=120&amp;modestbranding=1&amp;showinfo=0;wmode=trans
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://www.easygcloud.com/video/use-forms-in-google-drive/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Explore a Google Data Center</title>
+		<link>https://www.easygcloud.com/video/explore-a-google-data-center/</link>
+					<comments>https://www.easygcloud.com/video/explore-a-google-data-center/#respond</comments>
+		
+		<dc:creator><![CDATA[easyG]]></dc:creator>
+		<pubDate>Thu, 17 Nov 2011 20:39:00 +0000</pubDate>
+				<category><![CDATA[Video]]></category>
+		<category><![CDATA[Data Center Security Safe]]></category>
+		<guid isPermaLink="false">https://www.easygcloud.com/2011/11/17/explore-a-google-data-center/</guid>
+
+					<description><![CDATA[Explore a Google Data Center]]></description>
+										<content:encoded><![CDATA[<h1 style="text-align: center;">Explore a Google Data Center</h1>
+<div style="text-align: center;">
+<p><iframe loading="lazy" src="//www.youtube.com/embed/avP5d16wEp0?rel=0&amp;amp&amp;autoplay=1&amp;showinfo=0&amp;modestbranding=1&amp;iv_load_policy=3&amp;wmode=transparent" width="640" height="360"></iframe></div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.easygcloud.com/video/explore-a-google-data-center/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
