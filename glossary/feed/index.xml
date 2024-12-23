@@ -12,7 +12,7 @@
 	<atom:link href="https://www.easygcloud.com/glossary/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.easygcloud.com/</link>
 	<description>Your Work, Made Easier</description>
-	<lastBuildDate>Wed, 13 Nov 2024 12:55:07 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 23 Dec 2024 20:42:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,20 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Passkeys</title>
+		<link>https://www.easygcloud.com/glossary/passkeys/</link>
+		
+		<dc:creator><![CDATA[easyG]]></dc:creator>
+		<pubDate>Mon, 23 Dec 2024 20:41:51 +0000</pubDate>
+				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=glossary#038;p=838</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>WWW</title>
 		<link>https://www.easygcloud.com/glossary/www/</link>
 		
@@ -146,20 +160,6 @@
 		<dc:creator><![CDATA[easyG]]></dc:creator>
 		<pubDate>Wed, 19 Oct 2022 10:19:07 +0000</pubDate>
 				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=definition#038;p=561</guid>
-
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>TXT Record</title>
-		<link>https://www.easygcloud.com/glossary/txt-record/</link>
-		
-		<dc:creator><![CDATA[easyG]]></dc:creator>
-		<pubDate>Wed, 19 Oct 2022 10:18:48 +0000</pubDate>
-				<guid isPermaLink="false">https://www.easygcloud.com/?post_type=definition#038;p=559</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
