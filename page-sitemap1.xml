@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.easygcloud.com/sitemaps_xsl.xsl"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
+<loc>https://www.easygcloud.com/tos/</loc>
+<lastmod>2025-02-20T16:59:36-05:00</lastmod></url>
+<url>
 <loc>https://www.easygcloud.com/privacy/</loc>
 <lastmod>2024-11-28T10:12:53-05:00</lastmod></url>
 <url>
@@ -32,9 +35,6 @@
 <url>
 <loc>https://www.easygcloud.com/glossary-terms/</loc>
 <lastmod>2022-12-30T20:28:28-05:00</lastmod></url>
-<url>
-<loc>https://www.easygcloud.com/tos/</loc>
-<lastmod>2022-10-18T13:01:26-04:00</lastmod></url>
 <url>
 <loc>https://www.easygcloud.com/contact/</loc>
 <lastmod>2021-12-29T07:28:20-05:00</lastmod></url></urlset>
