@@ -1,5 +1,5 @@
 https://www.easygcloud.com/*
-Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.oncehub.com/fo/form.js *.searchiq.co; script-src-elem 'self' 'unsafe-inline' https://static.cloudflareinsights.com/ https://*.oncehub.com/fo/form.js https://www.googletagmanager.com/gtag/js *.searchiq.co; style-src 'self' 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline' https://*.oncehub.com *.searchiq.co; font-src 'self'; frame-src 'self' https://ccgw.oncehub.com/ https://*.oncehub.com https://customer.easygcloud.com/ https://www.youtube.com/ https://www.youtube-nocookie.com/; connect-src 'self' https://*.oncehub.com https://region1.google-analytics.com *.searchiq.co;
+Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.oncehub.com/fo/form.js *.searchiq.co; script-src-elem 'self' https://static.cloudflareinsights.com/ https://*.oncehub.com/fo/form.js https://www.googletagmanager.com/gtag/js *.searchiq.co; style-src 'self'; style-src-elem 'self' https://*.oncehub.com *.searchiq.co; font-src 'self'; frame-src 'self' https://ccgw.oncehub.com/ https://*.oncehub.com https://customer.easygcloud.com/ https://www.youtube.com/ https://www.youtube-nocookie.com/; connect-src 'self' https://*.oncehub.com https://region1.google-analytics.com *.searchiq.co;
 
  X-Frame-Options: DENY
  X-Content-Type-Options: nosniff
