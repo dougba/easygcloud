@@ -1,0 +1,87 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "meta-box/profile-form",
+	"version": "2.5.9",
+	"title": "Edit Profile Form",
+	"category": "meta-box",
+	"icon": "feedback",
+	"description": "Profile form on the front end.",
+	"supports": {
+		"html": false,
+		"className": true
+	},
+	"textdomain": "mb-user-profile",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"attributes": {
+		"meta_box_id": {
+			"type": "string",
+			"default": ""
+		},
+		"id": {
+			"type": "array",
+			"default": ["rwmb-user-info"]
+		},
+		"user_id": {
+			"type": "string",
+			"default": ""
+		},
+		"redirect": {
+			"type": "string",
+			"default": ""
+		},
+		"form_id": {
+			"type": "string",
+			"default": "profile-form"
+		},
+		"recaptcha_key": {
+			"type": "string",
+			"default": ""
+		},
+		"recaptcha_secret": {
+			"type": "string",
+			"default": ""
+		},
+		"label_title": {
+			"type": "string",
+			"default": ""
+		},
+		"label_password": {
+			"type": "string",
+			"default": "New Password"
+		},
+		"label_password2": {
+			"type": "string",
+			"default": "Confirm Password"
+		},
+		"label_submit": {
+			"type": "string",
+			"default": "Submit"
+		},
+		"id_password": {
+			"type": "string",
+			"default": "user_pass"
+		},
+		"id_password2": {
+			"type": "string",
+			"default": "user_pass2"
+		},
+		"id_submit": {
+			"type": "string",
+			"default": "submit"
+		},
+		"confirmation": {
+			"type": "string",
+			"default": "Your information has been successfully submitted. Thank you."
+		},
+		"password_strength": {
+			"type": "string",
+			"default": "strong"
+		},
+		"className": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}

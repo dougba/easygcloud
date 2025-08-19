@@ -1,0 +1,95 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "meta-box/login-form",
+  "version": "2.5.9",
+  "title": "Login Form",
+  "category": "meta-box",
+  "icon": "feedback",
+  "description": "Login form on the front end.",
+  "supports": {
+    "html": false,
+    "className": true
+  },
+  "textdomain": "mb-user-profile",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "attributes": {
+    "redirect": {
+      "type": "string",
+      "default": ""
+    },
+    "form_id": {
+      "type": "string",
+      "default": "login-form"
+    },
+    "recaptcha_key": {
+      "type": "string",
+      "default": ""
+    },
+    "recaptcha_secret": {
+      "type": "string",
+      "default": ""
+    },
+    "label_title": {
+      "type": "string",
+      "default": ""
+    },
+    "label_username": {
+      "type": "string",
+      "default": "Username or Email Address"
+    },
+    "label_password": {
+      "type": "string",
+      "default": "Password"
+    },
+    "label_remember": {
+      "type": "string",
+      "default": "Remember Me"
+    },
+    "label_lost_password": {
+      "type": "string",
+      "default": "Lost Password?"
+    },
+    "label_submit": {
+      "type": "string",
+      "default": "Log In"
+    },
+    "id_username": {
+      "type": "string",
+      "default": "user_login"
+    },
+    "id_password": {
+      "type": "string",
+      "default": "user_pass"
+    },
+    "id_remember": {
+      "type": "string",
+      "default": "remember"
+    },
+    "id_submit": {
+      "type": "string",
+      "default": "submit"
+    },
+    "value_username": {
+      "type": "string",
+      "default": ""
+    },
+    "value_remember": {
+      "type": "boolean",
+      "default": false
+    },
+    "confirmation": {
+      "type": "string",
+      "default": "You are now logged in."
+    },
+    "password_strength": {
+      "type": "string",
+      "default": "weak"
+    },
+    "className": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

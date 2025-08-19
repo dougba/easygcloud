@@ -1,0 +1,119 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "meta-box/registration-form",
+  "version": "2.5.9",
+  "title": "Registration Form",
+  "category": "meta-box",
+  "icon": "feedback",
+  "description": "Register form on the front end.",
+  "supports": {
+    "html": false,
+    "className": true
+  },
+  "textdomain": "mb-user-profile",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "attributes": {
+    "meta_box_id": {
+      "type": "string",
+      "default": ""
+    },
+    "id": {
+      "type": "array",
+      "default": []
+    },
+    "redirect": {
+      "type": "string",
+      "default": ""
+    },
+    "form_id": {
+      "type": "string",
+      "default": "register-form"
+    },
+    "recaptcha_key": {
+      "type": "string",
+      "default": ""
+    },
+    "recaptcha_secret": {
+      "type": "string",
+      "default": ""
+    },
+    "label_title": {
+      "type": "string",
+      "default": ""
+    },
+    "label_username": {
+      "type": "string",
+      "default": "Username"
+    },
+    "label_email": {
+      "type": "string",
+      "default": "Email"
+    },
+    "label_password": {
+      "type": "string",
+      "default": "Password"
+    },
+    "label_password2": {
+      "type": "string",
+      "default": "Confirm Password"
+    },
+    "label_submit": {
+      "type": "string",
+      "default": "Register"
+    },
+    "id_username": {
+      "type": "string",
+      "default": "user_login"
+    },
+    "id_email": {
+      "type": "string",
+      "default": "user_email"
+    },
+    "id_password": {
+      "type": "string",
+      "default": "user_pass"
+    },
+    "id_password2": {
+      "type": "string",
+      "default": "user_pass2"
+    },
+    "id_submit": {
+      "type": "string",
+      "default": "submit"
+    },
+    "confirmation": {
+      "type": "string",
+      "default": "Your account has been created successfully"
+    },
+    "email_confirmation": {
+      "type": "boolean",
+      "default": false
+    },
+    "password_strength": {
+      "type": "string",
+      "default": "strong"
+    },
+    "email_as_username": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_if_user_can": {
+      "type": "string",
+      "default": ""
+    },
+    "role": {
+      "type": "string",
+      "default": ""
+    },
+    "append_role": {
+      "type": "boolean",
+      "default": false
+    },
+    "className": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}
