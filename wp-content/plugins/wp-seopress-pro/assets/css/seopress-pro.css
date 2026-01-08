@@ -395,8 +395,8 @@
 #seopress_pro_cpt #wrap-how-to .step:nth-child(odd),
 #seopress_pro_cpt #wrap-instances .instance:nth-child(odd),
 #seopress_pro_cpt #wrap-offers .offer:nth-child(odd),
-#seopress_pro_cpt #wrap-positive-notes .ui-accordion:nth-child(odd),
-#seopress_pro_cpt #wrap-negative-notes .ui-accordion:nth-child(odd) {
+#seopress_pro_cpt #wrap-positive-notes .positive_notes:nth-child(odd),
+#seopress_pro_cpt #wrap-negative-notes .negative_notes:nth-child(odd) {
     background: var(--backgroundSecondaryHover);
 }
 
@@ -416,7 +416,18 @@
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 13px;
+    padding: 15px 30px;
+}
+
+#seopress_pro_cpt .seopress-ui-accordion-content {
+    border:none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    border-radius: 0;
+    border-top: 1px solid var(--borderColorLight);
+    border-bottom: 1px solid var(--borderColorLight);
 }
 
 #seopress_pro_cpt .wrap-rich-snippets-faq,
@@ -425,7 +436,11 @@
 }
 
 #seopress_pro_cpt #wrap-faq .faq .accordion-section-title::before,
-#seopress_pro_cpt #wrap-how-to .step .accordion-section-title::before {
+#seopress_pro_cpt #wrap-how-to .step .accordion-section-title::before,
+#seopress_pro_cpt #wrap-offers .accordion-section-title::before,
+#seopress_pro_cpt #wrap-instances .accordion-section-title::before,
+#seopress_pro_cpt #wrap-positive-notes .positive_notes .accordion-section-title::before,
+#seopress_pro_cpt #wrap-negative-notes .negative_notes .accordion-section-title::before {
     counter-increment: faq;
     content: "#" counter(faq) " - ";
     left: 10px;
@@ -437,16 +452,50 @@
     float: left;
 }
 
-#seopress_pro_cpt #wrap-faq .faq .ui-accordion-header-active,
-#seopress_pro_cpt #wrap-how-to .step .ui-accordion-header-active,
-#seopress_pro_cpt #wrap-positive-notes .ui-accordion-header-active,
-#seopress_pro_cpt #wrap-negative-notes .ui-accordion-header-active {
-    border-bottom: 1px solid var(--borderColorLight);
+#seopress_pro_cpt #wrap-faq .faq .accordion-section-title::after,
+#seopress_pro_cpt #wrap-how-to .step .accordion-section-title::after,
+#seopress_pro_cpt #wrap-offers .accordion-section-title::after,
+#seopress_pro_cpt #wrap-instances .accordion-section-title::after,
+#seopress_pro_cpt #wrap-positive-notes .positive_notes .accordion-section-title::after,
+#seopress_pro_cpt #wrap-negative-notes .negative_notes .accordion-section-title::after,
+#seopress_pro_cpt #wrap-faq .faq .ui-accordion-header::after,
+#seopress_pro_cpt #wrap-how-to .step .ui-accordion-header::after,
+#seopress_pro_cpt #wrap-offers .ui-accordion-header::after,
+#seopress_pro_cpt #wrap-instances .ui-accordion-header::after,
+#seopress_pro_cpt #wrap-positive-notes .ui-accordion-header::after,
+#seopress_pro_cpt #wrap-negative-notes .ui-accordion-header::after {
+    content: "\f343"; /* down arrow */
+    font-family: "Dashicons";
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#seopress_pro_cpt #wrap-faq .faq .ui-accordion-header-active::after,
+#seopress_pro_cpt #wrap-how-to .step .ui-accordion-header-active::after,
+#seopress_pro_cpt #wrap-offers .ui-accordion-header-active::after,
+#seopress_pro_cpt #wrap-instances .ui-accordion-header-active::after,
+#seopress_pro_cpt #wrap-positive-notes .positive_notes .ui-accordion-header-active::after,
+#seopress_pro_cpt #wrap-negative-notes .negative_notes .ui-accordion-header-active::after,
+#seopress_pro_cpt #wrap-faq .faq .seopress-ui-accordion-header-active::after,
+#seopress_pro_cpt #wrap-how-to .step .seopress-ui-accordion-header-active::after,
+#seopress_pro_cpt #wrap-offers .seopress-ui-accordion-header-active::after,
+#seopress_pro_cpt #wrap-instances .seopress-ui-accordion-header-active::after,
+#seopress_pro_cpt #wrap-positive-notes .positive_notes .seopress-ui-accordion-header-active::after,
+#seopress_pro_cpt #wrap-negative-notes .negative_notes .seopress-ui-accordion-header-active::after {
+    content: "\f347"; /* up arrow */
+    font-family: "Dashicons";
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
 }
 
 #seopress_pro_cpt #wrap-positive-notes .ui-accordion-content,
 #seopress_pro_cpt #wrap-negative-notes .ui-accordion-content {
-    padding: 10px 20px 15px;
+    padding: 0 12px 12px;
 }
 
 #seopress_pro_cpt #wrap-faq .faq input,
@@ -949,6 +998,14 @@ body.wp-admin.rtl .seopress-ui-datepicker {
 }
 
 #seopress_pro_cpt .wrap-rich-snippets-type {
+    display: flex;
+}
+
+#seopress_pro_cpt .wrap-rich-snippets-type .js-delete-schema-manual {
+    color: var(--wp-admin-theme-color);
+}
+
+#seopress_pro_cpt #seopress-your-schema .wrap-rich-snippets-type {
     display: block;
 }
 
@@ -1091,7 +1148,7 @@ body #seopress_site_audit_analysis .impact {
     border-radius: 10px 0 0 10px !important;
     background: #fff !important;
     padding: 1rem !important;
-    z-index: 100 !important;
+    z-index: 50 !important;
 }
 
 #chatbase-bubble-button::after {
@@ -1108,6 +1165,19 @@ body #seopress_site_audit_analysis .impact {
     max-width: 80px;
     z-index: -1;
     line-height: 55px;
+}
+
+#chatbase-message-bubbles {
+    z-index: 60 !important;
+    bottom: 100px !important;
+}
+
+#chatbase-message-bubbles * {
+    box-shadow: none !important;
+}
+
+#chatbase-bubble-button {
+    z-index: 50 !important;
 }
 
 #chatbase-bubble-window {

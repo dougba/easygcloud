@@ -1,6 +1,134 @@
 //Schemas tabs
 jQuery(document).ready(function ($) {
 
+    const SEOPRESS_ACCORDION_ATTR = "data-seopress-accordion-bound";
+
+    function seopressCollapseAccordionSection(header, panel) {
+        if (!header || !panel) {
+            return;
+        }
+
+        header.classList.remove(
+            "ui-accordion-header-active",
+            "seopress-ui-accordion-header-active"
+        );
+        header.classList.add(
+            "ui-accordion-header-inactive",
+            "seopress-ui-accordion-header-inactive"
+        );
+        header.setAttribute("aria-expanded", "false");
+
+        panel.classList.remove("ui-accordion-content-active");
+        panel.setAttribute("aria-hidden", "true");
+        panel.style.display = "none";
+    }
+
+    function seopressExpandAccordionSection(header, panel) {
+        if (!header || !panel) {
+            return;
+        }
+
+        header.classList.add(
+            "ui-accordion-header-active",
+            "seopress-ui-accordion-header-active"
+        );
+        header.classList.remove(
+            "ui-accordion-header-inactive",
+            "seopress-ui-accordion-header-inactive"
+        );
+        header.setAttribute("aria-expanded", "true");
+
+        panel.classList.add("ui-accordion-content-active");
+        panel.style.display = "block";
+        panel.removeAttribute("aria-hidden");
+    }
+
+    function seopressInitAccordion(selector, options = {}) {
+        const { headerSelector = "h3", allowMultiple = false } = options;
+        const containers = document.querySelectorAll(selector);
+
+        if (!containers.length) {
+            return;
+        }
+
+        containers.forEach((container) => {
+            const headers = container.querySelectorAll(headerSelector);
+
+            headers.forEach((header) => {
+                if (header.getAttribute(SEOPRESS_ACCORDION_ATTR) === "true") {
+                    return;
+                }
+
+                const panel = header.nextElementSibling;
+                if (!panel) {
+                    return;
+                }
+
+                header.setAttribute(SEOPRESS_ACCORDION_ATTR, "true");
+                header.classList.add(
+                    "ui-accordion-header",
+                    "ui-accordion-header-inactive",
+                    "seopress-ui-accordion-header-inactive"
+                );
+
+                if (!header.hasAttribute("tabindex")) {
+                    header.setAttribute("tabindex", "0");
+                }
+
+                header.setAttribute("role", "button");
+                header.setAttribute("aria-expanded", "false");
+
+                panel.classList.add(
+                    "ui-accordion-content",
+                    "seopress-ui-accordion-content"
+                );
+                panel.setAttribute("aria-hidden", "true");
+                panel.style.display = "none";
+
+                const toggleSection = () => {
+                    const isActive = header.classList.contains(
+                        "ui-accordion-header-active"
+                    );
+
+                    if (isActive) {
+                        seopressCollapseAccordionSection(header, panel);
+                        return;
+                    }
+
+                    if (!allowMultiple) {
+                        container
+                            .querySelectorAll(headerSelector)
+                            .forEach((otherHeader) => {
+                                if (otherHeader === header) {
+                                    return;
+                                }
+
+                                seopressCollapseAccordionSection(
+                                    otherHeader,
+                                    otherHeader.nextElementSibling
+                                );
+                            });
+                    }
+
+                    seopressExpandAccordionSection(header, panel);
+                };
+
+                header.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    toggleSection();
+                });
+
+                header.addEventListener("keydown", function (event) {
+                    if (event.key !== "Enter" && event.key !== " ") {
+                        return;
+                    }
+                    event.preventDefault();
+                    toggleSection();
+                });
+            });
+        });
+    }
+
     if ($("#seopress-schemas-tabs").length) {
         $("#seopress-schemas-tabs .hidden").removeClass("hidden");
         $("#seopress-schemas-tabs").tabs({
@@ -445,50 +573,24 @@ jQuery(document).ready(function ($) {
     );
 
     function seopress_call_faq_accordion(number) {
-        if (
-            $(".box-schema-item[data-key='" + number + "'] #wrap-faq .faq")
-                .length === 0
-        ) {
-            return;
-        }
-        $(
-            ".box-schema-item[data-key='" + number + "'] #wrap-faq .faq"
-        ).accordion({
-            animate: false,
-            collapsible: true,
-            active: false,
-            heightStyle: "panel",
-            header: "h3",
-        });
-        // $( ".box-schema-item[data-key='" + number + "'] #wrap-faq" ).sortable({
-        // 	items: '.faq',
-        // 	containment: ".wrap-rich-snippets-faq"
-        // });
+        seopressInitAccordion(
+            ".box-schema-item[data-key='" + number + "'] #wrap-faq .faq",
+            { headerSelector: "h3" }
+        );
     }
 
     function seopress_call_offers_accordion(number) {
-        if ($(".box-schema-item[data-key='" + number + "'] #wrap-offers .offer").length === 0) {
-            return;
-        }
-        $(".box-schema-item[data-key='" + number + "'] #wrap-offers .offer").accordion({
-            animate: false,
-            collapsible: true,
-            active: false,
-            heightStyle: "panel",
-            header: "h3",
-        });
+        seopressInitAccordion(
+            ".box-schema-item[data-key='" + number + "'] #wrap-offers .offer",
+            { headerSelector: "h3" }
+        );
     }
+
     function seopress_call_instances_accordion(number) {
-        if ($(".box-schema-item[data-key='" + number + "'] #wrap-instances .instance").length === 0) {
-            return;
-        }
-        $(".box-schema-item[data-key='" + number + "'] #wrap-instances .instance").accordion({
-            animate: false,
-            collapsible: true,
-            active: false,
-            heightStyle: "panel",
-            header: "h3",
-        });
+        seopressInitAccordion(
+            ".box-schema-item[data-key='" + number + "'] #wrap-instances .instance",
+            { headerSelector: "h3" }
+        );
     }
 
     function bindPositiveNotesAccordion(number) {
@@ -498,15 +600,10 @@ jQuery(document).ready(function ($) {
         ) {
             return;
         }
-        $(
-            ".box-schema-item[data-key='" + number + "'] #wrap-positive-notes .positive_notes"
-        ).accordion({
-            animate: false,
-            collapsible: true,
-            active: false,
-            heightStyle: "panel",
-            header: "h3",
-        });
+        seopressInitAccordion(
+            ".box-schema-item[data-key='" + number + "'] #wrap-positive-notes .positive_notes",
+            { headerSelector: "h3" }
+        );
     }
     function bindNegativeNotesAccordion(number) {
         if (
@@ -515,15 +612,10 @@ jQuery(document).ready(function ($) {
         ) {
             return;
         }
-        $(
-            ".box-schema-item[data-key='" + number + "'] #wrap-negative-notes .negative_notes"
-        ).accordion({
-            animate: false,
-            collapsible: true,
-            active: false,
-            heightStyle: "panel",
-            header: "h3",
-        });
+        seopressInitAccordion(
+            ".box-schema-item[data-key='" + number + "'] #wrap-negative-notes .negative_notes",
+            { headerSelector: "h3" }
+        );
     }
 
     function bindAddFaq(number) {
@@ -955,15 +1047,10 @@ jQuery(document).ready(function ($) {
             return;
         }
 
-        $(
-            ".box-schema-item[data-key='" + number + "'] #wrap-how-to .step"
-        ).accordion({
-            animate: false,
-            collapsible: true,
-            active: false,
-            heightStyle: "panel",
-            header: "h3",
-        });
+        seopressInitAccordion(
+            ".box-schema-item[data-key='" + number + "'] #wrap-how-to .step",
+            { headerSelector: "h3" }
+        );
     }
 
     function bindAddStep(number) {

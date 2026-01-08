@@ -83,18 +83,28 @@ jQuery(document).ready(function ($) {
     });
 
     // Run manually site audit task
-    $('#seopress-run-site-audit').click(function () {
+    $('#seopress-run-site-audit,#seopress-resume-site-audit').click(function () {
         $(this).attr("disabled", "disabled");
         $('.spinner').css("visibility", "visible");
         $('.spinner').css("float", "none");
+        
+        var ajaxData = {
+            action: 'seopress_site_audit_run_task',
+            _ajax_nonce: seopressAjaxBot.seopress_nonce,
+        };
+        
+        // Only pass offset if this is the resume button
+        if ($(this).attr('id') === 'seopress-resume-site-audit') {
+            var offset = $(this).data('offset');
+            if (offset) {
+                ajaxData.offset = offset;
+            }
+        }
 
         $.ajax({
             url: ajaxurl,
             method: 'POST',
-            data: {
-                action: 'seopress_site_audit_run_task',
-                _ajax_nonce: seopressAjaxBot.seopress_nonce,
-            },
+            data: ajaxData,
             success: function () {
                 window.location.reload(true);
             },
@@ -105,30 +115,33 @@ jQuery(document).ready(function ($) {
     });
 
     // Get progress status
-    setInterval(function() {
-        $.ajax({
-            url: ajaxurl,
-            method: 'POST',
-            data: {
-                action: 'seopress_site_audit_get_task_progress',
-                _ajax_nonce: seopressAjaxBot.seopress_nonce,
-            },
-            success: function(response) {
-                if (response && response.data.running === 1) {
-                    $('#seopress-notice-site-audit-running').show();
-                    $('#seopress-run-site-audit').prop("disabled", true);
-                    $('.spinner').css("visibility", "visible");
-                    $('.spinner').css("float", "none");
-                    $('#seopress-site-audit-offset').html(response.data.progress);
-                } else if ($('#seopress-cancel-site-audit').length && response.data.running === 0) {
-                    window.location.reload(true);
+    if ($('#seopress-cancel-site-audit').length) {
+        setInterval(function() {
+            $.ajax({
+                url: ajaxurl,
+                method: 'POST',
+                data: {
+                    action: 'seopress_site_audit_get_task_progress',
+                    _ajax_nonce: seopressAjaxBot.seopress_nonce,
+                },
+                success: function(response) {
+                    if (response && response.data.running === 1) {
+                        $('#seopress-notice-site-audit-running').show();
+                        $('#seopress-run-site-audit').prop("disabled", true);
+                        $('.spinner').css("visibility", "visible");
+                        $('.spinner').css("float", "none");
+                        $('#seopress-site-audit-offset').html(response.data.progress);
+                        $('#seopress-site-audit-log').html(response.data.log);
+                    } else if ($('#seopress-cancel-site-audit').length && response.data.running === 0) {
+                        window.location.reload(true);
+                    }
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.error('Failed to fetch new content:', textStatus, errorThrown);
                 }
-            },
-            error: function(jqXHR, textStatus, errorThrown) {
-                console.error('Failed to fetch new content:', textStatus, errorThrown);
-            }
-        });
-    }, 2000);
+            });
+        }, 2000);
+    }
 
 
     // Cancel site audit task
