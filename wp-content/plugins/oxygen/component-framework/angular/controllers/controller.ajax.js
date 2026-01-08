@@ -16,7 +16,7 @@ CTFrontendBuilder.controller("ControllerAJAX", function($scope, $parentScope, $h
             errorMsg = (typeof(message)==='string'?"<h4>"+message+"</h4>":'')
             +"<p><strong>"+(typeof(err)==='string'?err:'')+" "+status+"</strong></p>"
             +"<p>Your server returned a "+status+" error for the request to "+url+".</p>"
-            +"<p><a href='http://oxygenbuilder.com/documentation/troubleshooting/troubleshooting-guide/' style='text-decoration: underline; color: #fff;' target='_blank'>Troubleshooting Guide &raquo;</a></p>";
+            +"<p><a href='http://classic.oxygenbuilder.com/documentation/troubleshooting/troubleshooting-guide/' style='text-decoration: underline; color: #fff;' target='_blank'>Troubleshooting Guide &raquo;</a></p>";
         }
         else {
             errorMsg = (typeof(message)==='string'?"<h4>"+message+"</h4>":'')
