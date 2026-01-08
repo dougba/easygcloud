@@ -1,8 +1,13 @@
-.mbct-submit {
+.mbct-submit .misc-pub-section {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	flex-direction: column;
+	gap: 4px;
 }
-.mbct-submit > a {
-	color: #b32d2e;
+
+.mbct-submit label {
+	font-weight: 600;
+}
+
+.mbct-submit select {
+	width: 100%;
 }
