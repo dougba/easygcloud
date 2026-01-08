@@ -497,7 +497,7 @@ text-align:left;
                 .ct-section-inner-wrap, .oxy-header-container{
   max-width: 1120px;
 }
-body {font-family: 'Poppins';}body {line-height: 1.6;font-size: 20px;font-weight: 400;color: #2b2c28;}.oxy-nav-menu-hamburger-line {background-color: #2b2c28;}h1, h2, h3, h4, h5, h6 {font-family: 'Poppins';font-size: 64px;}h2, h3, h4, h5, h6{font-size: 48px;}h3, h4, h5, h6{font-size: 36px;}a {color: #34a853;text-decoration: none;}a:hover {color: #6799b2;text-decoration: none;}.ct-link-text {text-decoration: ;}.ct-link {text-decoration: ;}.ct-link-button {border-radius: 3px;}.ct-section-inner-wrap {
+body {font-family: 'Roboto';}body {line-height: 1.6;font-size: 20px;font-weight: 400;color: #2b2c28;}.oxy-nav-menu-hamburger-line {background-color: #2b2c28;}h1, h2, h3, h4, h5, h6 {font-family: 'Roboto';font-size: 64px;}h2, h3, h4, h5, h6{font-size: 48px;}h3, h4, h5, h6{font-size: 36px;}a {color: #34a853;text-decoration: none;}a:hover {color: #6799b2;text-decoration: none;}.ct-link-text {text-decoration: ;}.ct-link {text-decoration: ;}.ct-link-button {border-radius: 3px;}.ct-section-inner-wrap {
 padding-top: 75px;
 padding-right: 20px;
 padding-bottom: 75px;
@@ -534,7 +534,7 @@ color: #ffd700;}.star-rev
  margin-right:1px;
 }
 .atomic-subheading {
- font-family:Poppins;
+ font-family:Roboto;
  color:#2b2c27;
  font-size:24px;
  line-height:1.6;
@@ -948,7 +948,7 @@ display:flex;
  color:#ffffff;
 }
 .atomic-primary-button {
- font-family:Poppins;
+ font-family:Roboto;
  padding-top:20px;
  padding-bottom:20px;
  padding-left:48px;
@@ -991,7 +991,7 @@ display:flex;
 }
 
 .atomic-small-text {
- font-family:Poppins;
+ font-family:Roboto;
  color:#898989;
  font-size:12px;
  font-weight:300;
@@ -1202,7 +1202,7 @@ border: 1px solid #6799b2;
 color: #6799b2;
 padding: 9px 15px;
 }.atomic-outline-button {
- font-family:Poppins;
+ font-family:Roboto;
  font-weight:700;
  border-top-style:none;
  border-right-style:none;
@@ -1724,7 +1724,7 @@ flex-direction:unset;
  -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale;}
 .atomic-content-32-small-text {
- font-family:Poppins;
+ font-family:Roboto;
  color:#898989;
  margin-bottom:8px;
  font-weight:400;
