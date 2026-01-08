@@ -2,13 +2,33 @@
 
 const searchResults = [];
 
+
+// Helper: render excerpt conditionally based on localized flag and presence
+function renderExcerpt(item) {
+    try {
+        if (window.ssp_search && ssp_search.show_excerpt && item && item.excerpt) {
+            return `<small>${item.excerpt}</small>`;
+        }
+    } catch (_) {}
+    return '';
+}
+
+
 // Get index from JSON file.
 let fuse_config_element = document.querySelector("meta[name='ssp-config-path']");
 
 if (null !== fuse_config_element) {
     let config_path = fuse_config_element.getAttribute("content");
-    let index_url = window.location.origin + config_path + 'fuse-index.json';
-    let config_url = window.location.origin + config_path + 'fuse-config.json';
+    let version_element = document.querySelector("meta[name='ssp-config-version']");
+    let version_suffix = '';
+    if (null !== version_element) {
+        let v = version_element.getAttribute('content');
+        if (v) {
+            version_suffix = '?ver=' + encodeURIComponent(v);
+        }
+    }
+    let index_url = window.location.origin + config_path + 'fuse-index.json' + version_suffix;
+    let config_url = window.location.origin + config_path + 'fuse-config.json' + version_suffix;
     let index;
     let config;
 
@@ -117,10 +137,19 @@ if (null !== fuse_config_element) {
             }
         );
 
-        initSearch();
+        // Notify page helpers that Fuse is ready
+        try {
+            window.dispatchEvent(new CustomEvent('ssp:fuse-ready'));
+        } catch (_) {
+        }
+        // Build selector-based instances (non search-page specific)
+        try {
+            maybeBuildSearch();
+        } catch (_) {
+        }
     });
 
-    function FuseSearchForm(el) {
+    window.FuseSearchForm = function FuseSearchForm(el) {
         var self = this;
         let input = '';
         let results = [];
@@ -131,15 +160,25 @@ if (null !== fuse_config_element) {
         let searchInputNode = null;
         let autoCompleteNode = null;
         let resultNode = null;
+        // Determine per-instance autocomplete allowance: always enabled now
+        const allowAutoComplete = function() { return true; };
 
         this.handleSearchSubmit = function handleSearchSubmit(event) {
             if (event) {
                 event.preventDefault()
             }
 
+
             input = searchInputNode.value.trim()
             selected = -1
 
+            // Always compute results on submit so the results list can render
+            if (input.length >= 3 && fuse) {
+                results = fuse.search(input).slice(0, 7)
+            }
+
+            // Ensure autocomplete dropdown is (re)shown on submit
+            showAutoComplete = true
             document.activeElement.blur()
             autoCompleteNode.innerHTML = self.renderAutoComplete()
 
@@ -149,11 +188,10 @@ if (null !== fuse_config_element) {
                 <div class="ssp-results"><h5>Searched for: <b>${input}</b></h5>
                 <ul>
                   ${results.map((result, index) => `
-                  <a href="${result.item.url}" style="text-decoration:none;color:#000000">
+                  <a href="${result.item.url}">
                     <li class='auto-complete-item${index === selected ? ' selected' : ''}'>
-                      <p><b>${result.item.title}</b></br>
-                        <small>${result.item.excerpt}</small>
-                      </p>
+                      ${result.item.title}</br>
+                        ${renderExcerpt(result.item)}
                     </li>
                   </a>
                 `).join('')}
@@ -182,11 +220,10 @@ if (null !== fuse_config_element) {
             return `
                 <ul>
                   ${results.map((result, index) => `
-                  <a href="${result.item.url}" style="text-decoration:none;color:#000000">
+                  <a href="${result.item.url}">
                     <li class='auto-complete-item${index === selected ? ' selected' : ''}'>
-                      <p><b>${result.item.title}</b></br>
-                        <small>${result.item.excerpt}</small>
-                      </p>
+                      ${result.item.title}</br>
+                        ${renderExcerpt(result.item)}
                     </li>
                   </a>
                 `).join('')}
@@ -197,8 +234,16 @@ if (null !== fuse_config_element) {
         this.handleSearchInput = function handleSearchInput(event) {
             input = event.target.value
             results = []
+
+
+
             if (input.length >= 3) {
-                results = fuse.search(input).slice(0, 7)
+                if (fuse) {
+                    results = fuse.search(input).slice(0, 7)
+                } else {
+                    // Fuse not ready yet; wait for it to load
+                    results = []
+                }
             }
             showAutoComplete = true
             autoCompleteNode.innerHTML = self.renderAutoComplete()
@@ -230,6 +275,15 @@ if (null !== fuse_config_element) {
             searchFormNode.addEventListener('submit', this.handleSearchSubmit)
             searchInputNode.addEventListener('input', this.handleSearchInput)
             autoCompleteNode.addEventListener('click', this.handleAutoCompleteClick)
+            try { if (container && container.dataset) { container.dataset.sspFuseInit = '1'; } } catch(_) {}
+
+            // If the input already has a value (e.g., from URL prefill), render suggestions immediately when Fuse is ready
+            try {
+                if (searchInputNode && searchInputNode.value && searchInputNode.value.trim().length >= 3) {
+                    // Attempt immediate render; if Fuse not ready yet, ssp-search-page.js will trigger another input on fuse-ready
+                    self.handleSearchInput({ target: searchInputNode });
+                }
+            } catch(_) {}
         }
 
         this.init();
@@ -244,11 +298,20 @@ if (null !== fuse_config_element) {
         }
     }
 
+
     function initSearch() {
-        if (ssp_search.use_selector) {
-            maybeBuildSearch();
+        try {
+            if (ssp_search.use_selector) {
+                maybeBuildSearch();
+            } else {
+                // Initialize all existing Fuse forms on the page
+                var allForms = document.querySelectorAll('.ssp-search');
+                allForms.forEach(function(node){ new FuseSearchForm(node); });
+            }
+        } catch (e) {
         }
     }
+
 
     function maybeBuildSearch() {
         if (!config) {
@@ -260,8 +323,8 @@ if (null !== fuse_config_element) {
         }
 
         const selectors = config.selector.split(',').map(function (string) {
-            return string.replace(' ', '')
-        });
+            return string.trim()
+        }).filter(Boolean);
 
         for (let s = 0; s < selectors.length; s++) {
             let selector = selectors[s];
@@ -272,11 +335,22 @@ if (null !== fuse_config_element) {
 
             let allSelectors = document.querySelectorAll(selector);
 
-            for (let element = 0; element < allSelectors.length; element++) {
-                buildSearch(allSelectors[element]);
+            for (let i = 0; i < allSelectors.length; i++) {
+                let node = allSelectors[i];
+                // Normalize to the nearest form so both Fuse and Algolia behave the same
+                let form = null;
+                if (node.tagName && node.tagName.toLowerCase() === 'form') {
+                    form = node;
+                } else if (node.closest) {
+                    form = node.closest('form');
+                }
+                if (!form) {
+                    continue;
+                }
+                // Avoid double replacement
+                try { if (form.dataset && form.dataset.sspReplaced === '1') continue; } catch(_) {}
+                buildSearch(form);
             }
-
-
         }
     }
 
@@ -290,19 +364,59 @@ if (null !== fuse_config_element) {
         return id;
     }
 
-    function buildSearch(el) {
+    function buildSearch(targetForm) {
         // Holder of search
         var div = document.createElement('div');
-        // Random custom ID.š
+        // Random custom ID.
         var id = getRandomId();
         div.setAttribute('id', id);
         div.innerHTML = ssp_search.html;
 
-        el.outerHTML = div.outerHTML;
+        // Replace the form element with our unified markup
+        targetForm.replaceWith(div);
+        try { if (targetForm && targetForm.dataset) { targetForm.dataset.sspReplaced = '1'; } } catch(_) {}
+
         // Get it by ID to get the DOM element.
-        el = document.getElementById(id);
+        var el = document.getElementById(id);
         var form = new FuseSearchForm(el);
+
+        // After the form is fully rendered, populate the input and trigger search
+        try {
+            var finalize = function () {
+                // No-op finalize: page-specific autofill and heading handling are done in ssp-search-page.js
+                // We intentionally avoid synthetic submit/input here to keep this file Fuse-only.
+            };
+            if (typeof requestAnimationFrame === 'function') {
+                requestAnimationFrame(finalize);
+            } else {
+                setTimeout(finalize, 0);
+            }
+        } catch (_) {
+        }
     }
+
+    // Initialize core search behaviors when DOM is ready and when Fuse is ready
+    (function () {
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', function () {
+                try {
+                    initSearch();
+                } catch (_) {
+                }
+            });
+        } else {
+            try {
+                initSearch();
+            } catch (_) {
+            }
+        }
+        window.addEventListener('ssp:fuse-ready', function () {
+            try {
+                initSearch();
+            } catch (_) {
+            }
+        });
+    })();
 
     window.addEventListener('click', handleWindowClick)
 } else {
