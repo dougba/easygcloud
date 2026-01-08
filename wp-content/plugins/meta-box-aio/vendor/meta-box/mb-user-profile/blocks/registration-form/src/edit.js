@@ -35,7 +35,8 @@ export default function Edit( { attributes, setAttributes } ) {
 		email_as_username,
 		show_if_user_can,
 		role,
-		append_role
+		append_role,
+		auto_login
 	} = attributes;
 
 	if ( id.length === 0 && meta_box_id ) {
@@ -119,6 +120,11 @@ export default function Edit( { attributes, setAttributes } ) {
 						label={ __( 'Append role', 'mb-user-profile' ) }
 						checked={ append_role }
 						onChange={ update( 'append_role' ) }
+					/>
+					<ToggleControl
+						label={ __( 'Auto login after created account', 'mb-user-profile' ) }
+						checked={ auto_login }
+						onChange={ update( 'auto_login' ) }
 					/>
 				</PanelBody>
 				<PanelBody title={ __( 'Appearance', 'mb-user-profile' ) } initialOpen={ false }>

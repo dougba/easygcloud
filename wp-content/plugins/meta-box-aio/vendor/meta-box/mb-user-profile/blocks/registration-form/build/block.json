@@ -111,6 +111,10 @@
       "type": "boolean",
       "default": false
     },
+    "auto_login": {
+      "type": "boolean",
+      "default": false
+    },
     "className": {
       "type": "string",
       "default": ""
