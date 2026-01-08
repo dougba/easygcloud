@@ -1612,6 +1612,17 @@ CTFrontendBuilder.controller("ControllerTemplates", function($scope, $parentScop
 				if ($scope.isRenderingAJAXElement) {
 					return;
 				}
+
+				// Suppressed messages list, that cause no harm to functionality
+				var suppressErrorMessages = [
+					"name \"wc-order-attribution-inputs\" has already been used", // https://github.com/soflyy/oxygen/issues/5379
+				];
+				for (var i = 0; i < suppressErrorMessages.length; i++) {
+					if (errorMsg.indexOf(suppressErrorMessages[i]) !== -1) {
+						return;
+					}
+				}
+
             	$scope.showNoticeModal("<div>"+errorMsg+" on line #"+lineNumber+" in "+url+"</div>");
             }
         }

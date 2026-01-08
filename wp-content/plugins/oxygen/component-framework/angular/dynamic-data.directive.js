@@ -247,7 +247,7 @@ CTCommonDirectives.directive("ctdynamicdata", function($compile, ctScopeService)
                 var template = '<div class="oxy-dynamicdata-popup-background"></div>'+
                         '<div id="ctdynamicdata-popup" class="oxygen-data-dialog'+(scope.noshadow?' ct-global-conditions-add-modal':'')+'">'+
                         '<h1>Insert Dynamic Data</h1>'+
-                        '<p style="font-size: 14px">Please <a style="color: var(--oxy-light-text)" target="_blank" href="https://oxygenbuilder.com/documentation/other/security/#filtering-dynamic-data">review this security information</a> if you plan to render untrusted data via Oxygen\’s dynamic data functions.</p>'+
+                        '<p style="font-size: 14px">Please <a style="color: var(--oxy-light-text)" target="_blank" href="https://classic.oxygenbuilder.com/documentation/other/security/#filtering-dynamic-data">review this security information</a> if you plan to render untrusted data via Oxygen\’s dynamic data functions.</p>'+
                         '<div>';
 
                 if(CtBuilderAjax.freeVersion) {
@@ -259,7 +259,7 @@ CTCommonDirectives.directive("ctdynamicdata", function($compile, ctScopeService)
                         'line-height: var(--oxy-small-line-height);'+
                         'font-size: 21px;'+
                     '">Dynamic Data requires Oxygen Pro.</h2>'+
-                        '<a target="_blank" href="https://oxygenbuilder.com/upgrade-to-pro/?utm_source=free-version&utm_medium=in-plugin&utm_content=dynamic-data" style="'+
+                        '<a target="_blank" href="https://classic.oxygenbuilder.com/upgrade-to-pro/?utm_source=free-version&utm_medium=in-plugin&utm_content=dynamic-data" style="'+
                         'padding-top: 11px;'+
                         'padding-bottom: 11px;'+
                         'padding-right: 24px;'+
