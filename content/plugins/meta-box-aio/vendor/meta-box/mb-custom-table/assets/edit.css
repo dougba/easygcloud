@@ -1,0 +1,13 @@
+.mbct-submit .misc-pub-section {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.mbct-submit label {
+	font-weight: 600;
+}
+
+.mbct-submit select {
+	width: 100%;
+}
