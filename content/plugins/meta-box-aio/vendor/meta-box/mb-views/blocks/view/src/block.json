@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "meta-box/view",
+  "version": "1.0.0",
+  "title": "View",
+  "category": "meta-box",
+  "icon": "visibility",
+  "description": "Renders a Meta Box view",
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "textdomain": "mb-views",
+  "attributes": {
+    "id": {
+      "type": "number",
+      "default": 0
+    }
+  }
+}
