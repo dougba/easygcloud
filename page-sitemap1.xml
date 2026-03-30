@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.easygcloud.com/sitemaps_xsl.xsl"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
+<loc>https://www.easygcloud.com/</loc>
+<lastmod>2026-03-30T11:40:45-04:00</lastmod></url>
+<url>
 <loc>https://www.easygcloud.com/blog/</loc>
 <lastmod>2025-06-12T11:49:28-04:00</lastmod>
 <image:image>
 <image:loc><![CDATA[https://www.easygcloud.com/content/uploads/2022/04/google-cloud.png]]></image:loc>
 </image:image></url>
-<url>
-<loc>https://www.easygcloud.com/</loc>
-<lastmod>2025-06-07T08:40:26-04:00</lastmod></url>
 <url>
 <loc>https://www.easygcloud.com/licenses/</loc>
 <lastmod>2025-02-22T07:38:21-05:00</lastmod></url>
