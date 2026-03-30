@@ -581,7 +581,7 @@ color: #ffd700;}.star-rev
 
 .atomic-medium-button:hover{
  background-color:#6799b2;
- color:#ffffff;
+ color:#fff;
  border-top-color:#6799b2;
  border-right-color:#6799b2;
  border-bottom-color:#6799b2;
@@ -590,10 +590,10 @@ color: #ffd700;}.star-rev
 .atomic-medium-button {
 background-color :#1e73be;
 border: 1px solid #1e73be;
-color: #ffffff;
+color: #fff;
 }.atomic-medium-button {
  background-color:#34a853;
- color:#ffffff;
+ color:#fff;
  font-size:16px;
  font-weight:700;
  line-height:1.2;
@@ -632,7 +632,7 @@ flex-direction:row;
 align-items:center;
 }
 .oxel_iconlist__row__icon {
-color: #ffffff;}.oxel_iconlist__row__icon 
+color: #fff;}.oxel_iconlist__row__icon 
 >svg {width: 18px;height: 18px;}.oxel_iconlist__row__icon {
  margin-left:32px;
  margin-right:32px;
@@ -892,7 +892,7 @@ display:flex;
 }
 
 .atomic-footer-7-title {
- color:#ffffff;
+ color:#fff;
  font-size:20px;
  font-weight:500;
  text-align:left;
@@ -903,7 +903,7 @@ display:flex;
  -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale;}
 .atomic-footer-7-link:hover{
- color:#ffffff;
+ color:#fff;
 }
 .atomic-footer-7-link {
  color:rgba(255,255,255,0.75);
@@ -929,11 +929,11 @@ display:flex;
  -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale;}
 .atomic-footer-7-small-link:hover{
- color:#ffffff;
+ color:#fff;
 }
 .atomic-footer-7-small-link {
- font-size:12px;
- font-weight:400;
+ font-size:16px;
+ font-weight:500;
  line-height:1.6;
  text-align:right;
  margin-left:24px;
@@ -941,11 +941,11 @@ display:flex;
  transition-timing-function:ease;
  transition-property:all;
  -webkit-font-smoothing:antialiased;
--moz-osx-font-smoothing:grayscale; color:#ffffff;
+-moz-osx-font-smoothing:grayscale; color:#2b2c27;
 }
 .atomic-primary-button:hover{
  background-color:#6799b2;
- color:#ffffff;
+ color:#fff;
 }
 .atomic-primary-button {
  font-family:Roboto;
@@ -954,7 +954,7 @@ display:flex;
  padding-left:48px;
  padding-right:48px;
  font-size:20px;
- color:#ffffff;
+ color:#fff;
  font-weight:700;
  line-height:1.2;
  letter-spacing:.25em;
@@ -1000,7 +1000,7 @@ display:flex;
 -moz-osx-font-smoothing:grayscale;}
 .atomic-content-29-wrapper {
  width:100%;
- background-color:#ffffff;
+ background-color:#fff;
  padding-top:40px;
  padding-left:40px;
  padding-right:40px;
@@ -1225,7 +1225,6 @@ padding: 9px 15px;
  color:#34a853;
  background-color:transparent;
  font-size:20px;
- margin-right:2px;
  -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale; letter-spacing:.25em;
  transition-duration:0.5s;
@@ -1234,6 +1233,7 @@ padding: 9px 15px;
  text-transform:none;
  font-style:normal;
  text-decoration:none;
+ margin-right:1px;
 }
 @media (max-width: 991px) {
 .atomic-outline-button {
@@ -1276,7 +1276,7 @@ padding: 9px 15px;
  -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale;}
 .atomic-testimonial-7-wrapper {
- background-color:#ffffff;
+ background-color:#fff;
  width:100%;
  padding-left:40px;
  padding-right:40px;
@@ -1384,7 +1384,7 @@ color: #566d8f;}.atomic-iconblock-2-icon
 -moz-osx-font-smoothing:grayscale;}
 .atomic-showcase-9-wrapper {
  width:100%;
- background-color:#ffffff;
+ background-color:#fff;
  padding-top:60px;
  padding-left:60px;
  padding-right:60px;
@@ -1529,7 +1529,7 @@ padding: 24px;color: #6799b2;}.atomic-cta-7-icon
 .atomic-content-20-image:hover{
 }
 .atomic-content-20-image {
- background-color:#ffffff;
+ background-color:#fff;
  box-shadow:0px 20px 40px rgba(0,0,0,0.1);
 }
 .atomic-hero-4-video {
@@ -1542,7 +1542,7 @@ padding: 24px;color: #6799b2;}.atomic-cta-7-icon
  padding-right:40px;
  padding-bottom:40px;
  margin-top:72px;
- background-color:#ffffff;
+ background-color:#fff;
  height:100%;
  box-shadow:0px 20px 40px rgba(0,0,0,0.05);
 }
@@ -1675,7 +1675,7 @@ flex-direction:column;
 }
 .atomic-content-32-text-wrapper {
  width:100%;
- background-color:#ffffff;
+ background-color:#fff;
  padding-top:47px;
  padding-left:40px;
  padding-right:40px;
@@ -1742,7 +1742,7 @@ flex-direction:unset;
 .atomic-iconblock-18-icon {
 background-color: #6799b2;
 border: 1px solid #6799b2;
-padding: 24px;color: #ffffff;}.atomic-iconblock-18-icon 
+padding: 24px;color: #fff;}.atomic-iconblock-18-icon 
 >svg {width: 30px;height: 30px;}.atomic-iconblock-18-icon {
  margin-bottom:12px;
 }
@@ -1827,7 +1827,7 @@ padding: 24px;color: #ffffff;}.atomic-iconblock-18-icon
  padding-bottom:0px;
 }
 .atomic-content-25-percent {
- color:#ffffff;
+ color:#fff;
  font-weight:700;
  background-color:#34a853;
  padding-right:20px;
@@ -1887,7 +1887,7 @@ color: #566d8f;}.atomic-iconblock-21-icon
 }
 .atomic-content-23-wrapper {
  width:100%;
- background-color:#ffffff;
+ background-color:#fff;
  padding-top:36px;
  padding-left:20px;
  padding-right:20px;
@@ -1990,17 +1990,17 @@ align-items:center;
 }
 .atomic-small-button:hover{
  background-color:#6799b2;
- color:#ffffff;
+ color:#fff;
 }
 .atomic-small-button {
 background-color :#1e73be;
 border: 1px solid #1e73be;
-color: #ffffff;
+color: #fff;
 }.atomic-small-button {
  background-color:#34a853;
  font-size:14px;
  font-weight:700;
- color:#ffffff;
+ color:#fff;
  padding-right:18px;
  padding-top:10px;
  padding-bottom:10px;
@@ -2080,7 +2080,7 @@ padding: 24px;color: #566d8f;}.atomic-iconblock-5-icon
 
 .atomic-content-31-wrapper {
  width:100%;
- background-color:#ffffff;
+ background-color:#fff;
  padding-top:40px;
  padding-left:40px;
  padding-right:40px;
@@ -2154,7 +2154,7 @@ justify-content:center;
 .atomic-content-31-icon {
 background-color: #566d8f;
 border: 1px solid #566d8f;
-padding: 24px;color: #ffffff;}.atomic-content-31-icon 
+padding: 24px;color: #fff;}.atomic-content-31-icon 
 >svg {width: 42px;height: 42px;}.atomic-content-31-icon {
  position:absolute;
 z-index: 100;
@@ -2256,7 +2256,7 @@ color: #34a853;}.atomic-hero-8-icon
  margin-bottom:18px;
 }
 .atomic-hero-8-text {
- color:#ffffff;
+ color:#fff;
  font-size:24px;
  font-weight:300;
  line-height:1.6;
@@ -2271,7 +2271,7 @@ color: #34a853;}.atomic-hero-8-icon
  margin-bottom:12px;
 }
 .atomic-hero-8-title {
- color:#ffffff;
+ color:#fff;
  font-size:20px;
  font-weight:500;
  line-height:1.1;
@@ -2280,7 +2280,7 @@ color: #34a853;}.atomic-hero-8-icon
  -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale;}
 .atomic-iconblock-11-wrapper {
- background-color:#ffffff;
+ background-color:#fff;
  padding-top:30px;
  padding-left:30px;
  padding-right:30px;
@@ -2450,7 +2450,7 @@ color: #566d8f;}.atomic-testimonial-1-quote
 -moz-osx-font-smoothing:grayscale;}
 .atomic-pricing-1-row-light {
  width:100%;
- background-color:#ffffff;
+ background-color:#fff;
  min-width:640px;
  overflow:scroll;
 }
