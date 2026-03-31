@@ -1450,3 +1450,26 @@ body #seopress_site_audit_analysis .impact {
     padding: 1rem;
     margin: 0;
 }
+
+.seopress-schema-deprecated {
+    opacity: 0.6;
+}
+
+.seopress-schema-deprecated:hover,
+.seopress-schema-deprecated.selected {
+    opacity: 1;
+}
+
+.seopress-badge-deprecated {
+    display: inline-block;
+    background-color: var(--colorWarning, #ffba00);
+    color: #1e1e1e;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 3px 6px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 6px;
+}

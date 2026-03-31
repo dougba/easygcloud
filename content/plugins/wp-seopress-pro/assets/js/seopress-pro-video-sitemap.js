@@ -37,13 +37,15 @@ jQuery(document).ready(function ($) {
                         $(location).attr("href", data.data.url);
                     }
                 } else {
-                    self.process_offset2(
-                        parseInt(data.data.offset),
-                        self,
-                        url,
-                        action,
-                        _ajax_nonce
-                    );
+                    setTimeout(function() {
+                        self.process_offset2(
+                            parseInt(data.data.offset),
+                            self,
+                            url,
+                            action,
+                            _ajax_nonce
+                        );
+                    }, 200);
                     if (data.data.total) {
                         progress = (data.data.count / data.data.total * 100).toFixed(2);
                         $("#tab_seopress_tool_video .log").css("display", "block");
