@@ -42,11 +42,16 @@ if (!window.__sspTurnstileReady) {
                     window.__SSP_MANAGE_FORM__(candidates, cf7Form, (init && init.body) ? init.body : null);
                 }
 
+                // Build the `into` selector CF7 uses to locate its form container
+                // for displaying the success/error message. CF7 6.x expects this to
+                // be a valid CSS selector pointing to the .wpcf7 wrapper element.
+                var cf7Container = cf7Form ? cf7Form.closest('.wpcf7') : null;
+                var intoSelector = (cf7Container && cf7Container.id) ? '#' + cf7Container.id : '.wpcf7';
                 var fakeBody = JSON.stringify({
                     status: 'mail_sent',
                     message: 'Thank you for your message. It has been sent.',
                     posted_data_hash: '',
-                    into: '#',
+                    into: intoSelector,
                     invalid_fields: []
                 });
                 return Promise.resolve(new Response(fakeBody, {
