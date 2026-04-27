@@ -10,7 +10,19 @@ if (!window.__sspTurnstileReady) {
     window.__SSP_WEBHOOK_INIT__ = true;
 
     // Detect static environment early (before DOM may be fully loaded)
-    const isStaticSite = () => !!document.querySelector("meta[name='ssp-config-path']") || window.location.pathname.indexOf('/static/') !== -1;
+    const isStaticSite = () => {
+        const configMeta = document.querySelector("meta[name='ssp-config-path']");
+        if (configMeta) { return true; }
+        if (window.location.pathname.indexOf('/static/') !== -1) { return true; }
+        const originMeta = document.querySelector("meta[name='ssp-origin-url']");
+        if (originMeta) {
+            try {
+                const originUrl = new URL(originMeta.getAttribute('content'));
+                return window.location.hostname !== originUrl.hostname;
+            } catch (e) { }
+        }
+        return false;
+    };
 
     // Fetch API interception: CF7 5.6+ and other modern form plugins use window.fetch
     // to submit to WP REST API endpoints (e.g., /wp-json/contact-form-7/v1/contact-forms/{id}/feedback).
