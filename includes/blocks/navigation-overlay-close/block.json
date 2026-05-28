@@ -1,33 +1,39 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "core/post-comments-count",
-	"title": "Comments Count",
-	"category": "theme",
-	"description": "Display a post's comments count.",
+	"name": "core/navigation-overlay-close",
+	"title": "Navigation Overlay Close",
+	"category": "design",
+	"description": "A customizable button to close overlays.",
+	"keywords": [ "close", "overlay", "navigation", "menu" ],
 	"textdomain": "default",
-	"usesContext": [ "postId" ],
-	"example": {
-		"viewportWidth": 350
+	"attributes": {
+		"displayMode": {
+			"type": "string",
+			"enum": [ "icon", "text", "both" ],
+			"default": "icon"
+		},
+		"text": {
+			"type": "string"
+		}
 	},
 	"supports": {
-		"anchor": true,
-		"html": false,
 		"color": {
-			"gradients": true,
+			"gradients": false,
 			"__experimentalDefaultControls": {
 				"background": true,
 				"text": true
 			}
 		},
 		"spacing": {
-			"margin": true,
-			"padding": true
+			"padding": true,
+			"__experimentalDefaultControls": {
+				"padding": true
+			}
 		},
 		"typography": {
 			"fontSize": true,
 			"lineHeight": true,
-			"textAlign": true,
 			"__experimentalFontFamily": true,
 			"__experimentalFontWeight": true,
 			"__experimentalFontStyle": true,
@@ -37,16 +43,7 @@
 			"__experimentalDefaultControls": {
 				"fontSize": true
 			}
-		},
-		"__experimentalBorder": {
-			"radius": true,
-			"color": true,
-			"width": true,
-			"style": true
-		},
-		"interactivity": {
-			"clientNavigation": true
 		}
 	},
-	"style": "wp-block-post-comments-count"
+	"style": "wp-block-navigation-overlay-close"
 }
