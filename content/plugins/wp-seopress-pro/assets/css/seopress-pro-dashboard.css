@@ -149,7 +149,7 @@
     padding: 0;
     gap: 10px;
     justify-content: start;
-    background: var(--backgroundSecondary);
+    background: rgba(var(--wp-admin-theme-color--rgb), 0.08);
     padding: 20px;
     border-radius: 8px;
     margin: 20px 0;
@@ -181,7 +181,7 @@
     justify-content: space-between;
     margin-bottom: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid var(--backgroundSecondary);
+    border-bottom: 1px solid rgba(var(--wp-admin-theme-color--rgb), 0.08);
 }
 
 #tab_seopress_gsc .seopress-card-content ol li a {

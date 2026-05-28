@@ -147,19 +147,19 @@
 }
 
 .seopress-license-actions .btnPrimary {
-	background: var(--backgroundPrimary);
-	border: 1px solid var(--backgroundPrimary);
+	background: var(--wp-admin-theme-color);
+	border: 1px solid var(--wp-admin-theme-color);
 	color: white;
 	font-weight: 600;
 }
 
 .seopress-license-actions .btnPrimary:hover:not(:disabled) {
-	background: var(--backgroundPrimaryHover);
-	border-color: var(--backgroundPrimaryHover);
+	background: var(--wp-admin-theme-color-darker-10);
+	border-color: var(--wp-admin-theme-color-darker-10);
 }
 
 .seopress-license-actions .btnPrimary:disabled {
-	background: var(--backgroundPrimaryHover);
+	background: var(--wp-admin-theme-color-darker-10);
 	opacity: 0.6;
 	cursor: not-allowed;
 }
@@ -237,7 +237,7 @@
 }
 
 .seopress-license-sidebar-card h4 .dashicons {
-	color: var(--primaryColor);
+	color: var(--wp-admin-theme-color);
 }
 
 .seopress-license-sidebar-card ol {
@@ -307,7 +307,7 @@
 
 .seopress-license-copy-btn:hover {
 	background: var(--backgroundSecondaryHover, #f6f7f7);
-	border-color: var(--primaryColor);
+	border-color: var(--wp-admin-theme-color);
 }
 
 .seopress-license-copy-btn .dashicons {
@@ -317,8 +317,8 @@
 }
 
 .seopress-license-copy-btn.copied {
-	background: var(--primaryColor);
-	border-color: var(--primaryColor);
+	background: var(--wp-admin-theme-color);
+	border-color: var(--wp-admin-theme-color);
 	color: white;
 }
 
@@ -326,7 +326,7 @@
 	display: inline-flex;
 	align-items: center;
 	gap: 4px;
-	color: var(--primaryColor);
+	color: var(--wp-admin-theme-color);
 	text-decoration: none;
 	font-size: var(--fontSize, 13px);
 	font-weight: 500;
@@ -349,7 +349,7 @@
 }
 
 .seopress-license-sidebar-card ul a {
-	color: var(--primaryColor);
+	color: var(--wp-admin-theme-color);
 	text-decoration: none;
 }
 

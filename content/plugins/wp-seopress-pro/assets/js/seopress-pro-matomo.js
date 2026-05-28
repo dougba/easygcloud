@@ -11,15 +11,21 @@ jQuery(document).ready(function ($) {
             _ajax_nonce: seopressAjaxRequestMatomoAnalytics.seopress_nonce,
         },
         success: function (data) {
+            // Mark a pending reload on submit so the widget rebuilds with
+            // fresh data once the cron transient was invalidated by save.
+            // sessionStorage is used instead of `window.location.hash` to
+            // avoid polluting the URL with `&`-separated tokens that WP
+            // core's site-health.min.js feeds to `$()` as a CSS selector.
             $('#seopress_matomo_dashboard_widget #submit').on('click', function () {
-                window.history.pushState("", "", window.location.href + "&settings-updated=true");
+                try { window.sessionStorage.setItem('seopress_matomo_widget_reload_pending', '1'); } catch (e) {}
             });
-            if (window.location.hash === '#seopress_matomo_dashboard_widget&settings-updated=true') {
-                if ($('#seopress_matomo_dashboard_widget .inside').length === 1 && window.location.hash !== '#seopress_matomo_dashboard_widget&settings-updated=true&reload=done') {
-                    window.history.pushState("", "", window.location.href + "&reload=done");
+            try {
+                if (window.sessionStorage.getItem('seopress_matomo_widget_reload_pending') === '1'
+                    && $('#seopress_matomo_dashboard_widget .inside').length === 1) {
+                    window.sessionStorage.removeItem('seopress_matomo_widget_reload_pending');
                     window.location.reload(true);
                 }
-            }
+            } catch (e) {}
 
             if (data.success) {
                 //Graph

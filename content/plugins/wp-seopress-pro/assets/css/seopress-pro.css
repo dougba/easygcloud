@@ -665,7 +665,7 @@
 
 .seopress_redirection_302,
 .seopress_redirection_307 {
-    color: var(--primaryColor);
+    color: var(--wp-admin-theme-color);
     background: rgb(0 124 186 / 10%);
 }
 
@@ -737,7 +737,7 @@ body.wp-admin.rtl .seopress-ui-datepicker {
 .seopress-ui-datepicker .ui-datepicker-header {
     background-image: none;
     border: none;
-    color: var(--primaryColor);
+    color: var(--wp-admin-theme-color);
     font-weight: normal;
 }
 
@@ -797,7 +797,7 @@ body.wp-admin.rtl .seopress-ui-datepicker {
 .seopress-ui-datepicker .ui-datepicker-next:before {
     font: normal 20px/34px "dashicons";
     padding-left: 0;
-    color: var(--primaryColor);
+    color: var(--wp-admin-theme-color);
     speak: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -875,11 +875,11 @@ body.wp-admin.rtl .seopress-ui-datepicker {
 }
 
 .seopress-ui-datepicker thead {
-    background: var(--backgroundPrimary);
+    background: var(--wp-admin-theme-color);
 }
 
 .seopress-ui-datepicker td .ui-state-hover {
-    background: var(--backgroundPrimary);
+    background: var(--wp-admin-theme-color);
     color: #fff;
 }
 
@@ -908,7 +908,7 @@ body.wp-admin.rtl .seopress-ui-datepicker {
 
 .seopress-breadcrumbs-install-guide summary::before {
     content: "";
-    border: solid var(--primaryColor);
+    border: solid var(--wp-admin-theme-color);
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
@@ -921,11 +921,11 @@ body.wp-admin.rtl .seopress-ui-datepicker {
 }
 
 .seopress-breadcrumbs-install-guide summary .dashicons {
-    color: var(--primaryColor);
+    color: var(--wp-admin-theme-color);
 }
 
 .seopress-breadcrumbs-install-guide summary:hover {
-    background: var(--backgroundSecondary);
+    background: rgba(var(--wp-admin-theme-color--rgb), 0.08);
 }
 
 .seopress-breadcrumbs-install-content {
@@ -945,18 +945,18 @@ body.wp-admin.rtl .seopress-ui-datepicker {
     align-items: flex-start;
     gap: 10px;
     padding: 12px;
-    background: var(--backgroundSecondary);
+    background: rgba(var(--wp-admin-theme-color--rgb), 0.08);
     border-radius: 1rem;
     border: 3px solid transparent;
     transition: all 150ms linear;
 }
 
 .seopress-breadcrumbs-method:hover {
-    border-color: var(--backgroundPrimary);
+    border-color: var(--wp-admin-theme-color);
 }
 
 .seopress-breadcrumbs-method .dashicons {
-    color: var(--primaryColor);
+    color: var(--wp-admin-theme-color);
     margin-top: 2px;
 }
 
@@ -994,7 +994,7 @@ body.wp-admin.rtl .seopress-ui-datepicker {
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    color: var(--primaryColor);
+    color: var(--wp-admin-theme-color);
     text-decoration: none;
     font-size: 13px;
 }
@@ -1004,7 +1004,7 @@ body.wp-admin.rtl .seopress-ui-datepicker {
 }
 
 .seopress-breadcrumbs-help-links a:hover span {
-    color: var(--backgroundPrimaryHover);
+    color: var(--wp-admin-theme-color-darker-10);
 }
 
 .seopress-breadcrumbs-help-links a .dashicons {
@@ -1014,65 +1014,23 @@ body.wp-admin.rtl .seopress-ui-datepicker {
     height: 14px;
 }
 
-/*Reusable Accordion Component*/
-.seopress-accordion {
-    background: #fff;
-    border: 1px solid var(--borderColor);
-    border-radius: 4px;
-    margin-bottom: 20px;
-}
-
-.seopress-accordion summary {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 12px 16px;
-    cursor: pointer;
-    font-weight: 500;
-    color: var(--titleColor);
+/* Icon-prefixed list — used inside <PanelBody> info disclosures to align
+ * a leading dashicon with the text of each <li>. Layout utility, not a
+ * style override on a WP component. */
+ul.list-none {
     list-style: none;
+    margin: 0 0 8px;
+    padding: 0;
 }
 
-.seopress-accordion summary::-webkit-details-marker {
-    display: none;
-}
-
-.seopress-accordion summary::before {
-    content: "";
-    border: solid var(--primaryColor);
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(-45deg);
-    transition: transform 0.2s ease;
-    flex-shrink: 0;
-}
-
-.seopress-accordion[open] summary::before {
-    transform: rotate(45deg);
-}
-
-.seopress-accordion summary .dashicons {
-    color: var(--primaryColor);
-}
-
-.seopress-accordion summary:hover {
-    background: var(--backgroundSecondary);
-}
-
-.seopress-accordion-content {
-    padding: 16px;
-    border-top: 1px solid var(--borderColor);
-}
-
-.seopress-accordion-content ul.list-none li {
+ul.list-none li {
     display: flex;
     align-items: flex-start;
     gap: 8px;
     margin-bottom: 8px;
 }
 
-.seopress-accordion-content ul.list-none li .dashicons {
+ul.list-none li .dashicons {
     flex-shrink: 0;
     margin-top: 2px;
 }
@@ -1082,7 +1040,7 @@ body.wp-admin.rtl .seopress-ui-datepicker {
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    color: var(--primaryColor);
+    color: var(--wp-admin-theme-color);
     text-decoration: none;
     font-size: 13px;
 }
@@ -1092,7 +1050,7 @@ body.wp-admin.rtl .seopress-ui-datepicker {
 }
 
 .seopress-external-link:hover span:first-child {
-    color: var(--backgroundPrimaryHover);
+    color: var(--wp-admin-theme-color-darker-10);
 }
 
 .seopress-external-link .dashicons {
@@ -1286,7 +1244,7 @@ body.wp-admin.rtl .seopress-ui-datepicker {
     align-items: flex-start;
     justify-content: center;
     line-height: 1.3;
-    border-left: 3px solid var(--primaryColor);
+    border-left: 3px solid var(--wp-admin-theme-color);
 }
 
 .seopress-site-health .seopress-card-item .title {
@@ -1306,7 +1264,7 @@ body.wp-admin.rtl .seopress-ui-datepicker {
 .seopress-site-health .seopress-card-item small {
     font-size: 0.8rem;
     color: #fff;
-    background: var(--primaryColor);
+    background: var(--wp-admin-theme-color);
     padding: 0.5rem;
     font-weight: bold;
     border-radius: 8px;
@@ -1472,4 +1430,144 @@ body #seopress_site_audit_analysis .impact {
     text-transform: uppercase;
     vertical-align: middle;
     margin-left: 6px;
+}
+
+/* Breadcrumbs Preview */
+.seopress-breadcrumbs-preview {
+    background: rgba(var(--wp-admin-theme-color--rgb), 0.08);
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin-bottom: 24px;
+}
+
+.seopress-breadcrumbs-preview-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.seopress-breadcrumbs-preview-header--active {
+    margin-bottom: 4px;
+}
+
+.seopress-breadcrumbs-preview-title {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--color, #757575);
+}
+
+.seopress-breadcrumbs-preview-info {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    color: var(--color, #757575);
+    cursor: help;
+}
+
+.seopress-breadcrumbs-preview-disabled {
+    margin: 0;
+    font-size: 13px;
+    color: var(--color, #757575);
+    font-style: italic;
+}
+
+.seopress-breadcrumbs-preview-disabled .dashicons {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    vertical-align: text-bottom;
+}
+
+.seopress-breadcrumbs-preview-warning {
+    margin: 0 0 4px;
+    font-size: 11px;
+    color: var(--colorWarning, #ffba00);
+    font-weight: 600;
+}
+
+.seopress-breadcrumbs-preview-warning .dashicons {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+    vertical-align: text-bottom;
+}
+
+.seopress-breadcrumbs-preview-row {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 2px 0;
+}
+
+.seopress-breadcrumbs-preview-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--color, #757575);
+    min-width: 50px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.seopress-breadcrumbs-preview-nav {
+    flex: 1;
+}
+
+.seopress-breadcrumbs-preview .breadcrumb {
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+.seopress-breadcrumbs-preview .breadcrumb li {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    font-size: 13px;
+}
+
+.seopress-breadcrumbs-preview .breadcrumb li::after {
+    content: var(--sp-breadcrumb-sep, ' - ');
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.seopress-breadcrumbs-preview .breadcrumb li:last-child::after {
+    display: none;
+}
+
+.seopress-breadcrumbs-preview--no-separator .breadcrumb li::after {
+    display: none;
+}
+
+.seopress-breadcrumbs-preview .breadcrumb li a {
+    color: var(--wp-admin-theme-color);
+    text-decoration: none;
+}
+
+.seopress-breadcrumbs-preview .breadcrumb li a:hover {
+    text-decoration: underline;
+}
+
+.seopress-breadcrumbs-preview .breadcrumb li:last-child span {
+    color: var(--color, #757575);
+}
+
+@media only screen and (max-width: 782px) {
+    .seopress-breadcrumbs-preview {
+        position: static;
+    }
+
+    .seopress-breadcrumbs-preview-row {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .seopress-breadcrumbs-preview-label {
+        min-width: auto;
+        text-align: left;
+    }
 }
