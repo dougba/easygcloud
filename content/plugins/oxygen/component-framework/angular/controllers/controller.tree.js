@@ -474,6 +474,24 @@ CTFrontendBuilder.controller("ComponentsTree", function($scope, $parentScope, $t
     }
 
     /**
+     * Recursively update all nicenames
+     * 
+     * @since 4.9.7
+     * @author Ilya K.
+     */
+
+    $scope.updateChildrenNicenames = function(node) {
+        angular.forEach(node.children, function(item) {
+
+            item.options.nicename = 
+            item.options.nicename.includes('#') ? $scope.calcDefaultComponentTitle(item) : item.nicename;
+
+            // go one level deeper
+            $scope.updateChildrenNicenames(item)
+        });
+    };
+
+    /**
      * Paste existing component to Tree (callback in componentsReorder() and wrapWithComponent())
      * 
      * @since 0.1.3
@@ -485,8 +503,12 @@ CTFrontendBuilder.controller("ComponentsTree", function($scope, $parentScope, $t
             console.log("pasteComponentToTree()", key, parent, id, $scope.componentBuffer);
         }
 
-        $scope.componentBuffer.options.nicename = $scope.componentBuffer.options.nicename.includes('#') ? $scope.calcDefaultComponentTitle($scope.componentBuffer) : $scope.componentBuffer.options.nicename;
+        // update
+        $scope.componentBuffer.options.nicename = 
+        $scope.componentBuffer.options.nicename.includes('#') ? $scope.calcDefaultComponentTitle($scope.componentBuffer) : $scope.componentBuffer.options.nicename;
  
+        $scope.updateChildrenNicenames($scope.componentBuffer);
+
         try {
 
             var componentElement = $scope.getComponentById($scope.componentBuffer.id);
