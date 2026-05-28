@@ -37,7 +37,8 @@
 		parent_id: 'parent',
 		post_ID: 'id',
 		post_category: 'categories',
-		tags: 'tags'
+		tags: 'tags',
+		_thumbnail_id: 'featured_media'
 	};
 
 	const isWpElement = element => rwmb.isGutenberg ? wpGutenbergMap.hasOwnProperty( element ) : wpElements.hasOwnProperty( element );
@@ -46,7 +47,14 @@
 
 	function getWpElementValue( element ) {
 		if ( rwmb.isGutenberg ) {
-			return wp.data.select( 'core/editor' ).getEditedPostAttribute( wpGutenbergMap[ element ] );
+			let value = wp.data.select( 'core/editor' ).getEditedPostAttribute( wpGutenbergMap[ element ] );
+
+			// Handle Featured image in Gutenberg
+			if ( element === '_thumbnail_id' ) {
+			    return ( value && value !== 0 ) ? value : -1;
+			}
+
+			return value;
 		}
 		let $element = globalSelectorCache.get( getWpSelector( element ) );
 		return 'post_format' === element ? $element.filter( ':checked' ).val() : $element.val();
@@ -228,8 +236,17 @@
 			// Try broader scope if field is in a cloneable group.
 			if ( !isGutenbergElement( logic[ 0 ] ) && !dependentFieldSelector && $scope && $scope.hasClass( 'rwmb-group-clone' ) ) {
 				$scope = getScope( $field, true );
-				selectorCache = getSelectorCache( $scope ),
-					dependentFieldSelector = getSelector( logic[ 0 ], selectorCache );
+				selectorCache = getSelectorCache( $scope );
+				dependentFieldSelector = getSelector( logic[ 0 ], selectorCache );
+			}
+
+			// If not found selector in current scope, maybe selector in hidden panel of Gutenberg
+			// Find in global scope.
+			if ( !isGutenbergElement( logic[ 0 ] ) && !dependentFieldSelector && rwmb.isGutenberg ) {
+				dependentFieldSelector = getSelector( logic[ 0 ], globalSelectorCache );
+				if ( dependentFieldSelector ) {
+					selectorCache = globalSelectorCache;
+				}
 			}
 
 			// console.log( 'Selector', logic[0], dependentFieldSelector );
@@ -304,6 +321,12 @@
 		let $field = compare( fieldName, '#', 'start_with' ) ? selectorCache.get( fieldName ) : selectorCache.get( '#' + fieldName ),
 			value = $field.val();
 
+		// Do not use selector cache for featured image as it's replaced in DOM in classic editor
+		if ( fieldName === '_thumbnail_id' ) {
+			$field = $( '#_thumbnail_id' );
+			value = $field.val();
+		}
+
 		// Non-checkbox field with ID.
 		if ( $field.length && $field.attr( 'type' ) !== 'checkbox' && typeof value !== 'undefined' && value != null ) {
 			return value;
@@ -351,7 +374,11 @@
 		} else if ( isSelectTree ) {
 			$elements = $selector;
 		} else {
-			$elements = $selector.filter( ':checked' );
+			// jQuery .filter(':checked') return empty if element is hidden
+			// Use DOM to checked property
+			$elements = $selector.filter( function() {
+				return this.checked;
+			} );
 		}
 
 		$elements.each( function() {
@@ -629,7 +656,19 @@
 		// Featured image replaces HTML, thus the event listening above doesn't work.
 		// We have to detect DOM change.
 		if ( -1 !== watchedElements.indexOf( '_thumbnail_id' ) ) {
-			$( '#postimagediv' ).on( 'DOMSubtreeModified', runConditionalLogic );
+			const target = document.getElementById( 'postimagediv' );
+
+			if ( target ) {
+
+				const observer = new MutationObserver( () => {
+					runConditionalLogic();
+				} );
+
+				observer.observe( target, {
+					childList: true,
+					subtree: true,
+				} );
+			}
 		}
 	}
 
