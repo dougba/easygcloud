@@ -10,7 +10,11 @@
 			this.collection = {};
 			this.$scope = $scope;
 		}
-		get( selector ) {
+		get( selector, cache = true ) {
+			if ( ! cache ) {
+				return this.$scope ? this.$scope.find( selector ) : $( selector );
+			}
+
 			if ( undefined === this.collection[ selector ] ) {
 				this.collection[ selector ] = this.$scope ? this.$scope.find( selector ) : $( selector );
 			}
@@ -158,8 +162,11 @@
 		// console.time( 'Run Conditional Logic' );
 
 		// Run only for the new cloned group (when click add clone button) if possible.
-		let selectorCache = getSelectorCache( $scope ),
-			$conditions = selectorCache.get( '.mbc-conditions' );
+		let selectorCache = getSelectorCache( $scope );
+
+		// For media modal: don't use cache.
+		// For other places: use cache.
+		const $conditions = selectorCache.get( '.mbc-conditions', ! document.body.classList.contains( 'upload-php' ) );
 
 		$conditions.each( function() {
 			let $this = $( this ),
@@ -176,11 +183,16 @@
 					$element = $group;
 				} else {
 					// Check if group field is hidden then all the fields inside are forced hidden too.
-					if ( typeof $group_visible !== undefined && $group_visible !== false && $group_visible === 'hidden' ) {
+					if ( typeof $group_visible !== 'undefined' && $group_visible !== false && $group_visible === 'hidden' ) {
 						logicApply = true;
 						action = 'hidden';
 					}
 				}
+			}
+
+			// For fields in the media modal, get the whole table row.
+			if ( document.body.classList.contains( 'upload-php' ) ) {
+				$element = $element.closest( 'tr' );
 			}
 
 			toggle( $element, logicApply, action );
@@ -690,7 +702,36 @@
 		// For groups.
 		rwmb.$document.on( 'clone_completed', ( event, $group ) => runConditionalLogic( $group ) );
 
+		initForMediaModal();
+
 		run = true;
+	}
+
+	function initForMediaModal() {
+		if ( ! document.body.classList.contains( 'upload-php' ) ) {
+			return;
+		}
+
+		let initialized = false;
+		function start() {
+			// Run only when edit attachment modal is open.
+			if ( ! document.body.classList.contains( 'modal-open' ) ) {
+				initialized = false;
+				return;
+			}
+
+			// Ensure to trigger conditional logic only once.
+			if ( initialized ) {
+				return;
+			}
+
+			watch();
+			runConditionalLogic();
+			initialized = true;
+		}
+
+		const observer = new MutationObserver( start );
+		observer.observe( document.body, { attributes: true, attributeFilter: ['class'] } );
 	}
 
 	// Export the runConditionalLogic to global scope to use in other scripts.
@@ -699,22 +740,25 @@
 	if ( rwmb.isGutenberg ) {
 		// For Gutenberg, we need to subscribe to all changes, to detect when meta boxes are fully rendered (by JS!).
 		// So we can get watched elements (which are custom fields inside meta boxes) and run conditional logic.
-		const unsubscribe = wp.data.subscribe( () => {
+		const initialUnsubscribe = wp.data.subscribe( () => {
 			const editPostStore = wp.data.select( 'core/edit-post' );
 			const editorStore = wp.data.select( 'core/editor' );
 
 			let isReady = false;
+
+			// For post editor, prefer to check if meta boxes are initialized.
 			if ( editPostStore ) {
-				// For post editor, prefer to check if meta boxes are initialized.
-				isReady = editPostStore?.areMetaBoxesInitialized();
-			} else if ( editorStore ) {
-				// For site editor, check if editor is ready.
-				isReady = editorStore?.__unstableIsEditorReady();
+				isReady = editPostStore.areMetaBoxesInitialized();
+			}
+
+			// Try with editor.
+			if ( !isReady && editorStore ) {
+				isReady = editorStore.__unstableIsEditorReady();
 			}
 
 			if ( isReady ) {
 				setTimeout( init, 200 ); // Wait for 200ms to make sure all meta boxes are rendered.
-				unsubscribe(); // Unsubscribe from the editor changes, so it won't be called again.
+				initialUnsubscribe(); // Unsubscribe from the editor changes, so it won't be called again.
 			}
 		} );
 	} else {
