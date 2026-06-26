@@ -1,5 +1,6 @@
 ( function ( document ) {
 	const data = {
+		'mb-acf-migration'                 : [                                                                 'integration'],
 		'mb-admin-columns'                 : ['premium',                    'ui', 'admin'                                   ],
 		'mb-blocks'                        : ['premium',            'data', 'ui', 'admin',                     'integration'],
 		'mb-comment-meta'                  : [                      'data',                          , 'free'               ],
@@ -8,6 +9,7 @@
 		'mb-divi-integrator'               : [                              'ui',          'frontend', 'free', 'integration'],
 		'mb-elementor-integrator'          : [                              'ui',          'frontend', 'free', 'integration'],
 		'mb-frontend-submission'           : ['premium', 'popular',         'ui',          'frontend'                       ],
+		'mb-pods-migration'                : [                                                                 'integration'],
 		'mb-relationships'                 : [           'popular', 'data',                          , 'free'               ],
 		'mb-rest-api'                      : [                      'data',                          , 'free'               ],
 		'mb-revision'                      : ['premium',            'data',       'admin'                                   ],
