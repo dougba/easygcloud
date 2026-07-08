@@ -60,6 +60,15 @@
 	width: 200px;
 }
 
+.mbaio-tools .select2-container {
+	--height: 40px;
+	--radius: 2px;
+
+	height: auto;
+	min-width: 160px;
+	max-width: 100%;
+}
+
 .mbaio-extensions .mb-box__body {
 	padding: 0;
 }
