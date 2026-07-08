@@ -10,6 +10,26 @@ function sspAlgoliaRenderExcerpt(item) {
     return '';
 }
 
+function sspBuildConfigUrl(configPath, fileName, versionSuffix) {
+    let basePath = String(configPath || '/wp-content/uploads/simply-static/configs/').trim();
+
+    basePath = basePath.replace(/^(https?)\/\//i, '$1://');
+
+    if (!basePath.endsWith('/')) {
+        basePath += '/';
+    }
+
+    try {
+        return new URL(fileName + versionSuffix, new URL(basePath, window.location.origin + '/')).toString();
+    } catch (_) {
+        if (/^https?:\/\//i.test(basePath)) {
+            return basePath + fileName + versionSuffix;
+        }
+
+        return window.location.origin + (basePath.charAt(0) === '/' ? '' : '/') + basePath + fileName + versionSuffix;
+    }
+}
+
 (function(){
     // Helper: derive the static export base (e.g., '/static/') from the meta tag
     function sspGetExportBaseAlgolia() {
@@ -25,7 +45,11 @@ function sspAlgoliaRenderExcerpt(item) {
             const meta = document.querySelector("meta[name='ssp-config-path']");
             if (meta) {
                 let p = meta.getAttribute('content') || '/';
-                if (p.charAt(0) !== '/') p = '/' + p;
+                try {
+                    p = new URL(p, window.location.origin + '/').pathname;
+                } catch (_) {
+                    if (p.charAt(0) !== '/') p = '/' + p;
+                }
                 const idx = p.indexOf(marker);
                 if (idx !== -1) {
                     const base = p.substring(0, idx + 1);
@@ -46,7 +70,7 @@ function sspAlgoliaRenderExcerpt(item) {
             const v = versionEl.getAttribute('content');
             if (v) ver = '?ver=' + encodeURIComponent(v);
         }
-        configUrl = window.location.origin + configPath + 'algolia.json' + ver;
+        configUrl = sspBuildConfigUrl(configPath, 'algolia.json', ver);
     }
 
     // Multilingual?
@@ -90,6 +114,11 @@ function sspAlgoliaRenderExcerpt(item) {
             console.error('Algolia configuration missing. Ensure algolia.json or localized config is available.');
             return;
         }
+
+        const hitsPerPage = (function(value) {
+            const parsed = parseInt(value, 10);
+            return parsed > 0 ? parsed : 7;
+        })(cfg.hits_per_page || cfg.hitsPerPage || 7);
 
         let client;
         let index;
@@ -146,7 +175,7 @@ function sspAlgoliaRenderExcerpt(item) {
             async function performSearch(q) {
                 lastQuery = q;
                 try {
-                    const res = await index.search(q, { hitsPerPage: 7 });
+                    const res = await index.search(q, { hitsPerPage: hitsPerPage });
                     // guard against out-of-order responses
                     if (lastQuery !== q) return;
                     let hits = res && res.hits ? res.hits : [];
@@ -367,4 +396,3 @@ function sspAlgoliaRenderExcerpt(item) {
         } catch(_) {}
     })();
 })();
-

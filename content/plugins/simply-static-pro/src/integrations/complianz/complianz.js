@@ -6,7 +6,6 @@
 
 let config_element = document.querySelector("meta[name='ssp-config-path']");
 let config_path = config_element.getAttribute("content");
-let config_url = window.location.origin + config_path;
 let version_element = document.querySelector("meta[name='ssp-config-version']");
 let version_suffix = '';
 if (null !== version_element) {
@@ -15,7 +14,28 @@ if (null !== version_element) {
         version_suffix = '?ver=' + encodeURIComponent(v);
     }
 }
-let cookie_data_url = config_url + 'complianz-cookie-data.json' + version_suffix;
+
+function sspBuildConfigUrl(configPath, fileName, versionSuffix) {
+    let basePath = String(configPath || '/wp-content/uploads/simply-static/configs/').trim();
+
+    basePath = basePath.replace(/^(https?)\/\//i, '$1://');
+
+    if (!basePath.endsWith('/')) {
+        basePath += '/';
+    }
+
+    try {
+        return new URL(fileName + versionSuffix, new URL(basePath, window.location.origin + '/')).toString();
+    } catch (_) {
+        if (/^https?:\/\//i.test(basePath)) {
+            return basePath + fileName + versionSuffix;
+        }
+
+        return window.location.origin + (basePath.charAt(0) === '/' ? '' : '/') + basePath + fileName + versionSuffix;
+    }
+}
+
+let cookie_data_url = sspBuildConfigUrl(config_path, 'complianz-cookie-data.json', version_suffix);
 function loadComplianzData(callback) {
     let xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
