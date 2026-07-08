@@ -9,6 +9,26 @@ if (!window.__sspTurnstileReady) {
     if (window.__SSP_WEBHOOK_INIT__) { return; }
     window.__SSP_WEBHOOK_INIT__ = true;
 
+    function sspBuildConfigUrl(configPath, fileName, versionSuffix) {
+        let basePath = String(configPath || '/wp-content/uploads/simply-static/configs/').trim();
+
+        basePath = basePath.replace(/^(https?)\/\//i, '$1://');
+
+        if (!basePath.endsWith('/')) {
+            basePath += '/';
+        }
+
+        try {
+            return new URL(fileName + versionSuffix, new URL(basePath, window.location.origin + '/')).toString();
+        } catch (_) {
+            if (/^https?:\/\//i.test(basePath)) {
+                return basePath + fileName + versionSuffix;
+            }
+
+            return window.location.origin + (basePath.charAt(0) === '/' ? '' : '/') + basePath + fileName + versionSuffix;
+        }
+    }
+
     // Detect static environment early (before DOM may be fully loaded)
     const isStaticSite = () => {
         const configMeta = document.querySelector("meta[name='ssp-config-path']");
@@ -580,9 +600,26 @@ if (!window.__sspTurnstileReady) {
         let v = version_element.getAttribute('content');
         if (v) { version_suffix = '?ver=' + encodeURIComponent(v); }
     }
-    var config_url = window.location.origin + config_path + 'forms.json' + version_suffix;
+    var config_url = sspBuildConfigUrl(config_path, 'forms.json', version_suffix);
+
+    function isSettingEnabled(value) {
+        return String(value) === '1';
+    }
+
+    function maybeRedirect(settings) {
+        if (!settings || !isSettingEnabled(settings.form_use_redirect)) { return false; }
+
+        var redirectUrl = settings.form_redirect_url ? String(settings.form_redirect_url).trim() : '';
+        if (!redirectUrl) { return false; }
+
+        window.location.replace(redirectUrl);
+        return true;
+    }
 
     function handleMessage(settings, error = false, formEl) {
+        if (!error && maybeRedirect(settings)) { return; }
+        if (isSettingEnabled(settings && settings.form_disable_feedback)) { return; }
+
         var notice = document.createElement('div');
         notice.className = 'ssp-form-response';
         notice.setAttribute('role', 'alert');
@@ -767,7 +804,8 @@ if (!window.__sspTurnstileReady) {
                     const sidRaw = x && x.form_id, sid = stripHash(sidRaw), sCf7 = cf7Num(sidRaw), sGf = gfNum(sidRaw), sFo = foNum(sidRaw), sNf = nfNum(sidRaw);
                     return normCandidates.some(c => {
                         const cc = stripHash(c);
-                        return sid === cc || (sid && cc && (sid.indexOf(cc) !== -1 || cc.indexOf(sid) !== -1)) ||
+                        const usePartialMatch = sid && cc && !/^\d+$/.test(sid) && !/^\d+$/.test(cc);
+                        return sid === cc || (usePartialMatch && (sid.indexOf(cc) !== -1 || cc.indexOf(sid) !== -1)) ||
                             (sCf7 && cf7Num(cc) === sCf7) || (sGf && gfNum(cc) === sGf) || (sFo && foNum(cc) === sFo) || (sNf && nfNum(cc) === sNf);
                     });
                 });
@@ -829,6 +867,22 @@ if (!window.__sspTurnstileReady) {
         }).catch(e => console.error('[SSP] Config error', e));
     }
     window.__SSP_MANAGE_FORM__ = manageForm;
+
+    function getFormCandidates(form) {
+        let candidates = [form.id];
+        if (form.closest('.wpcf7')) candidates.push(form.closest('.wpcf7').id, form.querySelector('input[name="_wpcf7_unit_tag"]')?.value, form.querySelector('input[name="_wpcf7"]')?.value);
+        if (form.querySelector('input[name="wpforms[id]"]')) candidates.push(form.querySelector('input[name="wpforms[id]"]').value);
+        if (form.querySelector('input[name="wsf_form_id"]')) candidates.push(form.querySelector('input[name="wsf_form_id"]').value);
+        if (form.querySelector('input[name="gform_submit"]')) candidates.push(form.querySelector('input[name="gform_submit"]').value);
+        if (form.querySelector('input[name="_fluentform_id"]')) candidates.push(form.querySelector('input[name="_fluentform_id"]').value);
+        if (form.querySelector('input[name="form_id"]')) candidates.push(form.querySelector('input[name="form_id"]').value);
+        if (form.querySelector('input[name="_kb_form_id"]')) candidates.push(form.querySelector('input[name="_kb_form_id"]').value);
+        if (form.closest('.nf-form-cont')) {
+            const nfId = form.closest('.nf-form-cont').id;
+            candidates.push(nfId, nfId.match(/nf-form-(\d+)-cont/)?.[1]);
+        }
+        return candidates;
+    }
 
     // Explicit Turnstile rendering: find all .ssp-cf-turnstile placeholders that
     // have not been rendered yet and call turnstile.render() on each.
@@ -932,10 +986,7 @@ if (!window.__sspTurnstileReady) {
             if (form.closest('.gform_wrapper')) {
                 var gfOrigSubmit = form.submit;
                 form.submit = function () {
-                    var gfId = form.querySelector('input[name="gform_submit"]');
-                    var candidates = [form.id];
-                    if (gfId && gfId.value) { candidates.push(gfId.value, 'gform_' + gfId.value); }
-                    manageForm(candidates, form);
+                    manageForm(getFormCandidates(form), form);
                 };
             }
 
@@ -972,19 +1023,7 @@ if (!window.__sspTurnstileReady) {
                 var visibleError = Array.prototype.slice.call(form.querySelectorAll('.ssp-field-error')).some(function (el) { return el.offsetParent !== null || el.style.display !== 'none'; });
                 if (visibleError) return;
                 ev.preventDefault(); ev.stopImmediatePropagation();
-                let candidates = [form.id];
-                if (form.closest('.wpcf7')) candidates.push(form.closest('.wpcf7').id, form.querySelector('input[name="_wpcf7_unit_tag"]')?.value, form.querySelector('input[name="_wpcf7"]')?.value);
-                if (form.querySelector('input[name="wpforms[id]"]')) candidates.push(form.querySelector('input[name="wpforms[id]"]').value);
-                if (form.querySelector('input[name="wsf_form_id"]')) candidates.push(form.querySelector('input[name="wsf_form_id"]').value);
-                if (form.querySelector('input[name="gform_submit"]')) candidates.push(form.querySelector('input[name="gform_submit"]').value);
-                if (form.querySelector('input[name="_fluentform_id"]')) candidates.push(form.querySelector('input[name="_fluentform_id"]').value);
-                if (form.querySelector('input[name="form_id"]')) candidates.push(form.querySelector('input[name="form_id"]').value);
-                if (form.querySelector('input[name="_kb_form_id"]')) candidates.push(form.querySelector('input[name="_kb_form_id"]').value);
-                if (form.closest('.nf-form-cont')) {
-                    const nfId = form.closest('.nf-form-cont').id;
-                    candidates.push(nfId, nfId.match(/nf-form-(\d+)-cont/)?.[1]);
-                }
-                manageForm(candidates, form);
+                manageForm(getFormCandidates(form), form);
             }, false);
         });
     }
