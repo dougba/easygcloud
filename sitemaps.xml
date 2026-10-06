@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
 <sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <sitemap>
-<loc>https://easygclouddev305/post-sitemap1.xml</loc>
+<loc>/post-sitemap1.xml</loc>
 <lastmod>2026-06-26T12:10:38-04:00</lastmod>
 </sitemap>
 <sitemap>
-<loc>https://easygclouddev305/page-sitemap1.xml</loc>
+<loc>/page-sitemap1.xml</loc>
 <lastmod>2026-10-02T12:30:46-04:00</lastmod>
 </sitemap>
 <sitemap>
-<loc>https://easygclouddev305/faq-item-sitemap1.xml</loc>
+<loc>/faq-item-sitemap1.xml</loc>
 <lastmod>2025-07-01T18:36:34-04:00</lastmod>
 </sitemap>
 <sitemap>
-<loc>https://easygclouddev305/glossary-sitemap1.xml</loc>
+<loc>/glossary-sitemap1.xml</loc>
 <lastmod>2026-02-26T09:20:00-05:00</lastmod>
 </sitemap>
 <sitemap>
-<loc>https://easygclouddev305/category-sitemap1.xml</loc>
+<loc>/category-sitemap1.xml</loc>
 </sitemap>
 </sitemapindex>

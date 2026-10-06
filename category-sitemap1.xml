@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://easygclouddev305/sitemaps_xsl.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/sitemaps_xsl.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://easygclouddev305/blog/</loc>
+<loc>/blog/</loc>
 </url>
 <url>
-<loc>https://easygclouddev305/collaboration/</loc>
+<loc>/collaboration/</loc>
 </url>
 <url>
-<loc>https://easygclouddev305/easygcloud/</loc>
+<loc>/easygcloud/</loc>
 </url>
 <url>
-<loc>https://easygclouddev305/google-chrome/</loc>
+<loc>/google-chrome/</loc>
 </url>
 <url>
-<loc>https://easygclouddev305/google-enterprise/</loc>
+<loc>/google-enterprise/</loc>
 </url>
 <url>
-<loc>https://easygclouddev305/messaging/</loc>
+<loc>/messaging/</loc>
 </url>
 <url>
-<loc>https://easygclouddev305/newsletter/</loc>
+<loc>/newsletter/</loc>
 </url>
 <url>
-<loc>https://easygclouddev305/security/</loc>
+<loc>/security/</loc>
 </url>
 <url>
-<loc>https://easygclouddev305/tips-tricks/</loc>
+<loc>/tips-tricks/</loc>
 </url>
 <url>
-<loc>https://easygclouddev305/video/</loc>
+<loc>/video/</loc>
 </url></urlset>
