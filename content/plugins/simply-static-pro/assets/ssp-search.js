@@ -2,6 +2,18 @@
 
 const searchResults = [];
 
+function sspEscapeHTML(value) {
+    return String(value == null ? '' : value).replace(/[&<>"']/g, function(character) {
+        return {
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#039;'
+        }[character];
+    });
+}
+
 function sspBuildConfigUrl(configPath, fileName, versionSuffix) {
     let basePath = String(configPath || '/wp-content/uploads/simply-static/configs/').trim();
 
@@ -58,14 +70,53 @@ function sspBuildPublicUrl(path, exportBase) {
     return new URL(relativePath, window.location.origin + exportBase).toString();
 }
 
+function sspSafeResultUrl(path, exportBase) {
+    try {
+        const value = String(path || '').trim();
+        if ('' === value || '#' === value) {
+            return '#';
+        }
+        if (/^[a-z][a-z0-9+.-]*:/i.test(value) && !/^https?:/i.test(value)) {
+            return '#';
+        }
+
+        const candidate = /^https?:\/\//i.test(value) || /^\/\//.test(value)
+            ? value
+            : sspBuildPublicUrl(value, exportBase);
+        const url = new URL(candidate, window.location.origin + '/');
+
+        if (!/^https?:$/.test(url.protocol) || url.origin !== window.location.origin || url.username || url.password) {
+            return '#';
+        }
+
+        return url.toString();
+    } catch (_) {
+        return '#';
+    }
+}
+
 // Helper: render excerpt conditionally based on localized flag and presence
 function renderExcerpt(item) {
     try {
         if (window.ssp_search && ssp_search.show_excerpt && item && item.excerpt) {
-            return `<small>${item.excerpt}</small>`;
+            return `<small>${sspEscapeHTML(item.excerpt)}</small>`;
         }
     } catch (_) {}
     return '';
+}
+
+function sspRenderResultItem(result, index, selected, exportBase) {
+    const item = result && result.item ? result.item : {};
+    const href = sspEscapeHTML(sspSafeResultUrl(item.url, exportBase));
+
+    return `
+                  <a href="${href}">
+                    <li class='auto-complete-item${index === selected ? ' selected' : ''}'>
+                      ${sspEscapeHTML(item.title)}</br>
+                        ${renderExcerpt(item)}
+                    </li>
+                  </a>
+                `;
 }
 
 /**
@@ -168,7 +219,7 @@ function initFuseSearch() {
             // Preserve custom fields added via ssp_search_index_item so weighted
             // Fuse keys from ssp_fuse_search_weights can search against them.
             var result = Object.assign({}, value, {
-                url: sspBuildPublicUrl(value.path, export_base),
+                url: sspSafeResultUrl(value.path, export_base),
                 title: value.title,
                 excerpt: value.excerpt,
                 content: value.content,
@@ -330,21 +381,14 @@ function initFuseSearch() {
             if (input.length > 2) {
                 if (results.length) {
                     resultNode.innerHTML = `
-                <div class="ssp-results"><h5>Searched for: <b>${input}</b></h5>
+                <div class="ssp-results"><h5>Searched for: <b>${sspEscapeHTML(input)}</b></h5>
                 <ul>
-                  ${results.map((result, index) => `
-                  <a href="${result.item.url}">
-                    <li class='auto-complete-item${index === selected ? ' selected' : ''}'>
-                      ${result.item.title}</br>
-                        ${renderExcerpt(result.item)}
-                    </li>
-                  </a>
-                `).join('')}
+                  ${results.map((result, index) => sspRenderResultItem(result, index, selected, export_base)).join('')}
                 </ul></div>`
                 } else {
                     resultNode.innerHTML = `
             <div class="ssp-results">
-            <h5>Searched for: <b>${input}</b></h5>
+            <h5>Searched for: <b>${sspEscapeHTML(input)}</b></h5>
             <ul>
             <li>We couldn't find any matching results.</li>
             </ul>
@@ -364,14 +408,7 @@ function initFuseSearch() {
             }
             return `
                 <ul>
-                  ${results.map((result, index) => `
-                  <a href="${result.item.url}">
-                    <li class='auto-complete-item${index === selected ? ' selected' : ''}'>
-                      ${result.item.title}</br>
-                        ${renderExcerpt(result.item)}
-                    </li>
-                  </a>
-                `).join('')}
+                  ${results.map((result, index) => sspRenderResultItem(result, index, selected, export_base)).join('')}
                 </ul>
               `
         }
