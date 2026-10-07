@@ -1,1 +1,1 @@
-{"selector":".site-search"}
+{"selector":".site-search","threshold":"","useExtendedSearch":false,"ignoreLocation":true,"maxResults":10,"weights":{"title":1,"content":1,"excerpt":1}}
