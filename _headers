@@ -1,12 +1,12 @@
-/*
-  Updated from AI - 2026-10-08
+# Security Headers Configuration
+# Last updated: October 8, 2026
+# Stored in root directory of dev server. To edit, download via FTT, edit and then re-upload
+
 /*
 
-default-src 'self'; script-src 'inline-speculation-rules' 'unsafe-eval' https://sibforms.com *.searchiq.co; script-src-elem 'self' 'unsafe-inline' https://static.cloudflareinsights.com https://sibforms.com https://challenges.cloudflare.com https://cdn.brevo.com https://cdn.by.wonderpush.com https://www.googletagmanager.com *.searchiq.co; style-src 'self' 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline' https://sibforms.com https://cdn.brevo.com https://cdn.by.wonderpush.com https://fonts.googleapis.com *.searchiq.co; font-src 'self' https://fonts.gstatic.com; frame-src 'self' https://www.youtube.com https://challenges.cloudflare.com https://www.youtube-nocookie.com https://sibforms.com https://customer.easygcloud.com; connect-src 'self' https://sibforms.com https://region1.google-analytics.com *.searchiq.co; img-src 'self' https://fonts.gstatic.com *.searchiq.co https://www.googletagmanager.com https://www.google-analytics.com data:; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://sibforms.com;
+Content-Security-Policy: default-src 'self'; script-src 'inline-speculation-rules' 'unsafe-eval' https://sibforms.com *.searchiq.co; script-src-elem 'self' 'unsafe-inline' https://static.cloudflareinsights.com https://sibforms.com https://challenges.cloudflare.com https://cdn.brevo.com https://cdn.by.wonderpush.com https://www.googletagmanager.com *.searchiq.co; style-src 'self' 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline' https://sibforms.com https://cdn.brevo.com https://cdn.by.wonderpush.com https://fonts.googleapis.com *.searchiq.co; font-src 'self' https://fonts.gstatic.com; frame-src 'self' https://www.youtube.com https://challenges.cloudflare.com https://www.youtube-nocookie.com https://sibforms.com https://customer.easygcloud.com; connect-src 'self' https://sibforms.com https://region1.google-analytics.com *.searchiq.co; img-src 'self' https://fonts.gstatic.com *.searchiq.co https://www.googletagmanager.com https://www.google-analytics.com data:; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://sibforms.com;
 
-  Access-Control-Allow-Origin: *
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
   Permissions-Policy: document-domain=()
-  Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
