@@ -1,11 +1,11 @@
 # Security Headers Configuration
 # WITHOUT MESHTEK
-# Last updated: October 13, 2026 1PM
+# Last updated: October 27, 2026 4:49 PM
 # Stored in root directory of dev server. 
 # To edit, use Tools, Advanced Scripts, _headers, edit and then push via SimplyStatic
 
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'inline-speculation-rules' 'unsafe-eval' https://sibforms.com *.searchiq.co; script-src-elem 'self' 'unsafe-inline' https://cloudflareinsights.com https://sibforms.com https://cloudflare.com https://brevo.com https://wonderpush.com https://googletagmanager.com *.searchiq.co; style-src 'self' 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline' https://sibforms.com https://brevo.com https://wonderpush.com https://googleapis.com *.searchiq.co; font-src 'self' https://gstatic.com; frame-src 'self' https://youtube.com https://cloudflare.com https://youtube-nocookie.com https://sibforms.com https://sibforms.com https://customer.easygcloud.com; connect-src 'self' https://sibforms.com https://google-analytics.com *.searchiq.co; img-src 'self' https://gstatic.com *.searchiq.co https://googletagmanager.com https://google-analytics.com data:; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://sibforms.com;
+  Content-Security-Policy: default-src 'self'; script-src 'inline-speculation-rules' 'unsafe-eval' https://sibforms.com https://d5c3e88d.sibforms.com *.searchiq.co; script-src-elem 'self' 'unsafe-inline' https://static.cloudflareinsights.com https://sibforms.com https://d5c3e88d.sibforms.com https://challenges.cloudflare.com https://cdn.brevo.com https://cdn.by.wonderpush.com https://www.googletagmanager.com *.searchiq.co searchiq.co; style-src 'self' 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline' https://sibforms.com https://d5c3e88d.sibforms.com https://cdn.brevo.com https://cdn.by.wonderpush.com https://googleapis.com *.searchiq.co searchiq.co; font-src 'self' https://gstatic.com; frame-src 'self' https://www.youtube.com https://challenges.cloudflare.com https://www.youtube-nocookie.com https://sibforms.com https://d5c3e88d.sibforms.com https://customer.easygcloud.com; connect-src 'self' https://sibforms.com https://d5c3e88d.sibforms.com https://google-analytics.com *.searchiq.co searchiq.co; img-src 'self' https://gstatic.com *.searchiq.co searchiq.co https://www.googletagmanager.com https://google-analytics.com data:; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://sibforms.com https://d5c3e88d.sibforms.com;
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
