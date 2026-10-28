@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/sitemaps_xsl.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.easygcloud.com/sitemaps_xsl.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/blog/</loc>
+<loc>https://www.easygcloud.com/blog/</loc>
 </url>
 <url>
-<loc>/collaboration/</loc>
+<loc>https://www.easygcloud.com/collaboration/</loc>
 </url>
 <url>
-<loc>/easygcloud/</loc>
+<loc>https://www.easygcloud.com/easygcloud/</loc>
 </url>
 <url>
-<loc>/google-chrome/</loc>
+<loc>https://www.easygcloud.com/google-chrome/</loc>
 </url>
 <url>
-<loc>/google-enterprise/</loc>
+<loc>https://www.easygcloud.com/google-enterprise/</loc>
 </url>
 <url>
-<loc>/messaging/</loc>
+<loc>https://www.easygcloud.com/messaging/</loc>
 </url>
 <url>
-<loc>/newsletter/</loc>
+<loc>https://www.easygcloud.com/newsletter/</loc>
 </url>
 <url>
-<loc>/security/</loc>
+<loc>https://www.easygcloud.com/security/</loc>
 </url>
 <url>
-<loc>/tips-tricks/</loc>
+<loc>https://www.easygcloud.com/tips-tricks/</loc>
 </url>
 <url>
-<loc>/video/</loc>
+<loc>https://www.easygcloud.com/video/</loc>
 </url></urlset>

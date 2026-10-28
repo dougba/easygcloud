@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.easygcloud.com/main-sitemap.xsl"?>
 <sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <sitemap>
-<loc>/post-sitemap1.xml</loc>
+<loc>https://www.easygcloud.com/post-sitemap1.xml</loc>
 <lastmod>2026-06-26T12:10:38-04:00</lastmod>
 </sitemap>
 <sitemap>
-<loc>/page-sitemap1.xml</loc>
+<loc>https://www.easygcloud.com/page-sitemap1.xml</loc>
 <lastmod>2026-10-13T16:11:49-04:00</lastmod>
 </sitemap>
 <sitemap>
-<loc>/faq-item-sitemap1.xml</loc>
+<loc>https://www.easygcloud.com/faq-item-sitemap1.xml</loc>
 <lastmod>2025-07-01T18:36:34-04:00</lastmod>
 </sitemap>
 <sitemap>
-<loc>/glossary-sitemap1.xml</loc>
+<loc>https://www.easygcloud.com/glossary-sitemap1.xml</loc>
 <lastmod>2026-02-26T09:20:00-05:00</lastmod>
 </sitemap>
 <sitemap>
-<loc>/category-sitemap1.xml</loc>
+<loc>https://www.easygcloud.com/category-sitemap1.xml</loc>
 </sitemap>
 </sitemapindex>
